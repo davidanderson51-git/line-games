@@ -182,7 +182,7 @@ function homeScreen() {
   const s = getSetup();
   const tiles = MODES.map(m => {
     const tile = h(m.built ? 'a' : 'button', {
-      class: 'tile', href: m.built ? '#' + m.id : null, type: m.built ? null : 'button',
+      class: 'tile', 'data-mode': m.id, href: m.built ? '#' + m.id : null, type: m.built ? null : 'button',
       'aria-disabled': m.built ? null : 'true',
       onclick: m.built ? null : () => toast(m.name + ' is coming soon'),
     },
@@ -344,6 +344,7 @@ function route() {
   scrollNext = true;
   leaveCurrent();
   const id = (location.hash || '').replace(/^#/, '');
+  document.body.dataset.route = id || 'home';
   if (!getSetup() || id === 'setup') { releaseWake(); if (!getSetup() && id !== 'setup') { location.replace('#setup'); return; } setupScreen(); return; }
   if (MODES.some(m => m.id === id)) { modeScreen(id); return; }
   releaseWake();
