@@ -1,6 +1,8 @@
 import { bingoCard, bingoLines } from './engine.js';
 
 let celebrate = '';
+const seenLines = new Map(); // live: player id -> lines last seen (for 'X got BINGO!' toasts)
+let seenKey = '';
 
 export default {
   id: 'bingo',
@@ -39,6 +41,24 @@ export default {
       ctx.confirmButton({ label: 'Clear card', confirmLabel: 'Tap again to clear all marks', onConfirm: () => { ctx.store.remove(key); ctx.rerender(); } }));
 
     body.append(h('div', { class: 'split bingo-split' }, grid, status));
+    const L = ctx.live && ctx.live.online ? ctx.live : null;
+    if (L) {
+      const lkey = `bingo|${C}`;
+      const R = L.round(lkey);
+      const mine = { m: marked.size - 1, l: lines.length };
+      L.lock(lkey, mine); L.score(lkey, lines.length * 3);
+      if (seenKey !== lkey) { seenKey = lkey; seenLines.clear(); }
+      for (const p of L.players) {
+        const v = R.l[p.id]; if (!v) continue;
+        const was = seenLines.get(p.id);
+        if (was !== undefined && v.l > was && !p.you) { ctx.toast(`🎉 ${p.name} got BINGO!`); ctx.vibrate([120, 60, 120]); }
+        seenLines.set(p.id, v.l);
+      }
+      const rows = L.players.map(p => ({ p, v: p.you ? mine : (R.l[p.id] || { m: 0, l: 0 }) })).sort((a, b) => b.v.l - a.v.l || b.v.m - a.v.m);
+      body.append(h('div', { class: 'panel lpanel', 'data-testid': 'bingo-live' }, h('div', { class: 'lhead', text: 'Everyone\'s cards · 3 points per line' }),
+        rows.map(({ p, v }) => h('div', { class: 'lrow' + (p.you ? ' you' : '') + (v.l ? ' hit' : '') },
+          h('span', { text: p.name }), h('b', { text: `${v.m}/24` + (v.l ? ` · 🎉×${v.l}` : '') })))));
+    }
     if (fire) {
       const colors = ['var(--gold)', 'var(--pink)', 'var(--mint)', 'var(--sky)'];
       const conf = h('div', { class: 'confetti', 'aria-hidden': 'true' }, Array.from({ length: 40 }, (_, i) =>

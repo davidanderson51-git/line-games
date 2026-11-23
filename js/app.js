@@ -24,6 +24,8 @@ import { APP_VERSION } from './version.js';
 import { canonicalCode, nextCode, prevCode } from './seed.js';
 import { syncCheck } from './engine.js';
 import * as store from './store.js';
+import * as live from './live.js';
+import { makeLive, board as liveBoard } from './ui-live.js';
 
 export const MODES = [
   { id: 'imposter',   emoji: '🕵️', name: 'Imposter',          how: 'Everyone gets a secret word. One player has none. Find them.', built: true },
@@ -99,7 +101,7 @@ function reveal({ label, secret, sub = 'Only you should look', onHide }) {
   const tapNote = h('span', { class: 'small muted' });
   const tapChk = h('input', { type: 'checkbox', id: 'tapmode-' + (++uid) });
   const tapLbl = h('label', { class: 'toggle small', for: tapChk.id }, tapChk, 'Tap mode (tap to show / hide)');
-  const inst = { hide() { if (shown) { shown = false; draw(); } } };
+  const inst = { hide() { if (shown) { shown = false; draw(); } }, isShown: () => shown };
   const isTap = () => !!prefs().tapMode;
   function draw() {
     btn.className = 'reveal' + (shown ? ' shown' : '');
@@ -132,14 +134,18 @@ function reveal({ label, secret, sub = 'Only you should look', onHide }) {
   return h('div', { class: 'reveal-wrap', 'data-reveal': '' }, btn, h('div', { class: 'reveal-opts' }, tapLbl, tapNote));
 }
 
+// Armed state survives redraws (live rooms redraw when other phones act), keyed by label, for 4 s.
+const armedAt = new Map();
 function confirmButton({ label, confirmLabel = 'Tap again to confirm', onConfirm, cls = 'btn block' }) {
-  let armed = false, t = 0;
+  const left = () => 4000 - (Date.now() - (armedAt.get(label) || 0));
+  let armed = left() > 0, t = 0;
   const b = h('button', { type: 'button', class: cls, text: label });
+  const disarm = () => { armed = false; armedAt.delete(label); b.textContent = label; b.classList.remove('confirm'); };
+  const arm = ms => { armed = true; b.textContent = confirmLabel; b.classList.add('confirm'); t = setTimeout(() => { if (b.isConnected) disarm(); else armed = false; }, ms); };
+  if (armed) arm(left());
   b.addEventListener('click', () => {
-    if (!armed) {
-      armed = true; b.textContent = confirmLabel; b.classList.add('confirm');
-      t = setTimeout(() => { armed = false; b.textContent = label; b.classList.remove('confirm'); }, 4000);
-    } else { clearTimeout(t); armed = false; b.textContent = label; b.classList.remove('confirm'); onConfirm(); }
+    if (!armed) { armedAt.set(label, Date.now()); arm(4000); }
+    else { clearTimeout(t); disarm(); onConfirm(); }
   });
   return b;
 }
@@ -193,6 +199,7 @@ function homeScreen() {
     return tile;
   });
   mount(appBar(h('span', {}, h('span', { class: 'star', text: '⭐ ' }), 'Line Games')),
+    liveCard(),
     h('p', { class: 'muted' }, s.name ? `Hi ${s.name}! ` : '', `You are P${s.P} of ${s.N}.`),
     h('div', { class: 'tiles' }, tiles),
     h('div', { class: 'footlinks' },
@@ -232,6 +239,8 @@ function setupScreen() {
   };
   const resetCodes = () => { MODES.forEach(m => store.remove('lg.code.' + m.id)); toast('Round codes reset to start code on next open'); };
   mount(appBar('Setup', { home: !!saved }),
+    saved ? null : liveCard(),
+    saved ? null : h('p', { class: 'small muted', style: 'text-align:center', text: 'Or play offline: set your number and count below.' }),
     h('div', { class: 'panel' },
       h('label', { class: 'field' }, h('span', { text: 'Your name' }), nameIn),
       pStep, nStep, warn,
@@ -275,8 +284,8 @@ async function modeScreen(id) {
   const s = getSetup();
   if (!meta || !meta.built) { location.hash = '#home'; return; }
   acquireWake();
-  if (!(Number.isInteger(s.N) && s.N >= 3 && s.N <= 10)) { mount(appBar(meta.name, { home: true }), h('div', { class: 'block-screen' }, h('div', { class: 'big', text: 'Player count must be 3–10' }), h('a', { class: 'btn primary', href: '#setup', text: 'Fix in Setup' }))); return; }
-  if (!(Number.isInteger(s.P) && s.P >= 1 && s.P <= s.N)) { blockScreen(s, meta.name); return; }
+  if (!live.session() && !(Number.isInteger(s.N) && s.N >= 3 && s.N <= 10)) { mount(appBar(meta.name, { home: true }), h('div', { class: 'block-screen' }, h('div', { class: 'big', text: 'Player count must be 3–10' }), h('a', { class: 'btn primary', href: '#setup', text: 'Fix in Setup' }))); return; }
+  if (!(Number.isInteger(s.P) && s.P >= 1 && s.P <= Math.max(s.N, 3))) { blockScreen(s, meta.name); return; }
   let mod;
   try { mod = (await import(`./ui-${id}.js`)).default; if (seq !== routeSeq) return; }
   catch (e) { mount(appBar(meta.name, { home: true }), h('div', { class: 'panel' }, h('p', { class: 'warn', text: 'Could not load this game.' }), h('pre', { class: 'selftest', text: String(e) }))); return; }
@@ -297,12 +306,26 @@ async function modeScreen(id) {
     if (current && current.id !== id) return; // route changed during async work
     reveals.clear();
     const s2 = getSetup();
+    C = canonCode(store.get(codeKey, null)) || C;
+    const snap = live.snapshot();
+    const L = makeLive(snap);
+    if (L && L.isHost) { live.setMode(id); live.setCode(id, C); live.setSettings(id, store.get(settingsKey, {}) || {}); }
+    if (!(Number.isInteger(s2.N) && s2.N >= 3 && s2.N <= 10)) {
+      mount(appBar(meta.name, { home: true }), liveBar(snap), h('div', { class: 'block-screen' }, h('div', { class: 'big', text: L ? 'Need 3 or more players' : 'Player count must be 3–10' }),
+        L ? h('p', { text: `${s2.N} in room ${L.code} so far. Get everyone to join.` }) : null,
+        h('a', { class: 'btn primary', href: L ? '#lobby' : '#setup', text: L ? 'Back to the lobby' : 'Fix in Setup' })));
+      return;
+    }
     const body = h('div', { class: 'modebody' });
     const ctx = {
       mode: id, C, N: s2.N, P: s2.P, name: s2.name, body, data, raw, h, store, toast,
-      reveal, confirmButton, howTo, vibrate,
+      reveal, confirmButton, howTo, vibrate, live: L, canControl: !L || L.canControl,
       getSettings: () => store.get(settingsKey, {}) || {},
-      setSettings: o => { store.set(settingsKey, { ...(store.get(settingsKey, {}) || {}), ...o }); draw(); },
+      setSettings: o => {
+        if (L && !L.canControl) { toast('The host picks this'); return; }
+        const next = { ...(store.get(settingsKey, {}) || {}), ...o };
+        store.set(settingsKey, next); if (L && L.isHost) live.setSettings(id, next); draw();
+      },
       rerender: () => draw(),
     };
     const fail = e => {
@@ -314,24 +337,165 @@ async function modeScreen(id) {
     catch (e) { fail(e); return; }
     const go = d => {
       const now = Date.now(); if (now - navAt < 400) return; navAt = now;
+      if (L && !L.canControl) return;
       C = d > 0 ? nextCode(C) : prevCode(C);
-      store.set(codeKey, C); draw();
+      store.set(codeKey, C); if (L && L.isHost) live.setCode(id, C); draw();
     };
-    const you = h('div', { class: 'you', text: `You are P${s2.P} of ${s2.N}` });
+    const you = h('div', { class: 'you', text: `You are P${s2.P} of ${s2.N}` + (L ? ` · ${L.name(s2.P)}` : '') });
+    const follow = L && !L.canControl;
     const syncEl = h('div', { class: 'sync' }, 'Sync check', h('b', { 'data-testid': 'sync', 'aria-label': 'sync check ' + sc.names.join(', '), text: sc.emoji }));
     const header = mod.usesCode === false
       ? h('div', { class: 'round' }, you, syncEl)
       : h('div', { class: 'round' },
         h('div', { class: 'row1' },
-          h('button', { type: 'button', class: 'btn nav', 'aria-label': 'Previous round', text: '◀', onclick: () => go(-1) }),
+          follow ? null : h('button', { type: 'button', class: 'btn nav', 'aria-label': 'Previous round', text: '◀', onclick: () => go(-1) }),
           h('div', { class: 'mid' }, h('div', { class: 'lbl', text: 'ROUND' }), h('div', { class: 'code', 'data-testid': 'code', text: String(C) })),
-          h('button', { type: 'button', class: 'btn nav primary', 'aria-label': 'Next round', text: '▶', onclick: () => go(1) })),
+          follow ? null : h('button', { type: 'button', class: 'btn nav primary', 'aria-label': 'Next round', 'data-testid': 'next-round', text: '▶', onclick: () => go(1) })),
+        follow ? h('div', { class: 'small muted', style: 'text-align:center', text: '👑 The host moves everyone to the next round' }) : null,
         you, syncEl);
     try { mod.render(ctx); } catch (e) { fail(e); return; }
-    mount(appBar('Line Games', { home: true }), h('div', { class: 'modename' }, h('span', { text: meta.emoji }), meta.name), header, body);
+    mount(appBar('Line Games', { home: true }), liveBar(snap), h('div', { class: 'modename' }, h('span', { text: meta.emoji }), meta.name), header, body,
+      L ? liveBoard(h, snap) : null);
   };
-  current = { id, mod };
+  current = { id, mod, draw };
   draw();
+}
+
+// ---------- live rooms (lobby, status bar, sync from the host) ----------
+const STATUS_TEXT = {
+  online: '🟢 Live', connecting: '⏳ Connecting…', offline: '📴 Offline · keep playing, your games still match',
+  hostlost: '⚠️ Host phone is offline · keep playing', notfound: '🔎 Looking for the room…',
+};
+function liveBar(snap) {
+  if (!snap || !snap.sess) return null;
+  const st = snap.status;
+  const bar = h('div', { class: 'livebar ' + (st === 'online' ? 'on' : 'off'), 'data-testid': 'livebar', 'data-status': st },
+    h('a', { href: '#lobby', class: 'lb-main' },
+      h('b', { text: `Room ${snap.sess.code}` }),
+      h('span', { text: st === 'online' ? ` · ${snap.N} players${snap.isHost ? ' · 👑 you host' : ''}` : '' }),
+      h('span', { class: 'lb-st', text: STATUS_TEXT[st] || st })));
+  if (st === 'hostlost') bar.append(h('button', { type: 'button', class: 'btn', 'data-testid': 'claim', text: '👑 Become host', onclick: () => { live.claimHost(); toast('You are the host now'); } }));
+  return bar;
+}
+
+function liveCard() {
+  const snap = live.snapshot();
+  if (!snap.sess) {
+    return h('a', { class: 'tile livecard', href: '#lobby', 'data-testid': 'play-together' },
+      h('span', { class: 'emo', 'aria-hidden': 'true', text: '📡' }),
+      h('span', { class: 'nm', text: 'Play together' }),
+      h('span', { class: 'how', text: 'One phone hosts a room code, everyone joins, and reveals and points sync live.' }));
+  }
+  return liveBar(snap);
+}
+
+function playerRow(p, snap) {
+  const L = snap.isHost;
+  return h('div', { class: 'prow' + (p.on ? '' : ' away') + (p.you ? ' you' : ''), 'data-testid': 'player' },
+    h('span', { class: 'pnum', text: 'P' + p.P }),
+    h('span', { class: 'pname', text: p.name + (p.you ? ' (you)' : '') }),
+    p.host ? h('span', { class: 'ptag', text: '👑 host' }) : null,
+    h('span', { class: 'pdot', title: p.on ? 'online' : 'offline', text: p.on ? '🟢' : '⚪' }),
+    L && p.P > 1 ? h('button', { type: 'button', class: 'ibtn sm', 'aria-label': 'Move up', text: '▲', onclick: () => live.movePlayer(p.id, -1) }) : null,
+    L && !p.you && !p.on ? h('button', { type: 'button', class: 'ibtn sm', 'aria-label': 'Remove ' + p.name, text: '✕', onclick: () => live.removePlayer(p.id) }) : null);
+}
+
+function lobbyScreen() {
+  const snap = live.snapshot();
+  const s = getSetup();
+  if (!snap.sess) {
+    const nameIn = h('input', { class: 'input', type: 'text', autocomplete: 'nickname', maxlength: '20', value: s?.name || '', 'aria-label': 'Your name', 'data-testid': 'live-name' });
+    const codeIn = h('input', { class: 'input roomin', type: 'text', maxlength: '4', autocomplete: 'off', autocapitalize: 'characters', spellcheck: 'false', placeholder: 'ABCD', 'aria-label': 'Room code', 'data-testid': 'room-in' });
+    const err = h('p', { class: 'warn', 'aria-live': 'polite' });
+    const needName = () => { const n = nameIn.value.trim(); if (!n) { err.textContent = 'Type your name first'; nameIn.focus(); } return n; };
+    const ensureSetup = n => { store.set('lg.setup', { ...(s || { P: 1, N: 3, code: 1 }), name: n }); };
+    codeIn.addEventListener('input', () => { codeIn.value = codeIn.value.toUpperCase().replace(/[^A-Z]/g, ''); });
+    mount(appBar('Play together', { home: !!s }),
+      h('div', { class: 'panel' },
+        h('label', { class: 'field' }, h('span', { text: 'Your name' }), nameIn),
+        h('button', { type: 'button', class: 'btn primary block', 'data-testid': 'host-btn', text: '👑 Host a new room',
+          onclick: () => { const n = needName(); if (!n) return; ensureSetup(n); live.host(n); lobbyScreen(); } }),
+        h('div', { class: 'ordiv', text: 'or join one' }),
+        h('label', { class: 'field' }, h('span', { text: 'Room code from the host' }), codeIn),
+        h('button', { type: 'button', class: 'btn block', 'data-testid': 'join-btn', text: '🚪 Join room',
+          onclick: () => { const n = needName(); if (!n) return; const c = live.canonRoom(codeIn.value); if (!c) { err.textContent = 'Room codes are 4 letters'; codeIn.focus(); return; } ensureSetup(n); live.join(c, n); lobbyScreen(); } }),
+        err),
+      h('p', { class: 'small muted', text: 'Needs internet. If the signal drops in line, everyone keeps playing offline and catches up when it comes back.' }));
+    return;
+  }
+  const st = snap.status, code = snap.sess.code;
+  const parts = [appBar('Play together', { home: true })];
+  parts.push(h('div', { class: 'panel roomcard' },
+    h('div', { class: 'muted small', text: 'ROOM CODE' }),
+    h('div', { class: 'roomcode', 'data-testid': 'room-code', text: code }),
+    h('div', { class: 'small', text: snap.isHost ? 'Everyone: open Line Games → Play together → type this code.' : `Joined as ${snap.sess.name}` }),
+    h('div', { class: 'lb-st', 'data-testid': 'lobby-status', 'data-status': st, text: STATUS_TEXT[st] || st })));
+  if (st === 'notfound') parts.push(h('div', { class: 'panel' }, h('p', { class: 'warn', text: `No room ${code} found yet. Check the code with the host, and make sure their phone has the app open.` })));
+  if (st === 'hostlost') parts.push(liveBar(snap));
+  if (snap.players.length) {
+    parts.push(h('div', { class: 'panel' }, h('h2', { text: `Players (${snap.N})` }),
+      h('p', { class: 'small muted', text: 'Player numbers are set by the room. Nobody needs to pick one.' }),
+      h('div', { class: 'plist' }, snap.players.map(p => playerRow(p, snap))),
+      snap.N < 3 ? h('p', { class: 'warn', text: 'Most games need at least 3 players.' }) : null));
+  }
+  if (snap.state) {
+    if (snap.isHost) {
+      parts.push(h('h2', { class: 'lobbyh', text: 'Pick a game · everyone follows you' }),
+        h('div', { class: 'tiles' }, MODES.map(m => h('a', { class: 'tile', 'data-mode': m.id, href: '#' + m.id },
+          h('span', { class: 'emo', 'aria-hidden': 'true', text: m.emoji }), h('span', { class: 'nm', text: m.name }), h('span', { class: 'how', text: m.how })))));
+    } else if (st === 'online') {
+      parts.push(h('div', { class: 'first', text: '⏳ Waiting for the host to pick a game…' }));
+    }
+    parts.push(liveBoard(h, snap, { open: true }));
+    if (snap.isHost) parts.push(confirmButton({ label: 'Reset party points', confirmLabel: 'Tap again to reset everyone\'s points', onConfirm: () => live.resetScores() }));
+  }
+  const nameIn = h('input', { class: 'input', type: 'text', maxlength: '20', value: snap.sess.name, 'aria-label': 'Your name' });
+  parts.push(h('details', { class: 'howto' }, h('summary', { text: '✏️ Change my name' }),
+    h('div', { class: 'setrow' }, nameIn, h('button', { type: 'button', class: 'btn', text: 'Save', onclick: () => { const n = nameIn.value.trim(); if (n) { live.rename(n); store.set('lg.setup', { ...(getSetup() || {}), name: n }); toast('Saved'); } } }))));
+  parts.push(confirmButton({ label: snap.isHost ? 'Close room (leave)' : 'Leave room', confirmLabel: 'Tap again to leave', cls: 'btn block',
+    onConfirm: () => { live.leave(); location.hash = '#home'; } }));
+  mount(...parts);
+}
+
+let appliedMode, liveSig = '', liveT = 0;
+/** Apply the host's room state to this phone (guests), and redraw what is on screen. */
+function onLive(snap) {
+  let changed = false;
+  if (snap.state && snap.myP > 0) {
+    const s = getSetup() || { code: 1 };
+    const want = { ...s, name: snap.sess.name, P: snap.myP, N: snap.N };
+    if (s.P !== want.P || s.N !== want.N || s.name !== want.name) { store.set('lg.setup', want); changed = true; }
+  }
+  if (snap.state && !snap.isHost && snap.online) {
+    for (const [m, c] of Object.entries(snap.state.C || {})) {
+      if (store.get('lg.code.' + m, null) !== c) { store.set('lg.code.' + m, c); changed = true; }
+    }
+    for (const [m, o] of Object.entries(snap.state.set || {})) {
+      if (JSON.stringify(store.get('lg.set.' + m, {}) || {}) !== JSON.stringify(o || {})) { store.set('lg.set.' + m, o || {}); changed = true; }
+    }
+    if (snap.state.mode !== appliedMode) {
+      appliedMode = snap.state.mode;
+      const want = appliedMode ? '#' + appliedMode : '#lobby';
+      if (location.hash !== want) { location.hash = want; return; }
+    }
+  }
+  if (!snap.sess) appliedMode = undefined;
+  const sig = [snap.state ? snap.state.v : 0, snap.status, snap.myP, snap.N, snap.sess ? snap.sess.code : ''].join('|');
+  if (sig === liveSig && !changed) return;
+  liveSig = sig;
+  clearTimeout(liveT);
+  liveT = setTimeout(liveRedraw, 30);
+}
+function liveRedraw() {
+  if (!current || !current.draw) return;
+  const a = document.activeElement;
+  const busy = [...reveals].some(r => r.isShown && r.isShown()) ||
+    (a && a.tagName === 'INPUT' && /^(text|number|range)$/.test(a.type) && $app.contains(a)) ||
+    (a && a.tagName === 'SELECT' && $app.contains(a));
+  if (busy) { clearTimeout(liveT); liveT = setTimeout(liveRedraw, 400); return; }
+  const y = window.scrollY;
+  current.draw();
+  window.scrollTo(0, y);
 }
 
 function leaveCurrent() {
@@ -345,9 +509,12 @@ function route() {
   leaveCurrent();
   const id = (location.hash || '').replace(/^#/, '');
   document.body.dataset.route = id || 'home';
+  if (live.isHost() && !MODES.some(m => m.id === id)) live.setMode(null);
+  if (id === 'lobby') { releaseWake(); current = { id: 'lobby', draw: lobbyScreen }; lobbyScreen(); return; }
   if (!getSetup() || id === 'setup') { releaseWake(); if (!getSetup() && id !== 'setup') { location.replace('#setup'); return; } setupScreen(); return; }
   if (MODES.some(m => m.id === id)) { modeScreen(id); return; }
   releaseWake();
+  current = { id: 'home', draw: homeScreen };
   homeScreen();
 }
 
@@ -358,6 +525,8 @@ document.addEventListener('visibilitychange', () => {
 window.addEventListener('pagehide', hideAllSecrets);
 window.addEventListener('hashchange', route);
 applyTheme();
+live.subscribe(onLive);
+live.resume();
 route();
 
 // ---------- service worker + update banner ----------
