@@ -23,9 +23,9 @@ export default {
     body.append(h('div', { class: 'say' },
       h('div', { class: 't', text: 'READ ALOUD · EVERYONE MUST MATCH' }),
       h('div', { class: 'big', text: `Ride: ${ride.name}` }),
-      h('details', { class: 'change' }, h('summary', { text: 'Change ride' }), picker(ctx, rides, ride))));
+      ctx.canControl ? h('details', { class: 'change' }, h('summary', { text: 'Change ride' }), picker(ctx, rides, ride)) : h('div', { class: 'small muted', text: '👑 The host picks the ride' })));
     const qs = rideTrivia({ rideId: ride.id, C }, ctx.data['ridetrivia.json']);
-    renderQuiz(ctx, { key: `lg.ride.${ride.id}.${C}`, questions: qs, label: ride.name });
+    renderQuiz(ctx, { key: `lg.ride.${ride.id}.${C}`, liveKey: `ride|${ride.id}|${C}`, questions: qs, label: ride.name });
   },
 };
 

@@ -1,4 +1,13 @@
 import { imposterRound, effectiveImposters as effK } from './engine.js';
+import { voteBlock, voteTally, roundPoints } from './ui-live.js';
+
+/** Imposter: everyone who voted for an imposter +1. An imposter not caught (not top of the vote) +2. */
+export function imposterPoints(votesByP, imposters, myP, myVote) {
+  let max = 0; for (const v of votesByP.values()) max = Math.max(max, v.length);
+  const caught = p => max > 0 && (votesByP.get(p) || []).length === max;
+  if (imposters.includes(myP)) return caught(myP) ? 0 : 2;
+  return imposters.includes(myVote) ? 1 : 0;
+}
 
 
 export default {
@@ -30,7 +39,7 @@ export default {
     body.append(h('div', { class: 'say' },
       h('div', { class: 't', text: 'READ ALOUD · EVERYONE MUST MATCH' }),
       h('div', { class: 'big' }, h('div', { text: `Pack: ${packLabel}` }), h('div', { text: `Imposters: ${k}, Players: ${N}` })),
-      h('details', { class: 'change' }, h('summary', { text: 'Change pack / imposters' }),
+      !ctx.canControl ? h('div', { class: 'small muted', text: '👑 The host picks the pack' }) : h('details', { class: 'change' }, h('summary', { text: 'Change pack / imposters' }),
         h('div', { class: 'setrow' }, sel,
           h('label', { class: 'toggle', for: 'two-imp', 'aria-disabled': can2 ? null : 'true' }, chk, '2 imposters')),
         can2 ? null : h('p', { class: 'small muted', text: '2 imposters needs 7 or more players.' }))));
@@ -48,6 +57,26 @@ export default {
     }));
 
     body.append(h('div', { class: 'first' }, 'Player ', h('b', { text: 'P' + r.firstSpeaker }), ' speaks first'));
+
+    const wordOf = () => {
+      let word = r.word;
+      if (!word) for (let p = 1; p <= N; p++) if (!r.imposterNumbers.includes(p)) { word = imposterRound({ C, N, P: p, packId, imposters: k === 2 }, ctx.data['imposter.json']).word; break; }
+      return word;
+    };
+    const L = ctx.live && ctx.live.online ? ctx.live : null;
+    if (L) {
+      const key = `imp|${C}|${N}|${packId}|${k}`;
+      const v = voteBlock(ctx, key, { title: k > 1 ? 'Vote: who is an imposter?' : 'Vote: who is the imposter?', selKey: key });
+      body.append(v.node);
+      if (v.rev) {
+        L.score(key, imposterPoints(v.votes, r.imposterNumbers, P, v.myVote));
+        body.append(h('div', { class: 'answer', 'data-testid': 'answer' },
+          h('div', { text: (r.imposterNumbers.length > 1 ? 'Imposters: ' : 'Imposter: ') + r.imposterNumbers.map(n => L.label(n)).join(', ') }),
+          h('div', { class: 'muted', style: 'font-size:20px;margin-top:6px', text: 'The word was: ' + wordOf() })),
+          voteTally(ctx, v.votes, r.imposterNumbers), roundPoints(ctx, key) || '');
+      }
+      return;
+    }
 
     // deliberate end-of-round answer
     const ans = h('div');

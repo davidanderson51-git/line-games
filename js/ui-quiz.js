@@ -12,6 +12,8 @@ export function ensureQuizCss() {
   } catch (e) { /* styles optional */ }
 }
 
+import { lockStatus, forceReveal, roundPoints } from './ui-live.js';
+
 let selKey = '', sel = null; // unlocked selection, module scope (cleared when question changes)
 const LET = ['A', 'B', 'C', 'D'];
 
@@ -29,6 +31,21 @@ export function renderQuiz(ctx, opts) {
   const st = loadState(ctx, key, n);
   const save = () => { ctx.store.set(key, st); ctx.rerender(); };
   const score = () => qs.reduce((a, q, i) => a + (st.rev[i] && st.picks[i] === q.correctIndex ? 1 : 0), 0);
+  // live room: the host moves everyone question by question; reveals happen together
+  const L = ctx.live && ctx.live.online && opts.liveKey ? ctx.live : null;
+  const base = opts.liveKey;
+  if (L) {
+    const ptr = Math.min(n, L.round(base).ptr || 0);
+    let dirty = false;
+    if (st.i !== ptr) { st.i = ptr; dirty = true; }
+    for (let j = 0; j < Math.min(ptr + 1, n); j++) {
+      const R = L.round(base + '#' + j);
+      if (R.rev && !st.rev[j]) { st.rev[j] = true; dirty = true; }
+      if (st.rev[j] && R.rev) L.score(base + '#' + j, st.picks[j] === qs[j].correctIndex ? 1 : 0);
+      if (st.picks[j] !== null && !R.rev) L.lock(base + '#' + j, st.picks[j]);
+    }
+    if (dirty) ctx.store.set(key, st);
+  }
 
   if (st.i >= n) {
     ctx.body.append(h('div', { class: 'panel qend' },
@@ -36,8 +53,16 @@ export function renderQuiz(ctx, opts) {
       h('div', { class: 'qbig', 'data-testid': 'final-score', text: `Score ${score()}/${n}` }),
       h('div', { class: 'qsub', text: 'Compare with everyone out loud!' })),
       h('div', { class: 'qactions' },
-        h('button', { class: 'btn', onclick: () => { st.i = 0; st.picks = Array(n).fill(null); st.rev = Array(n).fill(false); sel = null; save(); }, text: 'Play this round again' }),
+        L ? null : h('button', { class: 'btn', onclick: () => { st.i = 0; st.picks = Array(n).fill(null); st.rev = Array(n).fill(false); sel = null; save(); }, text: 'Play this round again' }),
         opts.extra || null));
+    if (L) {
+      const tot = new Map();
+      for (let j = 0; j < n; j++) for (const [id, p] of Object.entries(L.scoresFor(base + '#' + j))) tot.set(id, (tot.get(id) || 0) + p);
+      const rows = L.players.map(p => ({ p, t: tot.get(p.id) || 0 })).sort((a, b) => b.t - a.t);
+      ctx.body.append(h('div', { class: 'panel lpanel', 'data-testid': 'quiz-results' }, h('div', { class: 'lhead', text: 'This round' }),
+        rows.map(({ p, t }, k) => h('div', { class: 'lrow' + (p.you ? ' you' : '') }, h('span', { text: `${['🥇', '🥈', '🥉'][k] || ''} ${p.name}` }), h('b', { text: `${t}/${n}` })))),
+        h('p', { class: 'muted small', style: 'text-align:center', text: L.isHost ? 'Tap ▶ at the top for a new round.' : 'The host starts the next round.' }));
+    }
     return;
   }
 
@@ -69,12 +94,21 @@ export function renderQuiz(ctx, opts) {
   ctx.body.append(list);
 
   const act = h('div', { class: 'qactions' });
-  if (!locked) {
+  if (!locked && !revealed) {
     act.append(h('button', { class: 'btn primary block', disabled: sel === null || null, 'data-testid': 'lock',
       onclick: () => { st.picks[i] = sel; sel = null; save(); }, text: sel === null ? 'Pick an answer' : 'Lock answer' }));
+  } else if (!revealed && L) {
+    act.append(lockStatus(ctx, base + '#' + i));
+    const f = forceReveal(ctx, base + '#' + i);
+    if (f) act.append(f);
   } else if (!revealed) {
     act.append(h('div', { class: 'muted', style: 'text-align:center', text: 'Answer locked. Wait until everyone has locked in.' }),
       h('button', { class: 'btn pink block', 'data-testid': 'reveal', onclick: () => { st.rev[i] = true; save(); }, text: 'Reveal (everyone tap together)' }));
+  } else if (L) {
+    if (q.source) act.append(h('div', { class: 'small muted qsrc', style: 'text-align:center', text: 'Source: ' + q.source }));
+    act.append(roundPoints(ctx, base + '#' + i, p => (p ? '✓' : '✗')) || '');
+    if (L.isHost) act.append(h('button', { class: 'btn primary block', 'data-testid': 'next', onclick: () => { L.setPtr(base, i + 1); }, text: i + 1 >= n ? 'Everyone to final scores' : 'Next question for everyone' }));
+    else act.append(h('div', { class: 'muted', style: 'text-align:center', text: 'The host moves everyone to the next question.' }));
   } else {
     if (q.source) act.append(h('div', { class: 'small muted qsrc', style: 'text-align:center', text: 'Source: ' + q.source }));
     act.append(h('button', { class: 'btn primary block', 'data-testid': 'next', onclick: () => { st.i = i + 1; sel = null; save(); },

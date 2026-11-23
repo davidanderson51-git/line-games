@@ -21,7 +21,7 @@ export default {
       return;
     }
     const qs = triviaRound({ C, D }, ctx.data['trivia.json']);
-    renderQuiz(ctx, { key: `lg.trivia.${C}.${D}`, questions: qs, label: NAMES[D],
+    renderQuiz(ctx, { key: `lg.trivia.${C}.${D}`, liveKey: `trivia|${C}`, questions: qs, label: NAMES[D],
       extra: h('button', { class: 'btn block', onclick: () => { store.remove('lg.trivia.diff'); ctx.rerender(); }, text: 'Change my level' }) });
     if (store.get(`lg.trivia.${C}.${D}`, null) && !(store.get(`lg.trivia.${C}.${D}`).i >= qs.length)) {
       body.append(h('div', { style: 'text-align:center;margin:6px 0' },

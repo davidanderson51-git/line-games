@@ -50,6 +50,6 @@ export default {
 function dinner(ctx, cur, stale) {
   const { h, body, store } = ctx;
   body.append(h('div', { class: 'answer', 'data-testid': 'dinner' }, h('div', { class: 'muted small', text: 'MY MISSION · ' + cur.date }), h('div', { text: cur.text })),
-    h('label', { class: 'toggle' }, h('input', { type: 'checkbox', checked: cur.success || null, onchange: e => store.set(CUR, { ...cur, success: e.target.checked, dinner: true }) }), 'Mission accomplished!'),
+    h('label', { class: 'toggle' }, h('input', { type: 'checkbox', checked: cur.success || null, onchange: e => { store.set(CUR, { ...cur, success: e.target.checked, dinner: true }); if (ctx.live) ctx.live.score('mis|' + cur.date, e.target.checked ? 3 : 0); } }), ctx.live ? 'Mission accomplished! (+3 party points)' : 'Mission accomplished!'),
     stale || cur.dinner ? ctx.confirmButton({ label: 'Done for the day', confirmLabel: 'Tap again to clear this mission', onConfirm: () => { store.set(CUR, { ...cur, dismissed: true }); ctx.rerender(); } }) : null);
 }
