@@ -1,0 +1,354 @@
+{
+  "squares": [
+    {
+      "id": "sq-01",
+      "text": "Square 01",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-02",
+      "text": "Square 02",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-03",
+      "text": "Square 03",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-04",
+      "text": "Square 04",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-05",
+      "text": "Square 05",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-06",
+      "text": "Square 06",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-07",
+      "text": "Square 07",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-08",
+      "text": "Square 08",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-09",
+      "text": "Square 09",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-10",
+      "text": "Square 10",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-11",
+      "text": "Square 11",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-12",
+      "text": "Square 12",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-13",
+      "text": "Square 13",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-14",
+      "text": "Square 14",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-15",
+      "text": "Square 15",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-16",
+      "text": "Square 16",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-17",
+      "text": "Square 17",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-18",
+      "text": "Square 18",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-19",
+      "text": "Square 19",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-20",
+      "text": "Square 20",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-21",
+      "text": "Square 21",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-22",
+      "text": "Square 22",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-23",
+      "text": "Square 23",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-24",
+      "text": "Square 24",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-25",
+      "text": "Square 25",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-26",
+      "text": "Square 26",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-27",
+      "text": "Square 27",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-28",
+      "text": "Square 28",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-29",
+      "text": "Square 29",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-30",
+      "text": "Square 30",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-31",
+      "text": "Square 31",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-32",
+      "text": "Square 32",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-33",
+      "text": "Square 33",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-34",
+      "text": "Square 34",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-35",
+      "text": "Square 35",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-36",
+      "text": "Square 36",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-37",
+      "text": "Square 37",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-38",
+      "text": "Square 38",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-39",
+      "text": "Square 39",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-40",
+      "text": "Square 40",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-41",
+      "text": "Square 41",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-42",
+      "text": "Square 42",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-43",
+      "text": "Square 43",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-44",
+      "text": "Square 44",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-45",
+      "text": "Square 45",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-46",
+      "text": "Square 46",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-47",
+      "text": "Square 47",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-48",
+      "text": "Square 48",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-49",
+      "text": "Square 49",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-50",
+      "text": "Square 50",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-51",
+      "text": "Square 51",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-52",
+      "text": "Square 52",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-53",
+      "text": "Square 53",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-54",
+      "text": "Square 54",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-55",
+      "text": "Square 55",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-56",
+      "text": "Square 56",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-57",
+      "text": "Square 57",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-58",
+      "text": "Square 58",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-59",
+      "text": "Square 59",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-60",
+      "text": "Square 60",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-61",
+      "text": "Square 61",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-62",
+      "text": "Square 62",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-63",
+      "text": "Square 63",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-64",
+      "text": "Square 64",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-65",
+      "text": "Square 65",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-66",
+      "text": "Square 66",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-67",
+      "text": "Square 67",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-68",
+      "text": "Square 68",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-69",
+      "text": "Square 69",
+      "emoji": "✨"
+    },
+    {
+      "id": "sq-70",
+      "text": "Square 70",
+      "emoji": "✨"
+    }
+  ]
+}

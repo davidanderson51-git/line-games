@@ -1,0 +1,484 @@
+{
+ "locations": [
+  {
+   "id": "haunted-mansion-queue",
+   "name": "Haunted Mansion queue",
+   "roles": [
+    "Cast member in a butler costume",
+    "Kid holding a grown-up's hand tight",
+    "Teen pretending not to be scared",
+    "Grandpa who rode it in 1969",
+    "Fan reading every tombstone",
+    "Tired dad holding three bags",
+    "Kid in a princess dress",
+    "Person humming spooky music",
+    "Couple on a date"
+   ]
+  },
+  {
+   "id": "churro-cart",
+   "name": "Churro cart",
+   "roles": [
+    "Churro vendor",
+    "Kid with cinnamon sugar on their face",
+    "Parent counting out money",
+    "Pigeon waiting for crumbs",
+    "Teen sharing one churro with friends",
+    "Grandma who wants a napkin",
+    "Person deciding between two flavors",
+    "Toddler in a stroller reaching for it",
+    "Tired dad holding three bags"
+   ]
+  },
+  {
+   "id": "main-street-parade-route",
+   "name": "Main Street parade route",
+   "roles": [
+    "Family saving a curb spot",
+    "Parade float driver",
+    "Dancer in a sparkly costume",
+    "Kid on a parent's shoulders",
+    "Cast member keeping the path clear",
+    "Person selling light-up toys",
+    "Grandpa in a folding-chair mood",
+    "Toddler waving at everyone",
+    "Teen filming on a phone"
+   ]
+  },
+  {
+   "id": "monorail",
+   "name": "Monorail",
+   "roles": [
+    "Monorail pilot",
+    "Kid pressed against the window",
+    "Hotel guest heading back for a nap",
+    "Parent folding a stroller",
+    "Teen taking a selfie",
+    "Grandma holding a souvenir bag",
+    "Person narrating the view",
+    "Cast member at the station",
+    "Family going to Downtown Disney"
+   ]
+  },
+  {
+   "id": "character-breakfast",
+   "name": "Character breakfast",
+   "roles": [
+    "Server bringing Mickey waffles",
+    "Goofy",
+    "Kid with an autograph book",
+    "Parent drinking their third coffee",
+    "Toddler covered in syrup",
+    "Grandma taking photos",
+    "Character handler",
+    "Teen too cool to hug a character",
+    "Birthday kid with a badge"
+   ]
+  },
+  {
+   "id": "first-aid-station",
+   "name": "First aid station",
+   "roles": [
+    "Nurse",
+    "Kid with a scraped knee",
+    "Parent holding a bandage box",
+    "Person needing sunscreen",
+    "Kid who lost a tooth",
+    "Calm cast member at the desk",
+    "Grandpa who needs to sit down",
+    "Toddler who wants a sticker",
+    "Teen with a blister"
+   ]
+  },
+  {
+   "id": "lost-found",
+   "name": "Lost & found",
+   "roles": [
+    "Cast member at the desk",
+    "Person who lost their sunglasses",
+    "Kid looking for a stuffed animal",
+    "Parent who lost a phone",
+    "Grandma who lost her hat",
+    "Teen who dropped ear headbands",
+    "Person returning a found wallet",
+    "Toddler who is very sad",
+    "Dad who lost the stroller tag"
+   ]
+  },
+  {
+   "id": "space-mountain-queue",
+   "name": "Space Mountain queue",
+   "roles": [
+    "Cast member at the loading area",
+    "Kid measuring their height",
+    "Teen bragging about speed",
+    "Parent who already feels dizzy",
+    "Grandpa who wants the front row",
+    "Person staring at the planets",
+    "Kid in a space shirt",
+    "Couple holding hands",
+    "Person who rode it five times today"
+   ]
+  },
+  {
+   "id": "pirates-of-the-caribbean-boat",
+   "name": "Pirates of the Caribbean boat",
+   "roles": [
+    "Boat loader cast member",
+    "Kid looking for the dog with the keys",
+    "Person worried about getting wet",
+    "Parent telling pirate jokes",
+    "Grandma who loves the music",
+    "Teen shouting 'arrr'",
+    "Toddler afraid of the drop",
+    "Kid in a pirate hat",
+    "Person who wants the front row"
+   ]
+  },
+  {
+   "id": "toy-story-midway-mania",
+   "name": "Toy Story Midway Mania!",
+   "roles": [
+    "Ride operator",
+    "Kid aiming at every target",
+    "Competitive dad",
+    "Grandma who wins anyway",
+    "Teen keeping score",
+    "Toddler who just likes the lights",
+    "Person with sore arms from pulling",
+    "Kid wearing a Woody hat",
+    "Parent who forgot how to aim"
+   ]
+  },
+  {
+   "id": "ice-cream-shop-on-main-street",
+   "name": "Ice cream shop on Main Street",
+   "roles": [
+    "Ice cream scooper",
+    "Kid with a melting cone",
+    "Parent asking for extra napkins",
+    "Grandpa who always gets vanilla",
+    "Teen trying a new flavor",
+    "Toddler with sprinkles everywhere",
+    "Person waiting for a table",
+    "Cashier",
+    "Dad holding three cones"
+   ]
+  },
+  {
+   "id": "fireworks-viewing-spot",
+   "name": "Fireworks viewing spot",
+   "roles": [
+    "Family that came two hours early",
+    "Kid with earmuffs",
+    "Cast member with a glow wand",
+    "Grandma on a bench",
+    "Teen trying to film the whole show",
+    "Toddler asleep in a stroller",
+    "Person selling glow toys",
+    "Couple taking a selfie",
+    "Parent counting heads"
+   ]
+  },
+  {
+   "id": "galaxy-s-edge-cantina",
+   "name": "Galaxy's Edge cantina",
+   "roles": [
+    "Droid DJ",
+    "Bartender making fizzy drinks",
+    "Kid dressed as a Jedi",
+    "Teen in a stormtrooper shirt",
+    "Grandpa who saw the first movie",
+    "Parent waiting for a table",
+    "Person ordering blue milk",
+    "Smuggler-looking traveler",
+    "Family of Star Wars fans"
+   ]
+  },
+  {
+   "id": "bibbidi-bobbidi-boutique",
+   "name": "Bibbidi Bobbidi Boutique",
+   "roles": [
+    "Fairy godmother in training",
+    "Kid getting a princess makeover",
+    "Parent holding the old outfit",
+    "Grandma crying happy tears",
+    "Little brother who is bored",
+    "Kid choosing a tiara",
+    "Photographer",
+    "Person sweeping up glitter",
+    "Older sister giving advice"
+   ]
+  },
+  {
+   "id": "character-meet-and-greet-line",
+   "name": "Character meet-and-greet line",
+   "roles": [
+    "Character",
+    "Character handler",
+    "Kid holding an autograph book",
+    "Parent ready with the camera",
+    "Shy toddler",
+    "Teen who secretly loves this",
+    "Grandpa holding everyone's bags",
+    "Photographer",
+    "Kid in a matching costume"
+   ]
+  },
+  {
+   "id": "radiator-springs-racers-queue",
+   "name": "Radiator Springs Racers queue",
+   "roles": [
+    "Cast member at the car",
+    "Kid in a Lightning McQueen shirt",
+    "Parent checking the wait time",
+    "Teen hoping to win the race",
+    "Grandma who loves the scenery",
+    "Person wearing a car hat",
+    "Toddler too short to ride",
+    "Dad who loves real cars",
+    "Kid saying 'ka-chow' a lot"
+   ]
+  },
+  {
+   "id": "dumbo-ride",
+   "name": "Dumbo ride",
+   "roles": [
+    "Ride operator",
+    "Kid flying as high as possible",
+    "Parent who doesn't like heights",
+    "Toddler on their first ride",
+    "Grandpa taking a video",
+    "Teen squeezed into a tiny elephant",
+    "Person holding the stroller outside",
+    "Kid in Mickey ears",
+    "Mom waving from below"
+   ]
+  },
+  {
+   "id": "mad-tea-party",
+   "name": "Mad Tea Party",
+   "roles": [
+    "Ride operator",
+    "Kid spinning as fast as possible",
+    "Parent getting dizzy",
+    "Teen trying to spin the hardest",
+    "Grandma who wants it slow",
+    "Person in a Mad Hatter hat",
+    "Toddler giggling nonstop",
+    "Dad who regrets it",
+    "Kid in an Alice dress"
+   ]
+  },
+  {
+   "id": "stroller-parking-area",
+   "name": "Stroller parking area",
+   "roles": [
+    "Stroller parking cast member",
+    "Parent tying a balloon to a stroller",
+    "Kid who wants to ride in the stroller",
+    "Toddler who fell asleep",
+    "Dad who forgot which stroller is theirs",
+    "Grandma holding the diaper bag",
+    "Teen pushing an empty stroller",
+    "Person putting a sticker on their stroller",
+    "Family with a wagon"
+   ]
+  },
+  {
+   "id": "parking-tram",
+   "name": "Parking tram",
+   "roles": [
+    "Tram driver",
+    "Family coming from the parking garage",
+    "Kid in pajamas for the ride home",
+    "Parent carrying a sleepy toddler",
+    "Grandpa with a cooler bag",
+    "Teen with a phone at 2% battery",
+    "Person holding a balloon",
+    "Kid wearing light-up ears",
+    "Dad remembering the parking spot"
+   ]
+  },
+  {
+   "id": "main-entrance-gates",
+   "name": "Main entrance gates",
+   "roles": [
+    "Cast member scanning tickets",
+    "Kid seeing the castle for the first time",
+    "Parent with all the tickets",
+    "Teen in matching family shirts",
+    "Grandma with a map",
+    "Birthday kid with a button",
+    "Toddler in a wagon",
+    "Person taking the train station photo",
+    "Security cast member"
+   ]
+  },
+  {
+   "id": "sleeping-beauty-castle-walkway",
+   "name": "Sleeping Beauty Castle walkway",
+   "roles": [
+    "Photographer",
+    "Kid in a princess dress",
+    "Person looking for the fairy carvings",
+    "Parent pushing a stroller",
+    "Grandpa resting on a bench",
+    "Teen taking a group selfie",
+    "Cast member giving directions",
+    "Toddler chasing a duck",
+    "Couple on a date"
+   ]
+  },
+  {
+   "id": "gift-shop-on-main-street",
+   "name": "Gift shop on Main Street",
+   "roles": [
+    "Cashier",
+    "Kid holding three plush toys",
+    "Parent saying 'just one'",
+    "Teen trying on Spirit Jerseys",
+    "Grandma buying ears for everyone",
+    "Person looking at the pin wall",
+    "Toddler grabbing a snow globe",
+    "Dad holding the shopping bags",
+    "Cast member folding shirts"
+   ]
+  },
+  {
+   "id": "jungle-cruise-boat",
+   "name": "Jungle Cruise boat",
+   "roles": [
+    "Skipper telling jokes",
+    "Kid looking for elephants",
+    "Parent groaning at the puns",
+    "Grandpa who knows every joke",
+    "Teen pretending not to laugh",
+    "Toddler waving at the hippos",
+    "Person taking photos of the waterfall",
+    "Couple holding hands",
+    "Kid in a safari hat"
+   ]
+  },
+  {
+   "id": "incredicoaster-line",
+   "name": "Incredicoaster line",
+   "roles": [
+    "Ride operator",
+    "Kid who just got tall enough",
+    "Teen bragging about the loop",
+    "Parent nervous about the drop",
+    "Grandma waiting on the bench",
+    "Person in an Incredibles shirt",
+    "Dad holding everyone's hats",
+    "Kid pretending to have superpowers",
+    "Couple who rides in the front"
+   ]
+  },
+  {
+   "id": "hotel-pool",
+   "name": "Hotel pool",
+   "roles": [
+    "Lifeguard",
+    "Kid on the waterslide",
+    "Parent reading a book",
+    "Toddler in floaties",
+    "Teen doing a cannonball",
+    "Grandpa in the shade",
+    "Person ordering snacks",
+    "Pool cast member handing out towels",
+    "Kid with goggles on their head"
+   ]
+  },
+  {
+   "id": "pixar-pier-boardwalk",
+   "name": "Pixar Pier boardwalk",
+   "roles": [
+    "Game booth cast member",
+    "Kid trying to win a prize",
+    "Parent holding a churro",
+    "Teen riding the Ferris wheel",
+    "Grandma people-watching",
+    "Person in a Toy Story shirt",
+    "Toddler watching the waves",
+    "Dad carrying a giant plush",
+    "Couple sharing a snack"
+   ]
+  },
+  {
+   "id": "bayou-country",
+   "name": "Bayou Country",
+   "roles": [
+    "Cast member near the log ride",
+    "Kid soaked after the drop",
+    "Parent with a towel",
+    "Teen eating beignets",
+    "Grandpa listening to jazz",
+    "Person who forgot a poncho",
+    "Toddler watching the frogs",
+    "Kid in a Tiana dress",
+    "Family sharing a fruit cup"
+   ]
+  },
+  {
+   "id": "fantasyland-carousel",
+   "name": "Fantasyland carousel",
+   "roles": [
+    "Carousel operator",
+    "Kid picking the fastest horse",
+    "Parent standing next to the horse",
+    "Toddler on their first carousel",
+    "Grandma riding the bench",
+    "Teen waving to friends",
+    "Person filming the ride",
+    "Kid in a knight costume",
+    "Dad holding the bags"
+   ]
+  },
+  {
+   "id": "disneyland-railroad-station",
+   "name": "Disneyland Railroad station",
+   "roles": [
+    "Train conductor",
+    "Kid who loves trains",
+    "Grandpa telling train stories",
+    "Parent with a sleepy toddler",
+    "Teen resting their feet",
+    "Person heading to Toontown",
+    "Toddler waving at everyone",
+    "Engineer",
+    "Family looking at the map"
+   ]
+  },
+  {
+   "id": "popcorn-cart",
+   "name": "Popcorn cart",
+   "roles": [
+    "Popcorn vendor",
+    "Kid with a new popcorn bucket",
+    "Parent refilling the bucket",
+    "Toddler eating one piece at a time",
+    "Teen asking for extra butter",
+    "Grandma sharing with everyone",
+    "Bird hoping for a dropped kernel",
+    "Person deciding which bucket to buy",
+    "Dad holding the bucket strap"
+   ]
+  },
+  {
+   "id": "mickey-s-toontown",
+   "name": "Mickey's Toontown",
+   "roles": [
+    "Cast member at Mickey's House",
+    "Kid running through the fountains",
+    "Parent sitting in the shade",
+    "Toddler on the slide",
+    "Teen taking silly photos",
+    "Grandpa on a bench",
+    "Person looking for Mickey",
+    "Kid in a Goofy hat",
+    "Family with a wagon"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,404 @@
+{
+ "squares": [
+  {
+   "id": "sequined-ears",
+   "text": "Sequined ears",
+   "emoji": "✨"
+  },
+  {
+   "id": "stroller-traffic-jam",
+   "text": "Stroller traffic jam",
+   "emoji": "🚼"
+  },
+  {
+   "id": "matching-family-shirts",
+   "text": "Matching family shirts",
+   "emoji": "👕"
+  },
+  {
+   "id": "hidden-mickey",
+   "text": "Hidden Mickey",
+   "emoji": "🐭"
+  },
+  {
+   "id": "full-princess-dress",
+   "text": "Full princess dress",
+   "emoji": "👗"
+  },
+  {
+   "id": "asleep-on-a-shoulder",
+   "text": "Asleep on a shoulder",
+   "emoji": "😴"
+  },
+  {
+   "id": "balloon-bunch",
+   "text": "Balloon bunch",
+   "emoji": "🎈"
+  },
+  {
+   "id": "churro-in-hand",
+   "text": "Churro in hand",
+   "emoji": "🥖"
+  },
+  {
+   "id": "popcorn-bucket",
+   "text": "Popcorn bucket",
+   "emoji": "🍿"
+  },
+  {
+   "id": "spirit-jersey",
+   "text": "Spirit Jersey",
+   "emoji": "🧥"
+  },
+  {
+   "id": "birthday-button",
+   "text": "Birthday button",
+   "emoji": "🎂"
+  },
+  {
+   "id": "1st-visit-button",
+   "text": "1st Visit button",
+   "emoji": "🔘"
+  },
+  {
+   "id": "light-up-toy",
+   "text": "Light-up toy",
+   "emoji": "💡"
+  },
+  {
+   "id": "lightsaber",
+   "text": "Lightsaber",
+   "emoji": "⚔️"
+  },
+  {
+   "id": "pin-trading-lanyard",
+   "text": "Pin trading lanyard",
+   "emoji": "📌"
+  },
+  {
+   "id": "turkey-leg",
+   "text": "Turkey leg",
+   "emoji": "🍗"
+  },
+  {
+   "id": "dole-whip",
+   "text": "Dole Whip",
+   "emoji": "🍦"
+  },
+  {
+   "id": "kid-on-shoulders",
+   "text": "Kid on shoulders",
+   "emoji": "🧒"
+  },
+  {
+   "id": "mickey-pretzel",
+   "text": "Mickey pretzel",
+   "emoji": "🥨"
+  },
+  {
+   "id": "rain-poncho",
+   "text": "Rain poncho",
+   "emoji": "🧥"
+  },
+  {
+   "id": "wagon-instead-of-stroller",
+   "text": "Wagon instead of stroller",
+   "emoji": "🛒"
+  },
+  {
+   "id": "someone-in-a-cape",
+   "text": "Someone in a cape",
+   "emoji": "🦸"
+  },
+  {
+   "id": "pirate-hat",
+   "text": "Pirate hat",
+   "emoji": "🏴‍☠️"
+  },
+  {
+   "id": "minnie-bow",
+   "text": "Minnie bow",
+   "emoji": "🎀"
+  },
+  {
+   "id": "stitch-anything",
+   "text": "Stitch anything",
+   "emoji": "👽"
+  },
+  {
+   "id": "baby-in-a-carrier",
+   "text": "Baby in a carrier",
+   "emoji": "👶"
+  },
+  {
+   "id": "selfie-stick",
+   "text": "Selfie stick",
+   "emoji": "🤳"
+  },
+  {
+   "id": "bubble-wand",
+   "text": "Bubble wand",
+   "emoji": "🫧"
+  },
+  {
+   "id": "mickey-ice-cream-bar",
+   "text": "Mickey ice cream bar",
+   "emoji": "🍫"
+  },
+  {
+   "id": "map-being-unfolded",
+   "text": "Map being unfolded",
+   "emoji": "🗺️"
+  },
+  {
+   "id": "cast-member-name-tag",
+   "text": "Cast member name tag",
+   "emoji": "📛"
+  },
+  {
+   "id": "someone-checking-the-app",
+   "text": "Someone checking the app",
+   "emoji": "📱"
+  },
+  {
+   "id": "dad-crown",
+   "text": "Princess crown on a dad",
+   "emoji": "👑"
+  },
+  {
+   "id": "sunburned-nose",
+   "text": "Sunburned nose",
+   "emoji": "☀️"
+  },
+  {
+   "id": "sunglasses-on-a-hat",
+   "text": "Sunglasses on a hat",
+   "emoji": "🕶️"
+  },
+  {
+   "id": "water-bottle-with-stickers",
+   "text": "Water bottle with stickers",
+   "emoji": "🚰"
+  },
+  {
+   "id": "tiara",
+   "text": "Tiara",
+   "emoji": "👑"
+  },
+  {
+   "id": "wizard-hat",
+   "text": "Wizard hat",
+   "emoji": "🧙"
+  },
+  {
+   "id": "castle-shirt",
+   "text": "Castle on a T-shirt",
+   "emoji": "🏰"
+  },
+  {
+   "id": "corn-dog",
+   "text": "Corn dog",
+   "emoji": "🌭"
+  },
+  {
+   "id": "someone-eating-a-pickle",
+   "text": "Someone eating a pickle",
+   "emoji": "🥒"
+  },
+  {
+   "id": "bride-and-groom-ears",
+   "text": "Bride and groom ears",
+   "emoji": "💍"
+  },
+  {
+   "id": "kid-with-face-paint",
+   "text": "Kid with face paint",
+   "emoji": "🎨"
+  },
+  {
+   "id": "stormtrooper-anything",
+   "text": "Stormtrooper anything",
+   "emoji": "🪖"
+  },
+  {
+   "id": "spider-man-shirt",
+   "text": "Spider-Man shirt",
+   "emoji": "🕷️"
+  },
+  {
+   "id": "toy-story-shirt",
+   "text": "Toy Story shirt",
+   "emoji": "🤠"
+  },
+  {
+   "id": "autograph-book",
+   "text": "Autograph book",
+   "emoji": "✍️"
+  },
+  {
+   "id": "plush-peeking-from-a-bag",
+   "text": "Plush peeking from a bag",
+   "emoji": "🧸"
+  },
+  {
+   "id": "mickey-waffle-sighting",
+   "text": "Mickey waffle sighting",
+   "emoji": "🧇"
+  },
+  {
+   "id": "mickey-shaped-balloon",
+   "text": "Mickey-shaped balloon",
+   "emoji": "🎈"
+  },
+  {
+   "id": "ears-with-a-light-up-glow",
+   "text": "Ears with a light-up glow",
+   "emoji": "🌟"
+  },
+  {
+   "id": "someone-yawning",
+   "text": "Someone yawning",
+   "emoji": "🥱"
+  },
+  {
+   "id": "phone-charger-cable",
+   "text": "Phone charger cable",
+   "emoji": "🔌"
+  },
+  {
+   "id": "shopping-bag-on-a-stroller",
+   "text": "Shopping bag on a stroller",
+   "emoji": "🛍️"
+  },
+  {
+   "id": "group-high-five",
+   "text": "Group high-five",
+   "emoji": "🙌"
+  },
+  {
+   "id": "someone-dancing-in-line",
+   "text": "Someone dancing in line",
+   "emoji": "💃"
+  },
+  {
+   "id": "bird-looking-for-crumbs",
+   "text": "Bird looking for crumbs",
+   "emoji": "🐦"
+  },
+  {
+   "id": "duck-on-the-ground",
+   "text": "Duck on the ground",
+   "emoji": "🦆"
+  },
+  {
+   "id": "glow-necklace",
+   "text": "Glow necklace",
+   "emoji": "📿"
+  },
+  {
+   "id": "loungefly-backpack",
+   "text": "Loungefly backpack",
+   "emoji": "🎒"
+  },
+  {
+   "id": "coffee-cup",
+   "text": "Coffee cup",
+   "emoji": "☕"
+  },
+  {
+   "id": "frozen-lemonade",
+   "text": "Frozen lemonade",
+   "emoji": "🍋"
+  },
+  {
+   "id": "hat-with-ears-on-it",
+   "text": "Hat with ears on it",
+   "emoji": "🧢"
+  },
+  {
+   "id": "elsa-braid-or-dress",
+   "text": "Elsa braid or dress",
+   "emoji": "❄️"
+  },
+  {
+   "id": "matching-couple-ears",
+   "text": "Matching couple ears",
+   "emoji": "💑"
+  },
+  {
+   "id": "someone-in-a-jedi-robe",
+   "text": "Someone in a Jedi robe",
+   "emoji": "🥋"
+  },
+  {
+   "id": "train-whistle-heard",
+   "text": "Train whistle heard",
+   "emoji": "🚂"
+  },
+  {
+   "id": "monorail-passing-by",
+   "text": "Monorail passing by",
+   "emoji": "🚝"
+  },
+  {
+   "id": "sitting-on-the-ground",
+   "text": "Sitting on the ground",
+   "emoji": "🧘"
+  },
+  {
+   "id": "kid-with-a-toy-sword",
+   "text": "Kid with a toy sword",
+   "emoji": "🗡️"
+  },
+  {
+   "id": "light-up-spinner",
+   "text": "Light-up spinner",
+   "emoji": "🌀"
+  },
+  {
+   "id": "cotton-candy",
+   "text": "Cotton candy",
+   "emoji": "🍭"
+  },
+  {
+   "id": "ice-cream-drip",
+   "text": "Ice cream drip",
+   "emoji": "🍨"
+  },
+  {
+   "id": "mickey-sunglasses",
+   "text": "Mickey sunglasses",
+   "emoji": "😎"
+  },
+  {
+   "id": "kid-wearing-a-backpack",
+   "text": "Kid wearing a backpack",
+   "emoji": "🎒"
+  },
+  {
+   "id": "someone-in-a-costume-tail",
+   "text": "Someone in a costume tail",
+   "emoji": "🐒"
+  },
+  {
+   "id": "fanny-pack",
+   "text": "Fanny pack",
+   "emoji": "👝"
+  },
+  {
+   "id": "holiday-sweater",
+   "text": "Holiday sweater",
+   "emoji": "🎄"
+  },
+  {
+   "id": "santa-hat",
+   "text": "Santa hat",
+   "emoji": "🎅"
+  },
+  {
+   "id": "someone-with-a-fan",
+   "text": "Someone with a fan",
+   "emoji": "🌬️"
+  }
+ ]
+}

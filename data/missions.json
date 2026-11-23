@@ -1,0 +1,284 @@
+{
+ "missions": [
+  {
+   "id": "m01",
+   "text": "Get two family members to high-five you in the same minute."
+  },
+  {
+   "id": "m02",
+   "text": "Make someone say the word \"churro\" without saying it yourself."
+  },
+  {
+   "id": "m03",
+   "text": "Start a family conversation about favorite villains without anyone noticing it was on purpose."
+  },
+  {
+   "id": "m04",
+   "text": "Get someone in your group to say \"magical\" without asking them to."
+  },
+  {
+   "id": "m05",
+   "text": "Get three family members to tell you their favorite ride without asking directly."
+  },
+  {
+   "id": "m06",
+   "text": "Make someone in your group laugh out loud using only a funny face."
+  },
+  {
+   "id": "m07",
+   "text": "Get someone to point at the sky without telling them to."
+  },
+  {
+   "id": "m08",
+   "text": "Get a family member to hum a Disney song without asking them to."
+  },
+  {
+   "id": "m09",
+   "text": "Use the word \"bibbidi\" in a normal sentence and get no reaction."
+  },
+  {
+   "id": "m10",
+   "text": "Get someone in your group to check the time without asking them."
+  },
+  {
+   "id": "m11",
+   "text": "Make two family members agree on the best snack in the park."
+  },
+  {
+   "id": "m12",
+   "text": "Get someone to say \"Mickey\" twice in one minute."
+  },
+  {
+   "id": "m13",
+   "text": "Convince someone to switch places with you in line using only a reason about the view."
+  },
+  {
+   "id": "m14",
+   "text": "Get a family member to share a funny memory from a past trip."
+  },
+  {
+   "id": "m15",
+   "text": "Get someone to say \"I'm hungry\" without bringing up food yourself."
+  },
+  {
+   "id": "m16",
+   "text": "Make the whole group look at the same thing at the same time."
+  },
+  {
+   "id": "m17",
+   "text": "Get someone to ask you a question about Star Wars."
+  },
+  {
+   "id": "m18",
+   "text": "Say three compliments to three different family members before the line moves twice."
+  },
+  {
+   "id": "m19",
+   "text": "Get someone to do a thumbs-up without asking for one."
+  },
+  {
+   "id": "m20",
+   "text": "Use the phrase \"to infinity and beyond\" naturally in conversation."
+  },
+  {
+   "id": "m21",
+   "text": "Get a family member to tell you what they'd name a pet dragon."
+  },
+  {
+   "id": "m22",
+   "text": "Make someone in your group say \"yes\" three times in a row."
+  },
+  {
+   "id": "m23",
+   "text": "Get someone to stretch their arms without asking them to."
+  },
+  {
+   "id": "m24",
+   "text": "Get a family member to name a princess without you saying \"princess.\""
+  },
+  {
+   "id": "m25",
+   "text": "Slip the word \"bayou\" into a conversation twice without anyone noticing."
+  },
+  {
+   "id": "m26",
+   "text": "Get someone to tell a joke."
+  },
+  {
+   "id": "m27",
+   "text": "Get a family member to guess how long the wait is, without asking about the wait."
+  },
+  {
+   "id": "m28",
+   "text": "Get two people in your group to say the same word at the same time."
+  },
+  {
+   "id": "m29",
+   "text": "Make someone say \"pirate\" without you saying it first."
+  },
+  {
+   "id": "m30",
+   "text": "Get a family member to tell you their favorite color."
+  },
+  {
+   "id": "m31",
+   "text": "Get someone to yawn by yawning yourself, without them noticing."
+  },
+  {
+   "id": "m32",
+   "text": "Get someone to suggest a snack for later."
+  },
+  {
+   "id": "m33",
+   "text": "Get a family member to say \"oh boy\" like Mickey."
+  },
+  {
+   "id": "m34",
+   "text": "Get the group talking about what they'd do with one wish."
+  },
+  {
+   "id": "m35",
+   "text": "Get someone to describe their dream ride."
+  },
+  {
+   "id": "m36",
+   "text": "Use the word \"fantastic\" three times before your turn on the ride."
+  },
+  {
+   "id": "m37",
+   "text": "Get a family member to look at their shoes without asking."
+  },
+  {
+   "id": "m38",
+   "text": "Make someone in your group say \"Goofy.\""
+  },
+  {
+   "id": "m39",
+   "text": "Get someone to pick between two snacks that you suggest."
+  },
+  {
+   "id": "m40",
+   "text": "Get a family member to tell you which character they'd want as a sibling."
+  },
+  {
+   "id": "m41",
+   "text": "Get two people to give each other a fist bump."
+  },
+  {
+   "id": "m42",
+   "text": "Get someone to say the name of a land in the park."
+  },
+  {
+   "id": "m43",
+   "text": "Get a family member to tell you what they ate for breakfast."
+  },
+  {
+   "id": "m44",
+   "text": "Make someone in your group wave at you from close by."
+  },
+  {
+   "id": "m45",
+   "text": "Get someone to say \"ka-chow\" without saying it yourself."
+  },
+  {
+   "id": "m46",
+   "text": "Get the group to vote on something silly, like best hat."
+  },
+  {
+   "id": "m47",
+   "text": "Get a family member to tell you their favorite movie this year."
+  },
+  {
+   "id": "m48",
+   "text": "Get someone to clap without asking them to."
+  },
+  {
+   "id": "m49",
+   "text": "Say a sentence where every word starts with M, and get someone to notice."
+  },
+  {
+   "id": "m50",
+   "text": "Get someone to tell you which villain is the scariest."
+  },
+  {
+   "id": "m51",
+   "text": "Get a family member to share their snack with someone else in the group."
+  },
+  {
+   "id": "m52",
+   "text": "Get someone to say \"let it go\" in a normal sentence."
+  },
+  {
+   "id": "m53",
+   "text": "Get two family members talking about dinosaurs."
+  },
+  {
+   "id": "m54",
+   "text": "Get someone in the group to make an animal noise."
+  },
+  {
+   "id": "m55",
+   "text": "Get a family member to ask you, \"What are you up to?\""
+  },
+  {
+   "id": "m56",
+   "text": "Get someone to name three ride vehicles: a boat, a car and a train."
+  },
+  {
+   "id": "m57",
+   "text": "Make someone in your group smile within ten seconds using only words."
+  },
+  {
+   "id": "m58",
+   "text": "Get someone to tell you what superpower they'd pick."
+  },
+  {
+   "id": "m59",
+   "text": "Get a family member to guess what you're thinking about."
+  },
+  {
+   "id": "m60",
+   "text": "Get someone to say \"hakuna matata.\""
+  },
+  {
+   "id": "m61",
+   "text": "Get the group to count something together, like balloons you can see."
+  },
+  {
+   "id": "m62",
+   "text": "Get someone to tell you what they'd pack for a trip to space."
+  },
+  {
+   "id": "m63",
+   "text": "Get a family member to say a word that rhymes with \"cake.\""
+  },
+  {
+   "id": "m64",
+   "text": "Get someone to describe their favorite character without naming them."
+  },
+  {
+   "id": "m65",
+   "text": "Get a family member to say \"thank you\" to you."
+  },
+  {
+   "id": "m66",
+   "text": "Get someone to suggest a family photo."
+  },
+  {
+   "id": "m67",
+   "text": "Get two family members to compare whose feet are more tired."
+  },
+  {
+   "id": "m68",
+   "text": "Get someone in your group to wiggle their fingers."
+  },
+  {
+   "id": "m69",
+   "text": "Use a pirate voice for one whole sentence and make it seem normal."
+  },
+  {
+   "id": "m70",
+   "text": "Get a family member to tell you the first ride they ever rode."
+  }
+ ]
+}

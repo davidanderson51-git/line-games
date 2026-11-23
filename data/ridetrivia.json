@@ -1,0 +1,2660 @@
+{
+ "asOf": "2026-11",
+ "rides": [
+  {
+   "id": "jungle-cruise",
+   "name": "Jungle Cruise",
+   "park": "DL",
+   "land": "Adventureland",
+   "questions": [
+    {
+     "q": "What year did the Jungle Cruise open at Disneyland?",
+     "a": "1955",
+     "wrong": [
+      "1963",
+      "1971",
+      "1959"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Jungle_Cruise",
+     "verified": true
+    },
+    {
+     "q": "Which Disneyland land is home to the Jungle Cruise?",
+     "a": "Adventureland",
+     "wrong": [
+      "Frontierland",
+      "New Orleans Square",
+      "Tomorrowland"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Jungle_Cruise",
+     "verified": true
+    },
+    {
+     "q": "Which designer is credited with creating the Jungle Cruise?",
+     "a": "Harper Goff",
+     "wrong": [
+      "Tony Baxter",
+      "Mary Blair",
+      "Bill Watkins"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Jungle_Cruise",
+     "verified": true
+    },
+    {
+     "q": "Which classic adventure film did Harper Goff often reference for the ride?",
+     "a": "The African Queen",
+     "wrong": [
+      "Casablanca",
+      "King Kong",
+      "Tarzan"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Jungle_Cruise",
+     "verified": true
+    },
+    {
+     "q": "Which waterfall does the skipper call the Eighth Wonder of the World?",
+     "a": "Schweitzer Falls",
+     "wrong": [
+      "Niagara Falls",
+      "Victoria Falls",
+      "Angel Falls"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Jungle_Cruise",
+     "verified": true
+    },
+    {
+     "q": "Which Southeast Asian river is part of the Jungle Cruise trip?",
+     "a": "The Mekong",
+     "wrong": [
+      "The Thames",
+      "The Danube",
+      "The Yukon"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Jungle_Cruise",
+     "verified": true
+    },
+    {
+     "q": "Who starred in the 2021 Jungle Cruise movie?",
+     "a": "Dwayne Johnson",
+     "wrong": [
+      "Vin Diesel",
+      "Chris Pratt",
+      "Jason Momoa"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Jungle_Cruise",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "indiana-jones-adventure",
+   "name": "Indiana Jones Adventure",
+   "park": "DL",
+   "land": "Adventureland",
+   "questions": [
+    {
+     "q": "What year did Indiana Jones Adventure open to the public?",
+     "a": "1995",
+     "wrong": [
+      "1989",
+      "2001",
+      "1992"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Indiana_Jones_Adventure",
+     "verified": true
+    },
+    {
+     "q": "What is the Disneyland ride's subtitle?",
+     "a": "Temple of the Forbidden Eye",
+     "wrong": [
+      "Temple of Doom",
+      "Raiders of the Lost Ark",
+      "Kingdom of the Crystal Skull"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Indiana_Jones_Adventure",
+     "verified": true
+    },
+    {
+     "q": "The temple was built to honor which deity?",
+     "a": "Mara",
+     "wrong": [
+      "Zara",
+      "Mola",
+      "Akator"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Indiana_Jones_Adventure",
+     "verified": true
+    },
+    {
+     "q": "What kind of vehicle do riders board?",
+     "a": "Military troop transport",
+     "wrong": [
+      "Mine cart",
+      "Safari boat",
+      "Biplane"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Indiana_Jones_Adventure",
+     "verified": true
+    },
+    {
+     "q": "Which Walt Disney World ride shares Indy's ride system?",
+     "a": "DINOSAUR",
+     "wrong": [
+      "Expedition Everest",
+      "Test Track",
+      "Kilimanjaro Safaris"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Indiana_Jones_Adventure",
+     "verified": true
+    },
+    {
+     "q": "How many guests fit in one Indy vehicle?",
+     "a": "12",
+     "wrong": [
+      "4",
+      "6",
+      "20"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Indiana_Jones_Adventure",
+     "verified": true
+    },
+    {
+     "q": "What famously rolls toward riders in the finale?",
+     "a": "A giant boulder",
+     "wrong": [
+      "An erupting volcano",
+      "A flooding river",
+      "A stampede of elephants"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Indiana_Jones_Adventure",
+     "verified": true
+    },
+    {
+     "q": "Mara offers eternal youth, earthly riches, or what?",
+     "a": "Visions of the future",
+     "wrong": [
+      "Super strength",
+      "The power to fly",
+      "A perfect memory"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Indiana_Jones_Adventure",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "pirates-of-the-caribbean",
+   "name": "Pirates of the Caribbean",
+   "park": "DL",
+   "land": "New Orleans Square",
+   "questions": [
+    {
+     "q": "What year did Pirates of the Caribbean open at Disneyland?",
+     "a": "1967",
+     "wrong": [
+      "1955",
+      "1971",
+      "1963"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean_(attraction)",
+     "verified": true
+    },
+    {
+     "q": "Which was the last ride Walt Disney participated in designing?",
+     "a": "Pirates of the Caribbean",
+     "wrong": [
+      "Haunted Mansion",
+      "Space Mountain",
+      "Matterhorn Bobsleds"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean_(attraction)",
+     "verified": true
+    },
+    {
+     "q": "Which land is Pirates of the Caribbean in?",
+     "a": "New Orleans Square",
+     "wrong": [
+      "Adventureland",
+      "Frontierland",
+      "Main Street, U.S.A."
+     ],
+     "source": "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean_(attraction)",
+     "verified": true
+    },
+    {
+     "q": "How many drops does the Disneyland Pirates ride have?",
+     "a": "2",
+     "wrong": [
+      "1",
+      "3",
+      "5"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean_(attraction)",
+     "verified": true
+    },
+    {
+     "q": "Which restaurant sits inside the ride, across from the boats?",
+     "a": "Blue Bayou",
+     "wrong": [
+      "Cafe Orleans",
+      "Plaza Inn",
+      "Rancho del Zocalo"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean_(attraction)",
+     "verified": true
+    },
+    {
+     "q": "Pirates borrowed its boat ride system from which attraction?",
+     "a": "\"it's a small world\"",
+     "wrong": [
+      "Jungle Cruise",
+      "Storybook Land Canal Boats",
+      "Submarine Voyage"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean_(attraction)",
+     "verified": true
+    },
+    {
+     "q": "Which movie pirate was added to the ride in 2006?",
+     "a": "Jack Sparrow",
+     "wrong": [
+      "Captain Hook",
+      "Long John Silver",
+      "Blackbeard"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean_(attraction)",
+     "verified": true
+    },
+    {
+     "q": "Which 2003 film was inspired by the ride?",
+     "a": "The Curse of the Black Pearl",
+     "wrong": [
+      "Treasure Planet",
+      "Muppet Treasure Island",
+      "Hook"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean_(attraction)",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "haunted-mansion",
+   "name": "Haunted Mansion",
+   "park": "DL",
+   "land": "New Orleans Square",
+   "questions": [
+    {
+     "q": "What year did the Haunted Mansion open at Disneyland?",
+     "a": "1969",
+     "wrong": [
+      "1959",
+      "1966",
+      "1975"
+     ],
+     "source": "https://en.wikipedia.org/wiki/The_Haunted_Mansion",
+     "verified": true
+    },
+    {
+     "q": "Which land is the Haunted Mansion in?",
+     "a": "New Orleans Square",
+     "wrong": [
+      "Frontierland",
+      "Adventureland",
+      "Bayou Country"
+     ],
+     "source": "https://en.wikipedia.org/wiki/The_Haunted_Mansion",
+     "verified": true
+    },
+    {
+     "q": "What are the Haunted Mansion's ride vehicles called?",
+     "a": "Doom Buggies",
+     "wrong": [
+      "Ghost Carts",
+      "Spook Sleds",
+      "Haunt Mobiles"
+     ],
+     "source": "https://en.wikipedia.org/wiki/The_Haunted_Mansion",
+     "verified": true
+    },
+    {
+     "q": "How many happy haunts does the Ghost Host say live here?",
+     "a": "999",
+     "wrong": [
+      "666",
+      "1,000",
+      "13"
+     ],
+     "source": "https://en.wikipedia.org/wiki/The_Haunted_Mansion",
+     "verified": true
+    },
+    {
+     "q": "The famous Stretching Room is secretly what?",
+     "a": "An elevator",
+     "wrong": [
+      "A trapdoor",
+      "A treadmill",
+      "A spinning floor"
+     ],
+     "source": "https://en.wikipedia.org/wiki/The_Haunted_Mansion",
+     "verified": true
+    },
+    {
+     "q": "Who voiced the Ghost Host?",
+     "a": "Paul Frees",
+     "wrong": [
+      "Thurl Ravenscroft",
+      "Walt Disney",
+      "Vincent Price"
+     ],
+     "source": "https://en.wikipedia.org/wiki/The_Haunted_Mansion",
+     "verified": true
+    },
+    {
+     "q": "Who composed the music for \"Grim Grinning Ghosts\"?",
+     "a": "Buddy Baker",
+     "wrong": [
+      "Richard Sherman",
+      "George Bruns",
+      "Alan Menken"
+     ],
+     "source": "https://en.wikipedia.org/wiki/The_Haunted_Mansion",
+     "verified": true
+    },
+    {
+     "q": "Haunted Mansion Holiday (since 2001) is inspired by which film?",
+     "a": "The Nightmare Before Christmas",
+     "wrong": [
+      "Hocus Pocus",
+      "Coco",
+      "Frankenweenie"
+     ],
+     "source": "https://en.wikipedia.org/wiki/The_Haunted_Mansion",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "tianas-bayou-adventure",
+   "name": "Tiana's Bayou Adventure",
+   "park": "DL",
+   "land": "Bayou Country",
+   "questions": [
+    {
+     "q": "What year did Tiana's Bayou Adventure open at Disneyland?",
+     "a": "2024",
+     "wrong": [
+      "2022",
+      "2023",
+      "2025"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Tiana%27s_Bayou_Adventure",
+     "verified": true
+    },
+    {
+     "q": "Which ride did Tiana's Bayou Adventure replace?",
+     "a": "Splash Mountain",
+     "wrong": [
+      "Big Thunder Mountain",
+      "Country Bear Jamboree",
+      "Pooh Corner"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Tiana%27s_Bayou_Adventure",
+     "verified": true
+    },
+    {
+     "q": "Which Disney film is Tiana's Bayou Adventure based on?",
+     "a": "The Princess and the Frog",
+     "wrong": [
+      "Encanto",
+      "Moana",
+      "Frozen"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Tiana%27s_Bayou_Adventure",
+     "verified": true
+    },
+    {
+     "q": "What year did The Princess and the Frog come out?",
+     "a": "2009",
+     "wrong": [
+      "2004",
+      "2012",
+      "2016"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Tiana%27s_Bayou_Adventure",
+     "verified": true
+    },
+    {
+     "q": "Critter Country was renamed what when Tiana's ride opened?",
+     "a": "Bayou Country",
+     "wrong": [
+      "Swamp Land",
+      "Tiana's Town",
+      "Louisiana Land"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Tiana%27s_Bayou_Adventure",
+     "verified": true
+    },
+    {
+     "q": "What is the original song written for the ride?",
+     "a": "Special Spice",
+     "wrong": [
+      "Almost There",
+      "Down in New Orleans",
+      "Dig a Little Deeper"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Tiana%27s_Bayou_Adventure",
+     "verified": true
+    },
+    {
+     "q": "Byhalia, a member of the critter band, is what animal?",
+     "a": "A beaver",
+     "wrong": [
+      "An otter",
+      "A raccoon",
+      "A frog"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Tiana%27s_Bayou_Adventure",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "big-thunder-mountain-railroad",
+   "name": "Big Thunder Mountain Railroad",
+   "park": "DL",
+   "land": "Frontierland",
+   "questions": [
+    {
+     "q": "What year did Big Thunder Mountain Railroad open at Disneyland?",
+     "a": "1979",
+     "wrong": [
+      "1969",
+      "1985",
+      "1975"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Big_Thunder_Mountain_Railroad",
+     "verified": true
+    },
+    {
+     "q": "Which land is Big Thunder Mountain Railroad in?",
+     "a": "Frontierland",
+     "wrong": [
+      "Adventureland",
+      "Bayou Country",
+      "Fantasyland"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Big_Thunder_Mountain_Railroad",
+     "verified": true
+    },
+    {
+     "q": "Which Imagineer led the design of Big Thunder?",
+     "a": "Tony Baxter",
+     "wrong": [
+      "Marc Davis",
+      "Harper Goff",
+      "Rolly Crump"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Big_Thunder_Mountain_Railroad",
+     "verified": true
+    },
+    {
+     "q": "Disneyland's Big Thunder rockwork is based on hoodoos of which park?",
+     "a": "Bryce Canyon",
+     "wrong": [
+      "Yosemite",
+      "Grand Canyon",
+      "Arches"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Big_Thunder_Mountain_Railroad",
+     "verified": true
+    },
+    {
+     "q": "What is the name of Big Thunder's mining town at Disneyland?",
+     "a": "Rainbow Ridge",
+     "wrong": [
+      "Gold Gulch",
+      "Dusty Flats",
+      "Coyote Creek"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Big_Thunder_Mountain_Railroad",
+     "verified": true
+    },
+    {
+     "q": "Big Thunder replaced which earlier Frontierland ride?",
+     "a": "Mine Train Through Nature's Wonderland",
+     "wrong": [
+      "Mike Fink Keel Boats",
+      "Casey Jr. Circus Train",
+      "Davy Crockett's Arena"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Big_Thunder_Mountain_Railroad",
+     "verified": true
+    },
+    {
+     "q": "Which animal holds a stick of dynamite in its mouth?",
+     "a": "A goat",
+     "wrong": [
+      "A moose",
+      "A penguin",
+      "An alligator"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Big_Thunder_Mountain_Railroad",
+     "verified": true
+    },
+    {
+     "q": "What type of roller coaster is Big Thunder?",
+     "a": "Mine train coaster",
+     "wrong": [
+      "Wooden coaster",
+      "Launched coaster",
+      "Inverted coaster"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Big_Thunder_Mountain_Railroad",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "star-wars-rise-of-the-resistance",
+   "name": "Star Wars: Rise of the Resistance",
+   "park": "DL",
+   "land": "Star Wars: Galaxy's Edge",
+   "questions": [
+    {
+     "q": "What year did Rise of the Resistance open at Disneyland?",
+     "a": "2020",
+     "wrong": [
+      "2018",
+      "2019",
+      "2021"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Star_Wars:_Rise_of_the_Resistance",
+     "verified": true
+    },
+    {
+     "q": "Which park's Rise of the Resistance opened first, in Dec 2019?",
+     "a": "Disney's Hollywood Studios",
+     "wrong": [
+      "Disneyland",
+      "Disneyland Paris",
+      "Tokyo DisneySea"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Star_Wars:_Rise_of_the_Resistance",
+     "verified": true
+    },
+    {
+     "q": "On which planet has the Resistance retreated in this ride?",
+     "a": "Batuu",
+     "wrong": [
+      "Tatooine",
+      "Endor",
+      "Hoth"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Star_Wars:_Rise_of_the_Resistance",
+     "verified": true
+    },
+    {
+     "q": "Whose Star Destroyer captures your transport?",
+     "a": "Kylo Ren's",
+     "wrong": [
+      "Darth Vader's",
+      "Grand Moff Tarkin's",
+      "Captain Phasma's"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Star_Wars:_Rise_of_the_Resistance",
+     "verified": true
+    },
+    {
+     "q": "What is the name of the Star Destroyer you're pulled into?",
+     "a": "The Finalizer",
+     "wrong": [
+      "The Executor",
+      "The Supremacy",
+      "The Devastator"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Star_Wars:_Rise_of_the_Resistance",
+     "verified": true
+    },
+    {
+     "q": "Which hero welcomes guests as Resistance recruits?",
+     "a": "Rey",
+     "wrong": [
+      "Princess Leia",
+      "Han Solo",
+      "Luke Skywalker"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Star_Wars:_Rise_of_the_Resistance",
+     "verified": true
+    },
+    {
+     "q": "Which droid receives a hologram from Rey?",
+     "a": "BB-8",
+     "wrong": [
+      "R2-D2",
+      "C-3PO",
+      "K-2SO"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Star_Wars:_Rise_of_the_Resistance",
+     "verified": true
+    },
+    {
+     "q": "Which Resistance lieutenant arrives in a third pod?",
+     "a": "Lieutenant Bek",
+     "wrong": [
+      "Lieutenant Rex",
+      "Lieutenant Kaz",
+      "Lieutenant Jex"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Star_Wars:_Rise_of_the_Resistance",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "millennium-falcon-smugglers-run",
+   "name": "Millennium Falcon: Smugglers Run",
+   "park": "DL",
+   "land": "Star Wars: Galaxy's Edge",
+   "questions": [
+    {
+     "q": "What year did Smugglers Run open at Disneyland?",
+     "a": "2019",
+     "wrong": [
+      "2015",
+      "2017",
+      "2020"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Millennium_Falcon:_Smugglers_Run",
+     "verified": true
+    },
+    {
+     "q": "Crew jobs are pilot, gunner and what?",
+     "a": "Engineer",
+     "wrong": [
+      "Navigator",
+      "Captain",
+      "Medic"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Millennium_Falcon:_Smugglers_Run",
+     "verified": true
+    },
+    {
+     "q": "How many riders make up one Smugglers Run crew?",
+     "a": "6",
+     "wrong": [
+      "2",
+      "4",
+      "8"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Millennium_Falcon:_Smugglers_Run",
+     "verified": true
+    },
+    {
+     "q": "Which space pirate leads your Smugglers Run mission?",
+     "a": "Hondo Ohnaka",
+     "wrong": [
+      "Lando Calrissian",
+      "Han Solo",
+      "Maz Kanata"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Millennium_Falcon:_Smugglers_Run",
+     "verified": true
+    },
+    {
+     "q": "Which astromech droid helps lead the mission?",
+     "a": "R5-P8",
+     "wrong": [
+      "R2-D2",
+      "BB-8",
+      "R5-D4"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Millennium_Falcon:_Smugglers_Run",
+     "verified": true
+    },
+    {
+     "q": "A hidden mode swaps Hondo's narration for which character?",
+     "a": "Chewbacca",
+     "wrong": [
+      "Yoda",
+      "Jabba the Hutt",
+      "A porg"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Millennium_Falcon:_Smugglers_Run",
+     "verified": true
+    },
+    {
+     "q": "What kind of ride is Smugglers Run?",
+     "a": "Motion simulator",
+     "wrong": [
+      "Roller coaster",
+      "Drop tower",
+      "Boat ride"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Millennium_Falcon:_Smugglers_Run",
+     "verified": true
+    },
+    {
+     "q": "Which land is Smugglers Run in?",
+     "a": "Star Wars: Galaxy's Edge",
+     "wrong": [
+      "Tomorrowland",
+      "Adventureland",
+      "Frontierland"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Millennium_Falcon:_Smugglers_Run",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "peter-pans-flight",
+   "name": "Peter Pan's Flight",
+   "park": "DL",
+   "land": "Fantasyland",
+   "questions": [
+    {
+     "q": "Peter Pan's Flight opened with Disneyland in what year?",
+     "a": "1955",
+     "wrong": [
+      "1959",
+      "1966",
+      "1983"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Peter_Pan%27s_Flight",
+     "verified": true
+    },
+    {
+     "q": "Which land is Peter Pan's Flight in?",
+     "a": "Fantasyland",
+     "wrong": [
+      "Adventureland",
+      "Tomorrowland",
+      "Mickey's Toontown"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Peter_Pan%27s_Flight",
+     "verified": true
+    },
+    {
+     "q": "What do riders fly in on Peter Pan's Flight?",
+     "a": "A pirate galleon",
+     "wrong": [
+      "A flying carpet",
+      "A hot-air balloon",
+      "A flying elephant"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Peter_Pan%27s_Flight",
+     "verified": true
+    },
+    {
+     "q": "What year did Disney's animated Peter Pan film come out?",
+     "a": "1953",
+     "wrong": [
+      "1940",
+      "1950",
+      "1961"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Peter_Pan%27s_Flight",
+     "verified": true
+    },
+    {
+     "q": "How many passengers ride in each galleon?",
+     "a": "3",
+     "wrong": [
+      "2",
+      "6",
+      "8"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Peter_Pan%27s_Flight",
+     "verified": true
+    },
+    {
+     "q": "How do the flying ships move through the ride?",
+     "a": "Hanging from a ceiling track",
+     "wrong": [
+      "Floating in water",
+      "On a floor rail",
+      "On robot arms"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Peter_Pan%27s_Flight",
+     "verified": true
+    },
+    {
+     "q": "Which spooky landmark do riders see in Neverland?",
+     "a": "Skull Rock",
+     "wrong": [
+      "Pride Rock",
+      "Castle Rock",
+      "Thunder Rock"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Peter_Pan%27s_Flight",
+     "verified": true
+    },
+    {
+     "q": "What is the name of the crocodile in Neverland?",
+     "a": "Tick-Tock",
+     "wrong": [
+      "Snappy",
+      "Tic-Tac",
+      "Chomper"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Peter_Pan%27s_Flight",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "its-a-small-world",
+   "name": "\"it's a small world\"",
+   "park": "DL",
+   "land": "Fantasyland",
+   "questions": [
+    {
+     "q": "Where did \"it's a small world\" first debut?",
+     "a": "1964 New York World's Fair",
+     "wrong": [
+      "1939 World's Fair",
+      "Expo 67 in Montreal",
+      "1962 Seattle World's Fair"
+     ],
+     "source": "https://en.wikipedia.org/wiki/It%27s_a_Small_World",
+     "verified": true
+    },
+    {
+     "q": "What year did \"it's a small world\" open at Disneyland?",
+     "a": "1966",
+     "wrong": [
+      "1955",
+      "1964",
+      "1971"
+     ],
+     "source": "https://en.wikipedia.org/wiki/It%27s_a_Small_World",
+     "verified": true
+    },
+    {
+     "q": "At the World's Fair, the ride's pavilion supported which charity?",
+     "a": "UNICEF",
+     "wrong": [
+      "Red Cross",
+      "Peace Corps",
+      "Make-A-Wish"
+     ],
+     "source": "https://en.wikipedia.org/wiki/It%27s_a_Small_World",
+     "verified": true
+    },
+    {
+     "q": "Which company sponsored the ride's World's Fair pavilion?",
+     "a": "Pepsi",
+     "wrong": [
+      "Coca-Cola",
+      "Kodak",
+      "General Electric"
+     ],
+     "source": "https://en.wikipedia.org/wiki/It%27s_a_Small_World",
+     "verified": true
+    },
+    {
+     "q": "Which artist created the ride's whimsical design and colors?",
+     "a": "Mary Blair",
+     "wrong": [
+      "Claude Coats",
+      "Tony Baxter",
+      "Harper Goff"
+     ],
+     "source": "https://en.wikipedia.org/wiki/It%27s_a_Small_World",
+     "verified": true
+    },
+    {
+     "q": "Who wrote the ride's famous title song?",
+     "a": "The Sherman Brothers",
+     "wrong": [
+      "Buddy Baker",
+      "Alan Menken",
+      "George Bruns"
+     ],
+     "source": "https://en.wikipedia.org/wiki/It%27s_a_Small_World",
+     "verified": true
+    },
+    {
+     "q": "How often do dolls parade out of the facade clock?",
+     "a": "Every 15 minutes",
+     "wrong": [
+      "Every 5 minutes",
+      "Every 30 minutes",
+      "Every hour"
+     ],
+     "source": "https://en.wikipedia.org/wiki/It%27s_a_Small_World",
+     "verified": true
+    },
+    {
+     "q": "Since what year has Disneyland run the holiday version?",
+     "a": "1997",
+     "wrong": [
+      "1985",
+      "2005",
+      "1969"
+     ],
+     "source": "https://en.wikipedia.org/wiki/It%27s_a_Small_World",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "matterhorn-bobsleds",
+   "name": "Matterhorn Bobsleds",
+   "park": "DL",
+   "land": "Fantasyland",
+   "questions": [
+    {
+     "q": "What year did the Matterhorn Bobsleds open?",
+     "a": "1959",
+     "wrong": [
+      "1955",
+      "1966",
+      "1971"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Matterhorn_Bobsleds",
+     "verified": true
+    },
+    {
+     "q": "The Matterhorn was the world's first of what?",
+     "a": "Tubular steel roller coaster",
+     "wrong": [
+      "Looping roller coaster",
+      "Launched roller coaster",
+      "Water coaster"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Matterhorn_Bobsleds",
+     "verified": true
+    },
+    {
+     "q": "The real Matterhorn is in which mountain range?",
+     "a": "The Alps",
+     "wrong": [
+      "The Rockies",
+      "The Himalayas",
+      "The Andes"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Matterhorn_Bobsleds",
+     "verified": true
+    },
+    {
+     "q": "What did Imagineers nickname the Abominable Snowman?",
+     "a": "Harold",
+     "wrong": [
+      "Herbert",
+      "Bob",
+      "Frosty"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Matterhorn_Bobsleds",
+     "verified": true
+    },
+    {
+     "q": "How many separate tracks does the Matterhorn have?",
+     "a": "2",
+     "wrong": [
+      "1",
+      "3",
+      "4"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Matterhorn_Bobsleds",
+     "verified": true
+    },
+    {
+     "q": "What sports court once existed inside the Matterhorn?",
+     "a": "Basketball half-court",
+     "wrong": [
+      "Bowling lane",
+      "Tennis court",
+      "Hockey rink"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Matterhorn_Bobsleds",
+     "verified": true
+    },
+    {
+     "q": "Walt's Swiss trip while filming which movie inspired the ride?",
+     "a": "Third Man on the Mountain",
+     "wrong": [
+      "Swiss Family Robinson",
+      "Heidi",
+      "Pollyanna"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Matterhorn_Bobsleds",
+     "verified": true
+    },
+    {
+     "q": "Which coaster company built the Matterhorn with WED?",
+     "a": "Arrow Development",
+     "wrong": [
+      "Intamin",
+      "Vekoma",
+      "Bolliger & Mabillard"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Matterhorn_Bobsleds",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "mickey-minnies-runaway-railway",
+   "name": "Mickey & Minnie's Runaway Railway",
+   "park": "DL",
+   "land": "Mickey's Toontown",
+   "questions": [
+    {
+     "q": "What year did Runaway Railway open at Disneyland?",
+     "a": "2023",
+     "wrong": [
+      "2019",
+      "2020",
+      "2021"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Mickey_%26_Minnie%27s_Runaway_Railway",
+     "verified": true
+    },
+    {
+     "q": "Which land is Mickey & Minnie's Runaway Railway in?",
+     "a": "Mickey's Toontown",
+     "wrong": [
+      "Fantasyland",
+      "Tomorrowland",
+      "Main Street, U.S.A."
+     ],
+     "source": "https://en.wikipedia.org/wiki/Mickey_%26_Minnie%27s_Runaway_Railway",
+     "verified": true
+    },
+    {
+     "q": "Which theater houses Runaway Railway at Disneyland?",
+     "a": "El CapiTOON Theater",
+     "wrong": [
+      "Toontown Cinema",
+      "Mickey's Movie Palace",
+      "Grand Toon Theater"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Mickey_%26_Minnie%27s_Runaway_Railway",
+     "verified": true
+    },
+    {
+     "q": "Which character is the engineer of the Runnamuck Railroad?",
+     "a": "Goofy",
+     "wrong": [
+      "Donald Duck",
+      "Pluto",
+      "Pete"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Mickey_%26_Minnie%27s_Runaway_Railway",
+     "verified": true
+    },
+    {
+     "q": "What is the name of the cartoon you ride into?",
+     "a": "Perfect Picnic",
+     "wrong": [
+      "Plane Crazy",
+      "Steamboat Willie",
+      "Get a Horse!"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Mickey_%26_Minnie%27s_Runaway_Railway",
+     "verified": true
+    },
+    {
+     "q": "What kind of ride system does Runaway Railway use?",
+     "a": "Trackless dark ride",
+     "wrong": [
+      "Boat ride",
+      "Roller coaster",
+      "Suspended ride"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Mickey_%26_Minnie%27s_Runaway_Railway",
+     "verified": true
+    },
+    {
+     "q": "Which park opened the first Runaway Railway in 2020?",
+     "a": "Disney's Hollywood Studios",
+     "wrong": [
+      "EPCOT",
+      "Magic Kingdom",
+      "Tokyo Disneyland"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Mickey_%26_Minnie%27s_Runaway_Railway",
+     "verified": true
+    },
+    {
+     "q": "What is the title of the ride's theme song?",
+     "a": "Nothing Can Stop Us Now",
+     "wrong": [
+      "Let's Go Together",
+      "Toontown Express",
+      "Full Steam Ahead"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Mickey_%26_Minnie%27s_Runaway_Railway",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "space-mountain",
+   "name": "Space Mountain",
+   "park": "DL",
+   "land": "Tomorrowland",
+   "questions": [
+    {
+     "q": "What year did Space Mountain open at Disneyland?",
+     "a": "1977",
+     "wrong": [
+      "1971",
+      "1975",
+      "1983"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Space_Mountain_(Disneyland)",
+     "verified": true
+    },
+    {
+     "q": "Which Disney park got the very first Space Mountain, in 1975?",
+     "a": "Magic Kingdom",
+     "wrong": [
+      "Disneyland",
+      "Tokyo Disneyland",
+      "Disneyland Paris"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Space_Mountain_(Disneyland)",
+     "verified": true
+    },
+    {
+     "q": "Space Mountain was Disneyland's roller coaster number what?",
+     "a": "Second",
+     "wrong": [
+      "First",
+      "Third",
+      "Fifth"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Space_Mountain_(Disneyland)",
+     "verified": true
+    },
+    {
+     "q": "Which Imagineer designed Space Mountain's coaster?",
+     "a": "Bill Watkins",
+     "wrong": [
+      "Tony Baxter",
+      "Harper Goff",
+      "Rolly Crump"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Space_Mountain_(Disneyland)",
+     "verified": true
+    },
+    {
+     "q": "What is Space Mountain's listed top speed?",
+     "a": "32 mph",
+     "wrong": [
+      "15 mph",
+      "55 mph",
+      "70 mph"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Space_Mountain_(Disneyland)",
+     "verified": true
+    },
+    {
+     "q": "What Star Wars overlay first came to Space Mountain in 2015?",
+     "a": "Hyperspace Mountain",
+     "wrong": [
+      "Death Star Run",
+      "X-Wing Mountain",
+      "Starspeeder Mountain"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Space_Mountain_(Disneyland)",
+     "verified": true
+    },
+    {
+     "q": "Space Mountain closed in 2003 and reopened in what year?",
+     "a": "2005",
+     "wrong": [
+      "2004",
+      "2007",
+      "2009"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Space_Mountain_(Disneyland)",
+     "verified": true
+    },
+    {
+     "q": "Who composed the new onboard score added in 2005?",
+     "a": "Michael Giacchino",
+     "wrong": [
+      "John Williams",
+      "Danny Elfman",
+      "Alan Menken"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Space_Mountain_(Disneyland)",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "buzz-lightyear-astro-blasters",
+   "name": "Buzz Lightyear Astro Blasters",
+   "park": "DL",
+   "land": "Tomorrowland",
+   "questions": [
+    {
+     "q": "What year did Buzz Lightyear Astro Blasters open at Disneyland?",
+     "a": "2005",
+     "wrong": [
+      "1998",
+      "2001",
+      "2010"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Buzz_Lightyear_Astro_Blasters",
+     "verified": true
+    },
+    {
+     "q": "Which land is Buzz Lightyear Astro Blasters in?",
+     "a": "Tomorrowland",
+     "wrong": [
+      "Fantasyland",
+      "Mickey's Toontown",
+      "Galaxy's Edge"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Buzz_Lightyear_Astro_Blasters",
+     "verified": true
+    },
+    {
+     "q": "Who is the villain you battle on Astro Blasters?",
+     "a": "Evil Emperor Zurg",
+     "wrong": [
+      "Sid Phillips",
+      "Stinky Pete",
+      "Lotso"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Buzz_Lightyear_Astro_Blasters",
+     "verified": true
+    },
+    {
+     "q": "Besides two laser pistols, what does each car have?",
+     "a": "A joystick",
+     "wrong": [
+      "A steering wheel",
+      "Foot pedals",
+      "A horn"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Buzz_Lightyear_Astro_Blasters",
+     "verified": true
+    },
+    {
+     "q": "When do Astro Blasters targets score much higher?",
+     "a": "When they're lit up",
+     "wrong": [
+      "When they're moving",
+      "At the very end",
+      "When hit twice"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Buzz_Lightyear_Astro_Blasters",
+     "verified": true
+    },
+    {
+     "q": "The stolen batteries power the vehicles of which characters?",
+     "a": "The Little Green Men",
+     "wrong": [
+      "The Army Men",
+      "The Potato Heads",
+      "The Troll dolls"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Buzz_Lightyear_Astro_Blasters",
+     "verified": true
+    },
+    {
+     "q": "Which park opened the first Buzz Lightyear ride, in 1998?",
+     "a": "Magic Kingdom",
+     "wrong": [
+      "Disneyland",
+      "Tokyo Disneyland",
+      "Disneyland Paris"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Buzz_Lightyear_Astro_Blasters",
+     "verified": true
+    },
+    {
+     "q": "What is the Magic Kingdom version called?",
+     "a": "Buzz Lightyear's Space Ranger Spin",
+     "wrong": [
+      "Zurg's Revenge",
+      "Star Command Spin",
+      "Astro Blasters Arena"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Buzz_Lightyear_Astro_Blasters",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "star-tours",
+   "name": "Star Tours - The Adventures Continue",
+   "park": "DL",
+   "land": "Tomorrowland",
+   "questions": [
+    {
+     "q": "What year did Star Tours - The Adventures Continue officially open?",
+     "a": "2011",
+     "wrong": [
+      "2005",
+      "2015",
+      "2019"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Star_Tours_%E2%80%93_The_Adventures_Continue",
+     "verified": true
+    },
+    {
+     "q": "What is the Adventures Continue ride vehicle called?",
+     "a": "StarSpeeder 1000",
+     "wrong": [
+      "Millennium 500",
+      "Skyhopper 2000",
+      "Star Cruiser 99"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Star_Tours_%E2%80%93_The_Adventures_Continue",
+     "verified": true
+    },
+    {
+     "q": "Which droid turns out to be your Star Tours pilot?",
+     "a": "C-3PO",
+     "wrong": [
+      "R2-D2",
+      "BB-8",
+      "K-2SO"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Star_Tours_%E2%80%93_The_Adventures_Continue",
+     "verified": true
+    },
+    {
+     "q": "What was the pilot droid in the original Star Tours called?",
+     "a": "RX-24",
+     "wrong": [
+      "R5-D4",
+      "IG-88",
+      "K-2SO"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Star_Tours_%E2%80%93_The_Adventures_Continue",
+     "verified": true
+    },
+    {
+     "q": "Who voiced the original pilot droid RX-24?",
+     "a": "Paul Reubens",
+     "wrong": [
+      "Anthony Daniels",
+      "Mark Hamill",
+      "Frank Oz"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Star_Tours_%E2%80%93_The_Adventures_Continue",
+     "verified": true
+    },
+    {
+     "q": "Star Tours takes place between which two Star Wars films?",
+     "a": "Revenge of the Sith and A New Hope",
+     "wrong": [
+      "A New Hope and Empire",
+      "Empire and Return of the Jedi",
+      "Force Awakens and Last Jedi"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Star_Tours_%E2%80%93_The_Adventures_Continue",
+     "verified": true
+    },
+    {
+     "q": "Which land is Star Tours in at Disneyland?",
+     "a": "Tomorrowland",
+     "wrong": [
+      "Star Wars: Galaxy's Edge",
+      "Fantasyland",
+      "Adventureland"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Star_Tours_%E2%80%93_The_Adventures_Continue",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "autopia",
+   "name": "Autopia",
+   "park": "DL",
+   "land": "Tomorrowland",
+   "questions": [
+    {
+     "q": "Autopia opened with Disneyland in what year?",
+     "a": "1955",
+     "wrong": [
+      "1959",
+      "1966",
+      "1977"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Autopia",
+     "verified": true
+    },
+    {
+     "q": "Which land is Autopia in?",
+     "a": "Tomorrowland",
+     "wrong": [
+      "Frontierland",
+      "Adventureland",
+      "Mickey's Toontown"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Autopia",
+     "verified": true
+    },
+    {
+     "q": "What keeps Autopia cars on course no matter how you steer?",
+     "a": "A center guide rail",
+     "wrong": [
+      "Magnets under the road",
+      "An overhead cable",
+      "Remote control"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Autopia",
+     "verified": true
+    },
+    {
+     "q": "What year was Autopia's center rail first installed?",
+     "a": "1965",
+     "wrong": [
+      "1955",
+      "1980",
+      "2000"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Autopia",
+     "verified": true
+    },
+    {
+     "q": "Which company first sponsored Autopia, from 1955 to 1970?",
+     "a": "Richfield Oil",
+     "wrong": [
+      "Chevron",
+      "Honda",
+      "Ford"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Autopia",
+     "verified": true
+    },
+    {
+     "q": "Which car company became Autopia's sponsor in 2008?",
+     "a": "Honda",
+     "wrong": [
+      "Toyota",
+      "Ford",
+      "Tesla"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Autopia",
+     "verified": true
+    },
+    {
+     "q": "Which is a name of one of the 2000-era Autopia car designs?",
+     "a": "Sparky",
+     "wrong": [
+      "Zippy",
+      "Rusty",
+      "Speedy"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Autopia",
+     "verified": true
+    },
+    {
+     "q": "What was the kids-only Autopia that opened in 1957?",
+     "a": "Midget Autopia",
+     "wrong": [
+      "Junior Speedway",
+      "Tiny Track",
+      "Kiddie Cars"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Autopia",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "radiator-springs-racers",
+   "name": "Radiator Springs Racers",
+   "park": "DCA",
+   "land": "Cars Land",
+   "questions": [
+    {
+     "q": "In what year did Radiator Springs Racers open?",
+     "a": "2012",
+     "wrong": [
+      "2010",
+      "2014",
+      "2008"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Radiator_Springs_Racers",
+     "verified": true
+    },
+    {
+     "q": "Its ride system was first developed for which Epcot attraction?",
+     "a": "Test Track",
+     "wrong": [
+      "Soarin'",
+      "Mission: SPACE",
+      "Spaceship Earth"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Radiator_Springs_Racers",
+     "verified": true
+    },
+    {
+     "q": "How many guests ride in each Radiator Springs Racers car?",
+     "a": "6",
+     "wrong": [
+      "4",
+      "8",
+      "10"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Radiator_Springs_Racers",
+     "verified": true
+    },
+    {
+     "q": "What is the top speed of Radiator Springs Racers?",
+     "a": "40 mph",
+     "wrong": [
+      "25 mph",
+      "55 mph",
+      "65 mph"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Radiator_Springs_Racers",
+     "verified": true
+    },
+    {
+     "q": "Mater's tractor tipping wakes up which grumpy character?",
+     "a": "Frank the combine",
+     "wrong": [
+      "Mack the truck",
+      "Sarge",
+      "Fillmore"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Radiator_Springs_Racers",
+     "verified": true
+    },
+    {
+     "q": "Which character waves the flag to start the race?",
+     "a": "Luigi",
+     "wrong": [
+      "Guido",
+      "Mater",
+      "Sheriff"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Radiator_Springs_Racers",
+     "verified": true
+    },
+    {
+     "q": "At the split, one path gets new tires at Luigi's. Whose shop gives the other a paint job?",
+     "a": "Ramone's",
+     "wrong": [
+      "Flo's",
+      "Fillmore's",
+      "Sarge's"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Radiator_Springs_Racers",
+     "verified": true
+    },
+    {
+     "q": "Which character introduces himself as your crew chief?",
+     "a": "Doc Hudson",
+     "wrong": [
+      "Lightning McQueen",
+      "Mater",
+      "Sally"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Radiator_Springs_Racers",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "guardians-mission-breakout",
+   "name": "Guardians of the Galaxy – Mission: BREAKOUT!",
+   "park": "DCA",
+   "land": "Avengers Campus",
+   "questions": [
+    {
+     "q": "In what year did Mission: BREAKOUT! open?",
+     "a": "2017",
+     "wrong": [
+      "2015",
+      "2019",
+      "2021"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_–_Mission:_Breakout!",
+     "verified": true
+    },
+    {
+     "q": "Which attraction did Mission: BREAKOUT! replace?",
+     "a": "The Twilight Zone Tower of Terror",
+     "wrong": [
+      "Superstar Limo",
+      "Muppet*Vision 3D",
+      "It's Tough to Be a Bug!"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_–_Mission:_Breakout!",
+     "verified": true
+    },
+    {
+     "q": "Whose fortress are the Guardians trapped in?",
+     "a": "The Collector's",
+     "wrong": [
+      "Thanos's",
+      "Ronan's",
+      "Ego's"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_–_Mission:_Breakout!",
+     "verified": true
+    },
+    {
+     "q": "Which Guardian enlists your help to free the others?",
+     "a": "Rocket",
+     "wrong": [
+      "Groot",
+      "Drax",
+      "Star-Lord"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_–_Mission:_Breakout!",
+     "verified": true
+    },
+    {
+     "q": "How many different drop sequences does the ride have?",
+     "a": "6",
+     "wrong": [
+      "2",
+      "4",
+      "10"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_–_Mission:_Breakout!",
+     "verified": true
+    },
+    {
+     "q": "What is the ride's Halloween version called?",
+     "a": "Monsters After Dark",
+     "wrong": [
+      "Fright Night Escape",
+      "Galaxy of Ghouls",
+      "Spooky Breakout"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_–_Mission:_Breakout!",
+     "verified": true
+    },
+    {
+     "q": "How many riders fit in one gantry lift (elevator)?",
+     "a": "21",
+     "wrong": [
+      "12",
+      "16",
+      "30"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_–_Mission:_Breakout!",
+     "verified": true
+    },
+    {
+     "q": "Its opening was timed to the release of which movie?",
+     "a": "Guardians of the Galaxy Vol. 2",
+     "wrong": [
+      "Guardians of the Galaxy Vol. 3",
+      "Avengers: Endgame",
+      "Avengers: Infinity War"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_–_Mission:_Breakout!",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "incredicoaster",
+   "name": "Incredicoaster",
+   "park": "DCA",
+   "land": "Pixar Pier",
+   "questions": [
+    {
+     "q": "What was the Incredicoaster called before 2018?",
+     "a": "California Screamin'",
+     "wrong": [
+      "Mulholland Madness",
+      "Screamin' Eagle",
+      "Pier Plunge"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Incredicoaster",
+     "verified": true
+    },
+    {
+     "q": "In what year did the coaster reopen as the Incredicoaster?",
+     "a": "2018",
+     "wrong": [
+      "2016",
+      "2019",
+      "2020"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Incredicoaster",
+     "verified": true
+    },
+    {
+     "q": "Which baby are the Incredibles chasing on the ride?",
+     "a": "Jack-Jack",
+     "wrong": [
+      "Dash",
+      "Boo",
+      "Baby Herman"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Incredicoaster",
+     "verified": true
+    },
+    {
+     "q": "Who was watching Jack-Jack in the VIP room before he escaped?",
+     "a": "Edna Mode",
+     "wrong": [
+      "Frozone",
+      "Evelyn Deavor",
+      "Rick Dicker"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Incredicoaster",
+     "verified": true
+    },
+    {
+     "q": "Which company built the coaster?",
+     "a": "Intamin",
+     "wrong": [
+      "Vekoma",
+      "Arrow Dynamics",
+      "Bolliger & Mabillard"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Incredicoaster",
+     "verified": true
+    },
+    {
+     "q": "Instead of a chain lift, what launches the train?",
+     "a": "Linear induction motors",
+     "wrong": [
+      "Compressed air",
+      "A hydraulic catapult",
+      "A cable winch"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Incredicoaster",
+     "verified": true
+    },
+    {
+     "q": "The loop was originally shaped like what?",
+     "a": "Mickey Mouse's head",
+     "wrong": [
+      "A sun",
+      "A star",
+      "A heart"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Incredicoaster",
+     "verified": true
+    },
+    {
+     "q": "Why do the tubes cover parts of the track?",
+     "a": "To muffle screams for neighbors",
+     "wrong": [
+      "To block the wind",
+      "To keep the track dry",
+      "To hide construction"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Incredicoaster",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "toy-story-midway-mania",
+   "name": "Toy Story Midway Mania!",
+   "park": "DCA",
+   "land": "Pixar Pier",
+   "questions": [
+    {
+     "q": "In what year did Toy Story Midway Mania! open at DCA?",
+     "a": "2008",
+     "wrong": [
+      "2005",
+      "2010",
+      "2012"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Toy_Story_Midway_Mania!",
+     "verified": true
+    },
+    {
+     "q": "Which Toy Story character hosts in the queue as an Audio-Animatronic?",
+     "a": "Mr. Potato Head",
+     "wrong": [
+      "Hamm",
+      "Rex",
+      "Woody"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Toy_Story_Midway_Mania!",
+     "verified": true
+    },
+    {
+     "q": "Which comedian voiced the Mr. Potato Head figure?",
+     "a": "Don Rickles",
+     "wrong": [
+      "Tim Allen",
+      "Wallace Shawn",
+      "John Ratzenberger"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Toy_Story_Midway_Mania!",
+     "verified": true
+    },
+    {
+     "q": "What do riders wear to see the games pop out?",
+     "a": "3-D glasses",
+     "wrong": [
+      "VR headsets",
+      "Night-vision goggles",
+      "Earmuffs"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Toy_Story_Midway_Mania!",
+     "verified": true
+    },
+    {
+     "q": "What do riders aim with?",
+     "a": "A spring-action shooter",
+     "wrong": [
+      "A laser pistol",
+      "A water cannon",
+      "A joystick"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Toy_Story_Midway_Mania!",
+     "verified": true
+    },
+    {
+     "q": "The ride's games are based on what?",
+     "a": "Classic carnival midway games",
+     "wrong": [
+      "Arcade video games",
+      "Board games",
+      "Card games"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Toy_Story_Midway_Mania!",
+     "verified": true
+    },
+    {
+     "q": "When it opened, which land was it in?",
+     "a": "Paradise Pier",
+     "wrong": [
+      "Hollywood Land",
+      "A Bug's Land",
+      "Condor Flats"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Toy_Story_Midway_Mania!",
+     "verified": true
+    },
+    {
+     "q": "Which other Disney park opened a version in 2012?",
+     "a": "Tokyo DisneySea",
+     "wrong": [
+      "Hong Kong Disneyland",
+      "Shanghai Disneyland",
+      "Disneyland Paris"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Toy_Story_Midway_Mania!",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "soarin",
+   "name": "Soarin'",
+   "park": "DCA",
+   "land": "Grizzly Peak",
+   "questions": [
+    {
+     "q": "In what year did Soarin' first open at DCA?",
+     "a": "2001",
+     "wrong": [
+      "1998",
+      "2005",
+      "2010"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Soarin%27",
+     "verified": true
+    },
+    {
+     "q": "What was the ride's original film called?",
+     "a": "Soarin' Over California",
+     "wrong": [
+      "Soarin' Over the West",
+      "Flight Over the Golden State",
+      "California Skies"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Soarin%27",
+     "verified": true
+    },
+    {
+     "q": "Which actor plays the chief flight attendant before you fly?",
+     "a": "Patrick Warburton",
+     "wrong": [
+      "Tom Hanks",
+      "Owen Wilson",
+      "John Goodman"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Soarin%27",
+     "verified": true
+    },
+    {
+     "q": "Who composed the original Soarin' score?",
+     "a": "Jerry Goldsmith",
+     "wrong": [
+      "John Williams",
+      "Alan Menken",
+      "Michael Giacchino"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Soarin%27",
+     "verified": true
+    },
+    {
+     "q": "In what year did Soarin' Around the World debut?",
+     "a": "2016",
+     "wrong": [
+      "2012",
+      "2014",
+      "2019"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Soarin%27",
+     "verified": true
+    },
+    {
+     "q": "An engineer built the first ride-system model with which toy?",
+     "a": "An Erector Set",
+     "wrong": [
+      "LEGO bricks",
+      "Lincoln Logs",
+      "Tinkertoys"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Soarin%27",
+     "verified": true
+    },
+    {
+     "q": "Which fruit scent was in the original California film?",
+     "a": "Oranges",
+     "wrong": [
+      "Strawberries",
+      "Lemons",
+      "Apples"
+     ],
+     "source": "https://allears.net/epcot/soarin-over-california-epcot/",
+     "verified": true
+    },
+    {
+     "q": "Soarin' Across America (2026) celebrates which U.S. birthday?",
+     "a": "250th",
+     "wrong": [
+      "200th",
+      "100th",
+      "300th"
+     ],
+     "source": "https://abc7.com/post/disneyland-resorts-soarin-america-debuts-new-scenes-americas-250th-anniversary/19436701/",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "grizzly-river-run",
+   "name": "Grizzly River Run",
+   "park": "DCA",
+   "land": "Grizzly Peak",
+   "questions": [
+    {
+     "q": "In what year did Grizzly River Run open?",
+     "a": "2001",
+     "wrong": [
+      "1998",
+      "2005",
+      "2012"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Grizzly_River_Run",
+     "verified": true
+    },
+    {
+     "q": "How many riders fit in one round raft?",
+     "a": "8",
+     "wrong": [
+      "4",
+      "6",
+      "12"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Grizzly_River_Run",
+     "verified": true
+    },
+    {
+     "q": "Grizzly Peak, the mountain it circles, is shaped like what animal?",
+     "a": "A bear",
+     "wrong": [
+      "An eagle",
+      "A wolf",
+      "A mountain lion"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Grizzly_River_Run",
+     "verified": true
+    },
+    {
+     "q": "Which company built the ride?",
+     "a": "Intamin",
+     "wrong": [
+      "Mack Rides",
+      "Vekoma",
+      "Arrow Dynamics"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Grizzly_River_Run",
+     "verified": true
+    },
+    {
+     "q": "What kind of ride is Grizzly River Run?",
+     "a": "River rapids",
+     "wrong": [
+      "Log flume",
+      "Boat coaster",
+      "Water slide"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Grizzly_River_Run",
+     "verified": true
+    },
+    {
+     "q": "What do the rafts do on the final drop into the geyser field?",
+     "a": "Spin",
+     "wrong": [
+      "Go backward",
+      "Stop in the dark",
+      "Climb a lift hill"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Grizzly_River_Run",
+     "verified": true
+    },
+    {
+     "q": "The queue was rethemed to evoke what kind of California places?",
+     "a": "State parks",
+     "wrong": [
+      "Gold mines",
+      "Spanish missions",
+      "Surf beaches"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Grizzly_River_Run",
+     "verified": true
+    },
+    {
+     "q": "About how many rafts does the ride have?",
+     "a": "32",
+     "wrong": [
+      "8",
+      "16",
+      "64"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Grizzly_River_Run",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "web-slingers",
+   "name": "WEB SLINGERS: A Spider-Man Adventure",
+   "park": "DCA",
+   "land": "Avengers Campus",
+   "questions": [
+    {
+     "q": "In what year did WEB SLINGERS open?",
+     "a": "2021",
+     "wrong": [
+      "2017",
+      "2019",
+      "2023"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Web_Slingers:_A_Spider-Man_Adventure",
+     "verified": true
+    },
+    {
+     "q": "Which attraction did WEB SLINGERS replace?",
+     "a": "It's Tough to Be a Bug!",
+     "wrong": [
+      "Superstar Limo",
+      "Muppet*Vision 3D",
+      "Golden Dreams"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Web_Slingers:_A_Spider-Man_Adventure",
+     "verified": true
+    },
+    {
+     "q": "What does WEB stand for?",
+     "a": "Worldwide Engineering Brigade",
+     "wrong": [
+      "World Exploration Base",
+      "Web Experiment Bureau",
+      "Wide-Eyed Builders"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Web_Slingers:_A_Spider-Man_Adventure",
+     "verified": true
+    },
+    {
+     "q": "What runaway robots do riders try to stop?",
+     "a": "Spider-Bots",
+     "wrong": [
+      "Ultron drones",
+      "Sentinels",
+      "Chitauri"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Web_Slingers:_A_Spider-Man_Adventure",
+     "verified": true
+    },
+    {
+     "q": "Which actor plays Peter Parker on the ride?",
+     "a": "Tom Holland",
+     "wrong": [
+      "Andrew Garfield",
+      "Tobey Maguire",
+      "Tom Hiddleston"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Web_Slingers:_A_Spider-Man_Adventure",
+     "verified": true
+    },
+    {
+     "q": "How many riders fit in each WEB Slinger vehicle?",
+     "a": "8",
+     "wrong": [
+      "2",
+      "4",
+      "12"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Web_Slingers:_A_Spider-Man_Adventure",
+     "verified": true
+    },
+    {
+     "q": "Which other Disney resort has a version of this ride?",
+     "a": "Disneyland Paris",
+     "wrong": [
+      "Tokyo Disney Resort",
+      "Hong Kong Disneyland",
+      "Shanghai Disney Resort"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Web_Slingers:_A_Spider-Man_Adventure",
+     "verified": true
+    },
+    {
+     "q": "What type of ride is WEB SLINGERS?",
+     "a": "Interactive screen-based dark ride",
+     "wrong": [
+      "Spinning coaster",
+      "Drop tower",
+      "Water ride"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Web_Slingers:_A_Spider-Man_Adventure",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "monsters-inc-mike-sulley",
+   "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
+   "park": "DCA",
+   "land": "Hollywood Land",
+   "questions": [
+    {
+     "q": "In what year did the Monsters, Inc. ride open?",
+     "a": "2006",
+     "wrong": [
+      "2001",
+      "2003",
+      "2009"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Monsters,_Inc._Mike_%26_Sulley_to_the_Rescue!",
+     "verified": true
+    },
+    {
+     "q": "Which ride was in this building before?",
+     "a": "Superstar Limo",
+     "wrong": [
+      "Tower of Terror",
+      "Golden Dreams",
+      "Muppet*Vision 3D"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Monsters,_Inc._Mike_%26_Sulley_to_the_Rescue!",
+     "verified": true
+    },
+    {
+     "q": "What kind of vehicle do riders take through Monstropolis?",
+     "a": "A taxi",
+     "wrong": [
+      "A door",
+      "A bus",
+      "A sled"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Monsters,_Inc._Mike_%26_Sulley_to_the_Rescue!",
+     "verified": true
+    },
+    {
+     "q": "Riders help Mike and Sulley get which child home?",
+     "a": "Boo",
+     "wrong": [
+      "Andy",
+      "Riley",
+      "Molly"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Monsters,_Inc._Mike_%26_Sulley_to_the_Rescue!",
+     "verified": true
+    },
+    {
+     "q": "Who roasts riders at the very end?",
+     "a": "Roz",
+     "wrong": [
+      "Celia",
+      "Waternoose",
+      "Randall"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Monsters,_Inc._Mike_%26_Sulley_to_the_Rescue!",
+     "verified": true
+    },
+    {
+     "q": "Which smell fills the air in the Harryhausen's restaurant scene?",
+     "a": "Ginger",
+     "wrong": [
+      "Garlic",
+      "Lemon",
+      "Vanilla"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Monsters,_Inc._Mike_%26_Sulley_to_the_Rescue!",
+     "verified": true
+    },
+    {
+     "q": "What classic illusion makes Randall appear in the locker room?",
+     "a": "Pepper's ghost",
+     "wrong": [
+      "A smoke screen",
+      "A mirror maze",
+      "Black light"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Monsters,_Inc._Mike_%26_Sulley_to_the_Rescue!",
+     "verified": true
+    },
+    {
+     "q": "What themed land is planned to replace this area?",
+     "a": "Avatar",
+     "wrong": [
+      "Star Wars",
+      "Frozen",
+      "Zootopia"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Monsters,_Inc._Mike_%26_Sulley_to_the_Rescue!",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "little-mermaid-ariels-undersea-adventure",
+   "name": "The Little Mermaid ~ Ariel's Undersea Adventure",
+   "park": "DCA",
+   "land": "Paradise Gardens Park",
+   "questions": [
+    {
+     "q": "In what year did Ariel's Undersea Adventure open at DCA?",
+     "a": "2011",
+     "wrong": [
+      "2008",
+      "2013",
+      "2015"
+     ],
+     "source": "https://en.wikipedia.org/wiki/The_Little_Mermaid:_Ariel%27s_Undersea_Adventure",
+     "verified": true
+    },
+    {
+     "q": "What do riders sit in?",
+     "a": "Clamshells",
+     "wrong": [
+      "Sea turtles",
+      "Submarines",
+      "Rowboats"
+     ],
+     "source": "https://en.wikipedia.org/wiki/The_Little_Mermaid:_Ariel%27s_Undersea_Adventure",
+     "verified": true
+    },
+    {
+     "q": "What ride system moves the vehicles?",
+     "a": "Omnimover",
+     "wrong": [
+      "Trackless",
+      "Boat flume",
+      "Suspended track"
+     ],
+     "source": "https://en.wikipedia.org/wiki/The_Little_Mermaid:_Ariel%27s_Undersea_Adventure",
+     "verified": true
+    },
+    {
+     "q": "Which attraction was on this site before?",
+     "a": "Golden Dreams",
+     "wrong": [
+      "Superstar Limo",
+      "Maliboomer",
+      "Sun Wheel"
+     ],
+     "source": "https://en.wikipedia.org/wiki/The_Little_Mermaid:_Ariel%27s_Undersea_Adventure",
+     "verified": true
+    },
+    {
+     "q": "Which character greets riders and introduces the story?",
+     "a": "Scuttle",
+     "wrong": [
+      "Flounder",
+      "Sebastian",
+      "Max"
+     ],
+     "source": "https://en.wikipedia.org/wiki/The_Little_Mermaid:_Ariel%27s_Undersea_Adventure",
+     "verified": true
+    },
+    {
+     "q": "Whose statue stands on top of the building?",
+     "a": "King Triton",
+     "wrong": [
+      "Ursula",
+      "Prince Eric",
+      "Sebastian"
+     ],
+     "source": "https://en.wikipedia.org/wiki/The_Little_Mermaid:_Ariel%27s_Undersea_Adventure",
+     "verified": true
+    },
+    {
+     "q": "The building is modeled after what?",
+     "a": "A 20th-century aquarium",
+     "wrong": [
+      "A lighthouse",
+      "A sailing ship",
+      "A sea castle"
+     ],
+     "source": "https://en.wikipedia.org/wiki/The_Little_Mermaid:_Ariel%27s_Undersea_Adventure",
+     "verified": true
+    },
+    {
+     "q": "Its Florida twin is in which park?",
+     "a": "Magic Kingdom",
+     "wrong": [
+      "Epcot",
+      "Hollywood Studios",
+      "Animal Kingdom"
+     ],
+     "source": "https://en.wikipedia.org/wiki/The_Little_Mermaid:_Ariel%27s_Undersea_Adventure",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "goofys-sky-school",
+   "name": "Goofy's Sky School",
+   "park": "DCA",
+   "land": "Paradise Gardens Park",
+   "questions": [
+    {
+     "q": "What was Goofy's Sky School called before 2011?",
+     "a": "Mulholland Madness",
+     "wrong": [
+      "California Screamin'",
+      "Freeway Frenzy",
+      "Route 66 Rush"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Goofy%27s_Sky_School",
+     "verified": true
+    },
+    {
+     "q": "The old name came from a road in which city?",
+     "a": "Los Angeles",
+     "wrong": [
+      "San Francisco",
+      "San Diego",
+      "Sacramento"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Goofy%27s_Sky_School",
+     "verified": true
+    },
+    {
+     "q": "In what year did it reopen as Goofy's Sky School?",
+     "a": "2011",
+     "wrong": [
+      "2008",
+      "2013",
+      "2016"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Goofy%27s_Sky_School",
+     "verified": true
+    },
+    {
+     "q": "Which 1940 Goofy cartoon is the ride based on?",
+     "a": "Goofy's Glider",
+     "wrong": [
+      "The Art of Skiing",
+      "How to Swim",
+      "Moose Hunters"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Goofy%27s_Sky_School",
+     "verified": true
+    },
+    {
+     "q": "What type of roller coaster is Goofy's Sky School?",
+     "a": "Wild mouse",
+     "wrong": [
+      "Launched",
+      "Inverted",
+      "Wooden"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Goofy%27s_Sky_School",
+     "verified": true
+    },
+    {
+     "q": "Which company built the coaster?",
+     "a": "Mack Rides",
+     "wrong": [
+      "Intamin",
+      "Vekoma",
+      "Zamperla"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Goofy%27s_Sky_School",
+     "verified": true
+    },
+    {
+     "q": "How many riders fit in each car?",
+     "a": "4",
+     "wrong": [
+      "2",
+      "6",
+      "8"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Goofy%27s_Sky_School",
+     "verified": true
+    },
+    {
+     "q": "Before 2011, the cars were themed to what?",
+     "a": "Freeway cars",
+     "wrong": [
+      "Rocket ships",
+      "Mine carts",
+      "Hot air balloons"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Goofy%27s_Sky_School",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "pixar-pal-a-round",
+   "name": "Pixar Pal-A-Round",
+   "park": "DCA",
+   "land": "Pixar Pier",
+   "questions": [
+    {
+     "q": "What was the wheel's original name in 2001?",
+     "a": "Sun Wheel",
+     "wrong": [
+      "Pier Wheel",
+      "Paradise Wheel",
+      "Golden Wheel"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Pixar_Pal-A-Round",
+     "verified": true
+    },
+    {
+     "q": "What was it called from 2009 to 2018?",
+     "a": "Mickey's Fun Wheel",
+     "wrong": [
+      "Mickey's Sky Wheel",
+      "Mickey's Pier Wheel",
+      "Mickey's Big Wheel"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Pixar_Pal-A-Round",
+     "verified": true
+    },
+    {
+     "q": "It was modeled after a famous wheel at which place?",
+     "a": "Coney Island",
+     "wrong": [
+      "Santa Monica Pier",
+      "Navy Pier",
+      "Cedar Point"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Pixar_Pal-A-Round",
+     "verified": true
+    },
+    {
+     "q": "How many gondolas does the wheel have?",
+     "a": "24",
+     "wrong": [
+      "12",
+      "16",
+      "32"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Pixar_Pal-A-Round",
+     "verified": true
+    },
+    {
+     "q": "How many gondolas slide on interior rails?",
+     "a": "16",
+     "wrong": [
+      "8",
+      "12",
+      "24"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Pixar_Pal-A-Round",
+     "verified": true
+    },
+    {
+     "q": "How many people ride in one gondola?",
+     "a": "8",
+     "wrong": [
+      "2",
+      "4",
+      "12"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Pixar_Pal-A-Round",
+     "verified": true
+    },
+    {
+     "q": "In what year did the wheel first open?",
+     "a": "2001",
+     "wrong": [
+      "1995",
+      "2005",
+      "2009"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Pixar_Pal-A-Round",
+     "verified": true
+    },
+    {
+     "q": "Whose face is at the center of the wheel?",
+     "a": "Mickey Mouse",
+     "wrong": [
+      "Buzz Lightyear",
+      "Woody",
+      "Luxo Jr."
+     ],
+     "source": "https://en.wikipedia.org/wiki/Pixar_Pal-A-Round",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "luigis-rollickin-roadsters",
+   "name": "Luigi's Rollickin' Roadsters",
+   "park": "DCA",
+   "land": "Cars Land",
+   "questions": [
+    {
+     "q": "In what year did Luigi's Rollickin' Roadsters open?",
+     "a": "2016",
+     "wrong": [
+      "2012",
+      "2014",
+      "2018"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Luigi%27s_Rollickin%27_Roadsters",
+     "verified": true
+    },
+    {
+     "q": "Which ride did Luigi's Rollickin' Roadsters replace?",
+     "a": "Luigi's Flying Tires",
+     "wrong": [
+      "Mater's Tow Truck Race",
+      "Guido's Pit Stop",
+      "Fillmore's Spin"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Luigi%27s_Rollickin%27_Roadsters",
+     "verified": true
+    },
+    {
+     "q": "It was the resort's first ride to use what kind of system?",
+     "a": "Trackless",
+     "wrong": [
+      "Magnetic launch",
+      "Omnimover",
+      "Suspended"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Luigi%27s_Rollickin%27_Roadsters",
+     "verified": true
+    },
+    {
+     "q": "How many guests ride in each car?",
+     "a": "3",
+     "wrong": [
+      "2",
+      "4",
+      "6"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Luigi%27s_Rollickin%27_Roadsters",
+     "verified": true
+    },
+    {
+     "q": "What style of music do the cars dance to?",
+     "a": "Italian",
+     "wrong": [
+      "Country",
+      "Surf rock",
+      "Big band"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Luigi%27s_Rollickin%27_Roadsters",
+     "verified": true
+    },
+    {
+     "q": "The dancing cars are Luigi's cousins from which country?",
+     "a": "Italy",
+     "wrong": [
+      "Spain",
+      "France",
+      "Mexico"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Luigi%27s_Rollickin%27_Roadsters",
+     "verified": true
+    },
+    {
+     "q": "How many dancing cars does the ride use?",
+     "a": "20",
+     "wrong": [
+      "8",
+      "12",
+      "40"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Luigi%27s_Rollickin%27_Roadsters",
+     "verified": true
+    },
+    {
+     "q": "Luigi's Flying Tires was inspired by which old Disneyland ride?",
+     "a": "Flying Saucers",
+     "wrong": [
+      "Autopia",
+      "Rocket Jets",
+      "Skyway"
+     ],
+     "source": "https://en.wikipedia.org/wiki/Luigi%27s_Rollickin%27_Roadsters",
+     "verified": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,660 @@
+{
+  "rounds": [
+    {
+      "id": "t01",
+      "truths": [
+        "The Matterhorn Bobsleds is called the world's first tubular steel roller coaster.",
+        "Imagineers nicknamed the Matterhorn's Abominable Snowman \"Harold.\""
+      ],
+      "lie": "The Matterhorn opened on Disneyland's very first day in 1955.",
+      "explanation": "It opened June 14, 1959, four years after the park.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Matterhorn_Bobsleds"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t02",
+      "truths": [
+        "There was once a basketball half-court inside the Matterhorn, near the top.",
+        "The old Skyway ride used to pass right through the middle of the Matterhorn."
+      ],
+      "lie": "Disneyland's Matterhorn is modeled on a famous mountain in Japan.",
+      "explanation": "It's modeled on the real Matterhorn in the Alps, on the Switzerland-Italy border.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Matterhorn_Bobsleds"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t03",
+      "truths": [
+        "Sleeping Beauty Castle was inspired by Neuschwanstein Castle in Germany.",
+        "The castle uses smaller details up high so it looks taller than it really is."
+      ],
+      "lie": "The gold spike behind the castle marks the exact center of Disneyland.",
+      "explanation": "That's a myth: the spike is a surveyor's mark used to line up the castle with Main Street.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sleeping_Beauty_Castle"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t04",
+      "truths": [
+        "Guests could first walk through the inside of Sleeping Beauty Castle in 1957.",
+        "Sleeping Beauty Castle is 77 feet tall."
+      ],
+      "lie": "Sleeping Beauty Castle was designed to look shorter than it really is.",
+      "explanation": "It's the opposite: forced perspective makes the castle look taller.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sleeping_Beauty_Castle"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t05",
+      "truths": [
+        "The Haunted Mansion's outside was finished in 1963, but the ride didn't open until 1969.",
+        "The Ghost Host says there are 999 happy haunts, with room for 1,000."
+      ],
+      "lie": "Haunted Mansion riders float through the house in little log boats.",
+      "explanation": "Riders sit in Doom Buggies on a moving Omnimover track, not boats.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Haunted_Mansion"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t06",
+      "truths": [
+        "At Disneyland, the Mansion's stretching room is really an elevator.",
+        "Madame Leota's head appears inside a floating crystal ball."
+      ],
+      "lie": "The Haunted Mansion's holiday makeover is based on the movie Frozen.",
+      "explanation": "Haunted Mansion Holiday is based on The Nightmare Before Christmas (since 2001).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Haunted_Mansion"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t07",
+      "truths": [
+        "Pirates of the Caribbean was the last ride Walt Disney helped design.",
+        "The Blue Bayou restaurant is inside the Pirates of the Caribbean building."
+      ],
+      "lie": "Walt Disney rode Pirates of the Caribbean on its opening day in 1967.",
+      "explanation": "The ride opened three months after Walt Disney died.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean_(ride)"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t08",
+      "truths": [
+        "The 2003 Pirates of the Caribbean movie was inspired by the Disneyland ride.",
+        "Jack Sparrow figures were added to the ride in 2006."
+      ],
+      "lie": "Disneyland's Pirates of the Caribbean has no drops at all.",
+      "explanation": "The Disneyland version has two drops.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean_(ride)"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t09",
+      "truths": [
+        "Some workers called Disneyland's opening day \"Black Sunday.\"",
+        "On opening day, the fresh asphalt on Main Street got so soft that high heels sank in."
+      ],
+      "lie": "Fewer people came to Disneyland's opening day than Disney expected.",
+      "explanation": "About 15,000 were expected, but 28,154 got in, some with fake tickets.",
+      "sources": [
+        "https://www.history.com/articles/disneylands-disastrous-opening-day-60-years-ago"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t10",
+      "truths": [
+        "Disneyland was built on a 160-acre orange grove in Anaheim.",
+        "Ronald Reagan helped host the TV show of Disneyland's opening day."
+      ],
+      "lie": "Disneyland took about five years to build.",
+      "explanation": "Construction started just one year and one day before opening.",
+      "sources": [
+        "https://www.history.com/articles/disneylands-disastrous-opening-day-60-years-ago"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t11",
+      "truths": [
+        "A plumbers' strike meant few drinking fountains worked on opening day.",
+        "About 70 million people watched Disneyland's opening on TV."
+      ],
+      "lie": "Every guest on Disneyland's opening day had a real ticket.",
+      "explanation": "Many people got in with counterfeit tickets, and some climbed a fence.",
+      "sources": [
+        "https://www.history.com/articles/disneylands-disastrous-opening-day-60-years-ago"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t12",
+      "truths": [
+        "Disney California Adventure was built on Disneyland's old parking lot.",
+        "California Adventure was first named Disney's California Adventure."
+      ],
+      "lie": "Disney California Adventure opened on the same day as Disneyland in 1955.",
+      "explanation": "California Adventure opened on February 8, 2001.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Disney_California_Adventure"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t13",
+      "truths": [
+        "Buena Vista Street has a copy of the Carthay Circle Theatre.",
+        "The real Carthay Circle hosted the 1937 premiere of Snow White and the Seven Dwarfs."
+      ],
+      "lie": "Cars Land was there when California Adventure first opened in 2001.",
+      "explanation": "Cars Land opened in 2012 as part of a big park makeover.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Disney_California_Adventure"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t14",
+      "truths": [
+        "Pixar Pier used to be called Paradise Pier.",
+        "San Fransokyo Square used to be called Pacific Wharf."
+      ],
+      "lie": "Avengers Campus opened before Star Wars: Galaxy's Edge.",
+      "explanation": "Galaxy's Edge opened in 2019; Avengers Campus opened in 2021.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Disney_California_Adventure",
+        "https://en.wikipedia.org/wiki/Star_Wars:_Galaxy%27s_Edge"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t15",
+      "truths": [
+        "Guardians of the Galaxy - Mission: Breakout! moved into the old Tower of Terror building.",
+        "Mission: Breakout! has six different drop sequences, each with its own song."
+      ],
+      "lie": "On Mission: Breakout!, you help Rocket rescue the Guardians from Thanos.",
+      "explanation": "The Guardians are trapped by the Collector, not Thanos.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_%E2%80%93_Mission:_Breakout!"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t16",
+      "truths": [
+        "The Mission: Breakout! building is 183 feet tall.",
+        "Its Halloween version, Monsters After Dark, was about helping Rocket rescue Groot."
+      ],
+      "lie": "Mission: Breakout! opened on the same day as California Adventure in 2001.",
+      "explanation": "It opened May 27, 2017, after Tower of Terror closed.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_%E2%80%93_Mission:_Breakout!"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t17",
+      "truths": [
+        "Six of the seven original Mercury astronauts came to Space Mountain's opening.",
+        "Disneyland's Space Mountain has one track, not two like the one in Florida."
+      ],
+      "lie": "Space Mountain opened on the same day as Disneyland in 1955.",
+      "explanation": "Space Mountain opened on May 27, 1977.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Space_Mountain_(Disneyland)"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t18",
+      "truths": [
+        "Space Mountain trains seat riders two across, in three rows per car.",
+        "Space Mountain's opening helped set a Memorial Day crowd record in 1977."
+      ],
+      "lie": "Hyperspace Mountain turns Space Mountain into a Toy Story adventure.",
+      "explanation": "Hyperspace Mountain is a Star Wars version of the ride.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Space_Mountain_(Disneyland)"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t19",
+      "truths": [
+        "Walt Disney had a small apartment above the Fire Station on Main Street.",
+        "Walt slept in that apartment the night before Disneyland opened."
+      ],
+      "lie": "Walt's apartment was decorated in a shiny, space-age style.",
+      "explanation": "It was decorated in a Victorian style, full of cranberry red.",
+      "sources": [
+        "https://www.waltdisney.org/blog/second-home-walt-disneys-fire-station-apartment"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t20",
+      "truths": [
+        "Emile Kuri, an Oscar-winning movie set decorator, furnished Walt's apartment.",
+        "Lillian Disney collected cranberry glass, so the apartment has lots of cranberry red."
+      ],
+      "lie": "Walt's private apartment is above the Main Street Cinema.",
+      "explanation": "Walt's apartment is above the Fire Station in Town Square.",
+      "sources": [
+        "https://www.waltdisney.org/blog/second-home-walt-disneys-fire-station-apartment"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t21",
+      "truths": [
+        "The Enchanted Tiki Room was the first attraction with Audio-Animatronics.",
+        "The Tiki Room was first planned as a restaurant with singing birds."
+      ],
+      "lie": "The Tiki Room show is hosted by four talking penguins.",
+      "explanation": "The four hosts are macaws: Jose, Michael, Pierre and Fritz.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Walt_Disney%27s_Enchanted_Tiki_Room"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t22",
+      "truths": [
+        "The Tiki Room was Disneyland's first fully air-conditioned building.",
+        "In the Tiki Room, Pierre has a French accent and Fritz has a German accent."
+      ],
+      "lie": "The Tiki Room's songs were written by Elton John.",
+      "explanation": "The Sherman Brothers wrote the Tiki Room's songs.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Walt_Disney%27s_Enchanted_Tiki_Room"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t23",
+      "truths": [
+        "The Enchanted Tiki Room opened at Disneyland in 1963.",
+        "The Tiki Room cast has over 150 talking and singing birds and flowers."
+      ],
+      "lie": "United Airlines has sponsored the Tiki Room ever since it opened.",
+      "explanation": "Dole took over from United Airlines as sponsor in 1976.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Walt_Disney%27s_Enchanted_Tiki_Room"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t24",
+      "truths": [
+        "The Disneyland Hotel opened in 1955, the same year as Disneyland.",
+        "For decades, the Disneyland Hotel was owned by Jack Wrather, not by Disney."
+      ],
+      "lie": "The monorail didn't reach the Disneyland Hotel until 2001.",
+      "explanation": "A monorail station opened at the hotel back in 1961.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Disneyland_Hotel_(California)"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t25",
+      "truths": [
+        "The Disneyland Hotel started out as a motor inn.",
+        "The Disneyland Hotel's towers are named Adventure, Frontier and Fantasy."
+      ],
+      "lie": "The Disneyland Hotel's pool slides are shaped like pirate ships.",
+      "explanation": "The two pool slides are inside copies of old Mark I monorails.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Disneyland_Hotel_(California)"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t26",
+      "truths": [
+        "Disney's Grand Californian Hotel is built in the American Craftsman style.",
+        "The Grand Californian has its own entrance into Disney California Adventure."
+      ],
+      "lie": "The Grand Californian opened in 1955 along with Disneyland.",
+      "explanation": "It opened on January 2, 2001.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Disney%27s_Grand_Californian_Hotel_%26_Spa"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t27",
+      "truths": [
+        "The Grand Californian's lobby has a giant fireplace and arching wooden beams.",
+        "Napa Rose, a restaurant at the Grand Californian, serves California-style food."
+      ],
+      "lie": "The Grand Californian has never added any rooms since it opened.",
+      "explanation": "A Disney Vacation Club Villas wing was added in 2009.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Disney%27s_Grand_Californian_Hotel_%26_Spa"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t28",
+      "truths": [
+        "Downtown Disney opened in January 2001.",
+        "Downtown Disney was built where Disneyland's original parking lot used to be."
+      ],
+      "lie": "World of Disney was added to Downtown Disney ten years after it opened.",
+      "explanation": "World of Disney was the main store when Downtown Disney opened in 2001.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Downtown_Disney"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t29",
+      "truths": [
+        "The LEGO Store was one of Downtown Disney's first shops in 2001.",
+        "Downtown Disney's old Rainforest Cafe space became the Star Wars Trading Post."
+      ],
+      "lie": "Downtown Disney has no monorail station.",
+      "explanation": "The monorail has two stations: Tomorrowland and Downtown Disney.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Downtown_Disney",
+        "https://en.wikipedia.org/wiki/Disneyland_Monorail"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t30",
+      "truths": [
+        "The Disneyland Monorail opened in 1959 as America's first daily-running monorail.",
+        "Vice President Richard Nixon and his family went to the monorail's opening."
+      ],
+      "lie": "The Disneyland Monorail has never left the park.",
+      "explanation": "Since 1961 the track has run outside the park to the hotel area.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Disneyland_Monorail"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t32",
+      "truths": [
+        "\"it's a small world\" first appeared at the 1964 New York World's Fair.",
+        "Artist Mary Blair created the ride's colorful look."
+      ],
+      "lie": "\"it's a small world\" opened on Disneyland's very first day in 1955.",
+      "explanation": "It moved to Disneyland after the World's Fair, opening May 28, 1966.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/It%27s_a_Small_World"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t33",
+      "truths": [
+        "Every 15 minutes, dolls dance out of the small world clock.",
+        "Disney characters were added to \"it's a small world\" in 2008."
+      ],
+      "lie": "Riders go through \"it's a small world\" on a little train.",
+      "explanation": "It's a boat ride, with 16 riders in each boat.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/It%27s_a_Small_World"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t34",
+      "truths": [
+        "A little-girl figure of Mary Blair sits halfway up small world's Eiffel Tower.",
+        "Mary Blair made tile murals for Disneyland's Tomorrowland in 1967."
+      ],
+      "lie": "Mary Blair designed the famous small world clock.",
+      "explanation": "Rolly Crump designed the facade and its clock.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mary_Blair",
+        "https://en.wikipedia.org/wiki/It%27s_a_Small_World"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t35",
+      "truths": [
+        "The Mark Twain was the first working steamboat built in the U.S. in 50 years.",
+        "The Mark Twain follows a hidden rail, so the pilot is really a lookout."
+      ],
+      "lie": "The Mark Twain's paddle wheel is just for show; a gas engine moves it.",
+      "explanation": "Steam from the boiler turns the paddle wheels.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Disney_riverboats"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t36",
+      "truths": [
+        "The Mark Twain's first trip was a party for Walt and Lillian's 30th anniversary.",
+        "The Mark Twain sails around Tom Sawyer Island on the Rivers of America."
+      ],
+      "lie": "The Mark Twain's first voyage was months after Disneyland opened.",
+      "explanation": "Its maiden voyage was July 13, 1955, four days before the park opened.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Disney_riverboats"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t37",
+      "truths": [
+        "The Disneyland Railroad opened on Disneyland's opening day in 1955.",
+        "The train passes a Grand Canyon diorama that was added in 1958."
+      ],
+      "lie": "All five Disneyland locomotives were built brand-new for the park.",
+      "explanation": "Only Nos. 1 and 2 were new; Nos. 3-5 were old engines restored.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Primeval_World"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t38",
+      "truths": [
+        "The railroad's Primeval World dinosaurs came from Ford's 1964 World's Fair ride.",
+        "Walt Disney had a ride-on railroad in his backyard called the Carolwood Pacific."
+      ],
+      "lie": "The Disneyland Railroad has never been rerouted since 1955.",
+      "explanation": "It was rerouted for Galaxy's Edge and reopened in 2017.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Primeval_World"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t39",
+      "truths": [
+        "Disneyland's locomotive No. 1 is named the C.K. Holliday.",
+        "The Santa Fe railway sponsored Disneyland's trains from 1955 to 1974."
+      ],
+      "lie": "The Disneyland Railroad has a station in Adventureland.",
+      "explanation": "Stations: Main Street, New Orleans Square, Toontown and Tomorrowland.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Primeval_World"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t40",
+      "truths": [
+        "Radiator Springs Racers uses ride tech first made for Epcot's Test Track.",
+        "At the end, you race another car, and the winner is picked at random."
+      ],
+      "lie": "Radiator Springs Racers opened with California Adventure in 2001.",
+      "explanation": "It opened June 15, 2012.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Radiator_Springs_Racers"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t41",
+      "truths": [
+        "Radiator Springs Racers cost over $200 million to build.",
+        "Cars Land and Buena Vista Street opened as part of a big 2012 makeover."
+      ],
+      "lie": "Cars Land is in Disneyland park, right next to Fantasyland.",
+      "explanation": "Cars Land is in Disney California Adventure.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Radiator_Springs_Racers",
+        "https://en.wikipedia.org/wiki/Disney_California_Adventure"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t42",
+      "truths": [
+        "Tiana's Bayou Adventure opened in November 2024 where Splash Mountain used to be.",
+        "Tiana's Bayou Adventure is a musical trip through the bayou."
+      ],
+      "lie": "Tiana's Bayou Adventure has no big drop at the end.",
+      "explanation": "It still has a 50-foot drop into a big splash.",
+      "sources": [
+        "https://laist.com/news/arts-and-entertainment/at-long-last-tianas-bayou-adventure-opens-at-disneyland"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t43",
+      "truths": [
+        "Mama Odie and Prince Naveen appear on Tiana's Bayou Adventure.",
+        "The ride's characters are voiced by the actors from the movie."
+      ],
+      "lie": "On Tiana's Bayou Adventure, Louis the alligator plays the drums.",
+      "explanation": "Louis is the trumpet-playing alligator.",
+      "sources": [
+        "https://laist.com/news/arts-and-entertainment/at-long-last-tianas-bayou-adventure-opens-at-disneyland"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t44",
+      "truths": [
+        "Indiana Jones Adventure riders board a troop transport that seats twelve.",
+        "Mara offers riders a gift if they never look into her eyes."
+      ],
+      "lie": "At the end of Indiana Jones Adventure, a giant snowball chases you.",
+      "explanation": "It's a giant rolling boulder, not a snowball.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Indiana_Jones_Adventure"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t46",
+      "truths": [
+        "Star Wars: Galaxy's Edge at Disneyland covers about 14 acres.",
+        "Rise of the Resistance opened in January 2020, months after the land opened."
+      ],
+      "lie": "Galaxy's Edge is set on Tatooine, Luke Skywalker's home planet.",
+      "explanation": "It's set in Black Spire Outpost on the planet Batuu.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Star_Wars:_Galaxy%27s_Edge"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t47",
+      "truths": [
+        "Frank Oz voices a Yoda cameo in Savi's Workshop.",
+        "Oga's Cantina has a droid DJ named R-3X."
+      ],
+      "lie": "On Smugglers Run, riders fly the Death Star.",
+      "explanation": "Riders fly the Millennium Falcon.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Star_Wars:_Galaxy%27s_Edge"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t48",
+      "truths": [
+        "The Incredicoaster is the only Disneyland Resort coaster that goes upside down.",
+        "It's made of steel but designed to look like an old wooden coaster."
+      ],
+      "lie": "The Incredicoaster was built brand-new in 2018.",
+      "explanation": "It opened as California Screamin' in 2001 and was re-themed in 2018.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Incredicoaster"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t49",
+      "truths": [
+        "On the Incredicoaster, Jack-Jack sets a tunnel on fire and Violet puts it out.",
+        "At over 6,000 feet, it's one of the longest steel coasters in the world."
+      ],
+      "lie": "On the Incredicoaster, Edna Mode calms Jack-Jack with a lollipop.",
+      "explanation": "Edna calms Jack-Jack down with a cookie.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Incredicoaster"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t50",
+      "truths": [
+        "The Haunted Mansion's Doom Buggies use the Omnimover system.",
+        "The Blue Bayou restaurant opened the same day as Pirates in 1967."
+      ],
+      "lie": "The Haunted Mansion opened before Pirates of the Caribbean.",
+      "explanation": "Pirates opened in 1967; the Mansion opened in 1969.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Haunted_Mansion",
+        "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean_(ride)"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t51",
+      "truths": [
+        "The Disneyland Railroad loop around the park is about 1.2 miles long.",
+        "On opening day, traffic backed up seven miles on the Santa Ana Freeway."
+      ],
+      "lie": "Disneyland's opening day was cool and rainy.",
+      "explanation": "Temperatures were near 100 degrees on opening day.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Primeval_World",
+        "https://www.history.com/articles/disneylands-disastrous-opening-day-60-years-ago"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t52",
+      "truths": [
+        "The Matterhorn was one of three big new Tomorrowland attractions in 1959.",
+        "The Matterhorn's two tracks are named for Fantasyland and Tomorrowland."
+      ],
+      "lie": "The Matterhorn's Abominable Snowman has never had a nickname.",
+      "explanation": "Imagineers nicknamed him \"Harold.\"",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Matterhorn_Bobsleds"
+      ],
+      "verified": true
+    }
+  ]
+}

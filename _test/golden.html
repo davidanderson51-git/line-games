@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>pending</title>
+</head>
+<body>
+<pre id="out">running…</pre>
+<script type="module">
+import { computeGolden, GOLDEN_FILES } from './golden.mjs';
+import { selfTest } from '../js/selftest.js';
+const out = document.getElementById('out');
+try {
+  const data = {};
+  for (const f of GOLDEN_FILES) data[f] = await (await fetch(`fixtures/${f}.json`, { cache: 'no-store' })).json();
+  const g = computeGolden(data);
+  const st = selfTest();
+  document.title = String(g.hash);
+  out.textContent = JSON.stringify({ hash: g.hash, length: g.length, selfTest: st, sample: g.sample }, null, 2);
+} catch (e) {
+  document.title = 'error';
+  out.textContent = 'ERROR ' + (e && e.stack || e);
+}
+</script>
+</body>
+</html>

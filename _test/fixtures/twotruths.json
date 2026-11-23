@@ -1,0 +1,524 @@
+{
+  "rounds": [
+    {
+      "id": "t01",
+      "truths": [
+        "Truth 1A",
+        "Truth 1B"
+      ],
+      "lie": "Lie 1",
+      "explanation": "Because 1",
+      "sources": [
+        "https://example.com/tt/1"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t02",
+      "truths": [
+        "Truth 2A",
+        "Truth 2B"
+      ],
+      "lie": "Lie 2",
+      "explanation": "Because 2",
+      "sources": [
+        "https://example.com/tt/2"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t03",
+      "truths": [
+        "Truth 3A",
+        "Truth 3B"
+      ],
+      "lie": "Lie 3",
+      "explanation": "Because 3",
+      "sources": [
+        "https://example.com/tt/3"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t04",
+      "truths": [
+        "Truth 4A",
+        "Truth 4B"
+      ],
+      "lie": "Lie 4",
+      "explanation": "Because 4",
+      "sources": [
+        "https://example.com/tt/4"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t05",
+      "truths": [
+        "Truth 5A",
+        "Truth 5B"
+      ],
+      "lie": "Lie 5",
+      "explanation": "Because 5",
+      "sources": [
+        "https://example.com/tt/5"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t06",
+      "truths": [
+        "Truth 6A",
+        "Truth 6B"
+      ],
+      "lie": "Lie 6",
+      "explanation": "Because 6",
+      "sources": [
+        "https://example.com/tt/6"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t07",
+      "truths": [
+        "Truth 7A",
+        "Truth 7B"
+      ],
+      "lie": "Lie 7",
+      "explanation": "Because 7",
+      "sources": [
+        "https://example.com/tt/7"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t08",
+      "truths": [
+        "Truth 8A",
+        "Truth 8B"
+      ],
+      "lie": "Lie 8",
+      "explanation": "Because 8",
+      "sources": [
+        "https://example.com/tt/8"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t09",
+      "truths": [
+        "Truth 9A",
+        "Truth 9B"
+      ],
+      "lie": "Lie 9",
+      "explanation": "Because 9",
+      "sources": [
+        "https://example.com/tt/9"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t10",
+      "truths": [
+        "Truth 10A",
+        "Truth 10B"
+      ],
+      "lie": "Lie 10",
+      "explanation": "Because 10",
+      "sources": [
+        "https://example.com/tt/10"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t11",
+      "truths": [
+        "Truth 11A",
+        "Truth 11B"
+      ],
+      "lie": "Lie 11",
+      "explanation": "Because 11",
+      "sources": [
+        "https://example.com/tt/11"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t12",
+      "truths": [
+        "Truth 12A",
+        "Truth 12B"
+      ],
+      "lie": "Lie 12",
+      "explanation": "Because 12",
+      "sources": [
+        "https://example.com/tt/12"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t13",
+      "truths": [
+        "Truth 13A",
+        "Truth 13B"
+      ],
+      "lie": "Lie 13",
+      "explanation": "Because 13",
+      "sources": [
+        "https://example.com/tt/13"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t14",
+      "truths": [
+        "Truth 14A",
+        "Truth 14B"
+      ],
+      "lie": "Lie 14",
+      "explanation": "Because 14",
+      "sources": [
+        "https://example.com/tt/14"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t15",
+      "truths": [
+        "Truth 15A",
+        "Truth 15B"
+      ],
+      "lie": "Lie 15",
+      "explanation": "Because 15",
+      "sources": [
+        "https://example.com/tt/15"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t16",
+      "truths": [
+        "Truth 16A",
+        "Truth 16B"
+      ],
+      "lie": "Lie 16",
+      "explanation": "Because 16",
+      "sources": [
+        "https://example.com/tt/16"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t17",
+      "truths": [
+        "Truth 17A",
+        "Truth 17B"
+      ],
+      "lie": "Lie 17",
+      "explanation": "Because 17",
+      "sources": [
+        "https://example.com/tt/17"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t18",
+      "truths": [
+        "Truth 18A",
+        "Truth 18B"
+      ],
+      "lie": "Lie 18",
+      "explanation": "Because 18",
+      "sources": [
+        "https://example.com/tt/18"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t19",
+      "truths": [
+        "Truth 19A",
+        "Truth 19B"
+      ],
+      "lie": "Lie 19",
+      "explanation": "Because 19",
+      "sources": [
+        "https://example.com/tt/19"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t20",
+      "truths": [
+        "Truth 20A",
+        "Truth 20B"
+      ],
+      "lie": "Lie 20",
+      "explanation": "Because 20",
+      "sources": [
+        "https://example.com/tt/20"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t21",
+      "truths": [
+        "Truth 21A",
+        "Truth 21B"
+      ],
+      "lie": "Lie 21",
+      "explanation": "Because 21",
+      "sources": [
+        "https://example.com/tt/21"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t22",
+      "truths": [
+        "Truth 22A",
+        "Truth 22B"
+      ],
+      "lie": "Lie 22",
+      "explanation": "Because 22",
+      "sources": [
+        "https://example.com/tt/22"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t23",
+      "truths": [
+        "Truth 23A",
+        "Truth 23B"
+      ],
+      "lie": "Lie 23",
+      "explanation": "Because 23",
+      "sources": [
+        "https://example.com/tt/23"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t24",
+      "truths": [
+        "Truth 24A",
+        "Truth 24B"
+      ],
+      "lie": "Lie 24",
+      "explanation": "Because 24",
+      "sources": [
+        "https://example.com/tt/24"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t25",
+      "truths": [
+        "Truth 25A",
+        "Truth 25B"
+      ],
+      "lie": "Lie 25",
+      "explanation": "Because 25",
+      "sources": [
+        "https://example.com/tt/25"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t26",
+      "truths": [
+        "Truth 26A",
+        "Truth 26B"
+      ],
+      "lie": "Lie 26",
+      "explanation": "Because 26",
+      "sources": [
+        "https://example.com/tt/26"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t27",
+      "truths": [
+        "Truth 27A",
+        "Truth 27B"
+      ],
+      "lie": "Lie 27",
+      "explanation": "Because 27",
+      "sources": [
+        "https://example.com/tt/27"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t28",
+      "truths": [
+        "Truth 28A",
+        "Truth 28B"
+      ],
+      "lie": "Lie 28",
+      "explanation": "Because 28",
+      "sources": [
+        "https://example.com/tt/28"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t29",
+      "truths": [
+        "Truth 29A",
+        "Truth 29B"
+      ],
+      "lie": "Lie 29",
+      "explanation": "Because 29",
+      "sources": [
+        "https://example.com/tt/29"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t30",
+      "truths": [
+        "Truth 30A",
+        "Truth 30B"
+      ],
+      "lie": "Lie 30",
+      "explanation": "Because 30",
+      "sources": [
+        "https://example.com/tt/30"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t31",
+      "truths": [
+        "Truth 31A",
+        "Truth 31B"
+      ],
+      "lie": "Lie 31",
+      "explanation": "Because 31",
+      "sources": [
+        "https://example.com/tt/31"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t32",
+      "truths": [
+        "Truth 32A",
+        "Truth 32B"
+      ],
+      "lie": "Lie 32",
+      "explanation": "Because 32",
+      "sources": [
+        "https://example.com/tt/32"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t33",
+      "truths": [
+        "Truth 33A",
+        "Truth 33B"
+      ],
+      "lie": "Lie 33",
+      "explanation": "Because 33",
+      "sources": [
+        "https://example.com/tt/33"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t34",
+      "truths": [
+        "Truth 34A",
+        "Truth 34B"
+      ],
+      "lie": "Lie 34",
+      "explanation": "Because 34",
+      "sources": [
+        "https://example.com/tt/34"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t35",
+      "truths": [
+        "Truth 35A",
+        "Truth 35B"
+      ],
+      "lie": "Lie 35",
+      "explanation": "Because 35",
+      "sources": [
+        "https://example.com/tt/35"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t36",
+      "truths": [
+        "Truth 36A",
+        "Truth 36B"
+      ],
+      "lie": "Lie 36",
+      "explanation": "Because 36",
+      "sources": [
+        "https://example.com/tt/36"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t37",
+      "truths": [
+        "Truth 37A",
+        "Truth 37B"
+      ],
+      "lie": "Lie 37",
+      "explanation": "Because 37",
+      "sources": [
+        "https://example.com/tt/37"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t38",
+      "truths": [
+        "Truth 38A",
+        "Truth 38B"
+      ],
+      "lie": "Lie 38",
+      "explanation": "Because 38",
+      "sources": [
+        "https://example.com/tt/38"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t39",
+      "truths": [
+        "Truth 39A",
+        "Truth 39B"
+      ],
+      "lie": "Lie 39",
+      "explanation": "Because 39",
+      "sources": [
+        "https://example.com/tt/39"
+      ],
+      "verified": true
+    },
+    {
+      "id": "t40",
+      "truths": [
+        "Truth 40A",
+        "Truth 40B"
+      ],
+      "lie": "Lie 40",
+      "explanation": "Because 40",
+      "sources": [
+        "https://example.com/tt/40"
+      ],
+      "verified": true
+    }
+  ]
+}

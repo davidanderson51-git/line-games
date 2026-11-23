@@ -1,0 +1,284 @@
+{
+ "spectra": [
+  {
+   "left": "Overrated ride",
+   "right": "Underrated ride"
+  },
+  {
+   "left": "Snack I'd skip",
+   "right": "Snack I'd fight for"
+  },
+  {
+   "left": "Kid ride",
+   "right": "Grown-up ride"
+  },
+  {
+   "left": "Not scary",
+   "right": "Terrifying"
+  },
+  {
+   "left": "Boring line",
+   "right": "Fun line"
+  },
+  {
+   "left": "Worth a 5-min wait",
+   "right": "Worth a 2-hour wait"
+  },
+  {
+   "left": "Healthy snack",
+   "right": "Total sugar bomb"
+  },
+  {
+   "left": "Cheap souvenir",
+   "right": "Fancy souvenir"
+  },
+  {
+   "left": "Slow ride",
+   "right": "Fast ride"
+  },
+  {
+   "left": "Dry ride",
+   "right": "Soaking wet ride"
+  },
+  {
+   "left": "Easy to find",
+   "right": "Hidden secret"
+  },
+  {
+   "left": "Hero",
+   "right": "Villain"
+  },
+  {
+   "left": "Cute character",
+   "right": "Cool character"
+  },
+  {
+   "left": "Bad at hide-and-seek",
+   "right": "Great at hide-and-seek"
+  },
+  {
+   "left": "Quiet place",
+   "right": "Loudest place"
+  },
+  {
+   "left": "Small character",
+   "right": "Giant character"
+  },
+  {
+   "left": "Would be a bad pet",
+   "right": "Would be a great pet"
+  },
+  {
+   "left": "Morning ride",
+   "right": "Nighttime ride"
+  },
+  {
+   "left": "Short movie",
+   "right": "Long movie"
+  },
+  {
+   "left": "Sad movie",
+   "right": "Happy movie"
+  },
+  {
+   "left": "Old ride",
+   "right": "New ride"
+  },
+  {
+   "left": "Silly",
+   "right": "Serious"
+  },
+  {
+   "left": "Smells bad",
+   "right": "Smells amazing"
+  },
+  {
+   "left": "Bad roommate",
+   "right": "Best roommate"
+  },
+  {
+   "left": "Can't sing",
+   "right": "Amazing singer"
+  },
+  {
+   "left": "Lazy character",
+   "right": "Hardworking character"
+  },
+  {
+   "left": "Messy snack",
+   "right": "Clean snack"
+  },
+  {
+   "left": "Easy to draw",
+   "right": "Hard to draw"
+  },
+  {
+   "left": "Soft",
+   "right": "Spiky"
+  },
+  {
+   "left": "Weak",
+   "right": "Super strong"
+  },
+  {
+   "left": "Bad at sports",
+   "right": "Great at sports"
+  },
+  {
+   "left": "Mild villain",
+   "right": "Truly evil villain"
+  },
+  {
+   "left": "Forgettable song",
+   "right": "Stuck in your head"
+  },
+  {
+   "left": "Bad ride for grandma",
+   "right": "Perfect for grandma"
+  },
+  {
+   "left": "Bad first date",
+   "right": "Perfect first date"
+  },
+  {
+   "left": "Hot day snack",
+   "right": "Cold day snack"
+  },
+  {
+   "left": "Worst seat",
+   "right": "Best seat"
+  },
+  {
+   "left": "Bad hat",
+   "right": "Great hat"
+  },
+  {
+   "left": "Small land",
+   "right": "Huge land"
+  },
+  {
+   "left": "Ride once",
+   "right": "Ride forever"
+  },
+  {
+   "left": "Gentle",
+   "right": "Wild"
+  },
+  {
+   "left": "Bad nap spot",
+   "right": "Perfect nap spot"
+  },
+  {
+   "left": "Bad at cooking",
+   "right": "Master chef"
+  },
+  {
+   "left": "Never cries",
+   "right": "Cries every time"
+  },
+  {
+   "left": "Boring sidekick",
+   "right": "Best sidekick"
+  },
+  {
+   "left": "Bad dancer",
+   "right": "Amazing dancer"
+  },
+  {
+   "left": "Real-ish",
+   "right": "Total fantasy"
+  },
+  {
+   "left": "Bad ride to eat before",
+   "right": "Fine after a churro"
+  },
+  {
+   "left": "Terrible teacher",
+   "right": "Best teacher"
+  },
+  {
+   "left": "Normal",
+   "right": "Weird"
+  },
+  {
+   "left": "Tiny wait",
+   "right": "Huge wait"
+  },
+  {
+   "left": "Smart",
+   "right": "Not so smart"
+  },
+  {
+   "left": "Brave",
+   "right": "Scaredy-cat"
+  },
+  {
+   "left": "Fake-looking",
+   "right": "Looks totally real"
+  },
+  {
+   "left": "Cheap snack",
+   "right": "Pricey snack"
+  },
+  {
+   "left": "Good in the rain",
+   "right": "Terrible in the rain"
+  },
+  {
+   "left": "Grumpy",
+   "right": "Cheerful"
+  },
+  {
+   "left": "Bad souvenir",
+   "right": "Best souvenir ever"
+  },
+  {
+   "left": "Easy to say",
+   "right": "Tongue twister"
+  },
+  {
+   "left": "Bad photo spot",
+   "right": "Best photo spot"
+  },
+  {
+   "left": "Simple ride",
+   "right": "Complicated ride"
+  },
+  {
+   "left": "Bad superpower",
+   "right": "Best superpower"
+  },
+  {
+   "left": "Not Christmassy",
+   "right": "Very Christmassy"
+  },
+  {
+   "left": "Looks tasty",
+   "right": "Looks yucky"
+  },
+  {
+   "left": "Bad at keeping secrets",
+   "right": "Keeps every secret"
+  },
+  {
+   "left": "Would lose a race",
+   "right": "Would win a race"
+  },
+  {
+   "left": "Bad vacation spot",
+   "right": "Dream vacation spot"
+  },
+  {
+   "left": "Mom's pick",
+   "right": "Kid's pick"
+  },
+  {
+   "left": "Not magical",
+   "right": "Pure magic"
+  },
+  {
+   "left": "Worst ride with Dad",
+   "right": "Best ride with Dad"
+  }
+ ]
+}

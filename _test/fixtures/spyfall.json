@@ -1,0 +1,424 @@
+{
+  "locations": [
+    {
+      "id": "loc-01",
+      "name": "Location 01",
+      "roles": [
+        "Role 01-1",
+        "Role 01-2",
+        "Role 01-3",
+        "Role 01-4",
+        "Role 01-5",
+        "Role 01-6",
+        "Role 01-7",
+        "Role 01-8"
+      ]
+    },
+    {
+      "id": "loc-02",
+      "name": "Location 02",
+      "roles": [
+        "Role 02-1",
+        "Role 02-2",
+        "Role 02-3",
+        "Role 02-4",
+        "Role 02-5",
+        "Role 02-6",
+        "Role 02-7",
+        "Role 02-8"
+      ]
+    },
+    {
+      "id": "loc-03",
+      "name": "Location 03",
+      "roles": [
+        "Role 03-1",
+        "Role 03-2",
+        "Role 03-3",
+        "Role 03-4",
+        "Role 03-5",
+        "Role 03-6",
+        "Role 03-7",
+        "Role 03-8"
+      ]
+    },
+    {
+      "id": "loc-04",
+      "name": "Location 04",
+      "roles": [
+        "Role 04-1",
+        "Role 04-2",
+        "Role 04-3",
+        "Role 04-4",
+        "Role 04-5",
+        "Role 04-6",
+        "Role 04-7",
+        "Role 04-8"
+      ]
+    },
+    {
+      "id": "loc-05",
+      "name": "Location 05",
+      "roles": [
+        "Role 05-1",
+        "Role 05-2",
+        "Role 05-3",
+        "Role 05-4",
+        "Role 05-5",
+        "Role 05-6",
+        "Role 05-7",
+        "Role 05-8"
+      ]
+    },
+    {
+      "id": "loc-06",
+      "name": "Location 06",
+      "roles": [
+        "Role 06-1",
+        "Role 06-2",
+        "Role 06-3",
+        "Role 06-4",
+        "Role 06-5",
+        "Role 06-6",
+        "Role 06-7",
+        "Role 06-8"
+      ]
+    },
+    {
+      "id": "loc-07",
+      "name": "Location 07",
+      "roles": [
+        "Role 07-1",
+        "Role 07-2",
+        "Role 07-3",
+        "Role 07-4",
+        "Role 07-5",
+        "Role 07-6",
+        "Role 07-7",
+        "Role 07-8"
+      ]
+    },
+    {
+      "id": "loc-08",
+      "name": "Location 08",
+      "roles": [
+        "Role 08-1",
+        "Role 08-2",
+        "Role 08-3",
+        "Role 08-4",
+        "Role 08-5",
+        "Role 08-6",
+        "Role 08-7",
+        "Role 08-8"
+      ]
+    },
+    {
+      "id": "loc-09",
+      "name": "Location 09",
+      "roles": [
+        "Role 09-1",
+        "Role 09-2",
+        "Role 09-3",
+        "Role 09-4",
+        "Role 09-5",
+        "Role 09-6",
+        "Role 09-7",
+        "Role 09-8"
+      ]
+    },
+    {
+      "id": "loc-10",
+      "name": "Location 10",
+      "roles": [
+        "Role 10-1",
+        "Role 10-2",
+        "Role 10-3",
+        "Role 10-4",
+        "Role 10-5",
+        "Role 10-6",
+        "Role 10-7",
+        "Role 10-8"
+      ]
+    },
+    {
+      "id": "loc-11",
+      "name": "Location 11",
+      "roles": [
+        "Role 11-1",
+        "Role 11-2",
+        "Role 11-3",
+        "Role 11-4",
+        "Role 11-5",
+        "Role 11-6",
+        "Role 11-7",
+        "Role 11-8"
+      ]
+    },
+    {
+      "id": "loc-12",
+      "name": "Location 12",
+      "roles": [
+        "Role 12-1",
+        "Role 12-2",
+        "Role 12-3",
+        "Role 12-4",
+        "Role 12-5",
+        "Role 12-6",
+        "Role 12-7",
+        "Role 12-8"
+      ]
+    },
+    {
+      "id": "loc-13",
+      "name": "Location 13",
+      "roles": [
+        "Role 13-1",
+        "Role 13-2",
+        "Role 13-3",
+        "Role 13-4",
+        "Role 13-5",
+        "Role 13-6",
+        "Role 13-7",
+        "Role 13-8"
+      ]
+    },
+    {
+      "id": "loc-14",
+      "name": "Location 14",
+      "roles": [
+        "Role 14-1",
+        "Role 14-2",
+        "Role 14-3",
+        "Role 14-4",
+        "Role 14-5",
+        "Role 14-6",
+        "Role 14-7",
+        "Role 14-8"
+      ]
+    },
+    {
+      "id": "loc-15",
+      "name": "Location 15",
+      "roles": [
+        "Role 15-1",
+        "Role 15-2",
+        "Role 15-3",
+        "Role 15-4",
+        "Role 15-5",
+        "Role 15-6",
+        "Role 15-7",
+        "Role 15-8"
+      ]
+    },
+    {
+      "id": "loc-16",
+      "name": "Location 16",
+      "roles": [
+        "Role 16-1",
+        "Role 16-2",
+        "Role 16-3",
+        "Role 16-4",
+        "Role 16-5",
+        "Role 16-6",
+        "Role 16-7",
+        "Role 16-8"
+      ]
+    },
+    {
+      "id": "loc-17",
+      "name": "Location 17",
+      "roles": [
+        "Role 17-1",
+        "Role 17-2",
+        "Role 17-3",
+        "Role 17-4",
+        "Role 17-5",
+        "Role 17-6",
+        "Role 17-7",
+        "Role 17-8"
+      ]
+    },
+    {
+      "id": "loc-18",
+      "name": "Location 18",
+      "roles": [
+        "Role 18-1",
+        "Role 18-2",
+        "Role 18-3",
+        "Role 18-4",
+        "Role 18-5",
+        "Role 18-6",
+        "Role 18-7",
+        "Role 18-8"
+      ]
+    },
+    {
+      "id": "loc-19",
+      "name": "Location 19",
+      "roles": [
+        "Role 19-1",
+        "Role 19-2",
+        "Role 19-3",
+        "Role 19-4",
+        "Role 19-5",
+        "Role 19-6",
+        "Role 19-7",
+        "Role 19-8"
+      ]
+    },
+    {
+      "id": "loc-20",
+      "name": "Location 20",
+      "roles": [
+        "Role 20-1",
+        "Role 20-2",
+        "Role 20-3",
+        "Role 20-4",
+        "Role 20-5",
+        "Role 20-6",
+        "Role 20-7",
+        "Role 20-8"
+      ]
+    },
+    {
+      "id": "loc-21",
+      "name": "Location 21",
+      "roles": [
+        "Role 21-1",
+        "Role 21-2",
+        "Role 21-3",
+        "Role 21-4",
+        "Role 21-5",
+        "Role 21-6",
+        "Role 21-7",
+        "Role 21-8"
+      ]
+    },
+    {
+      "id": "loc-22",
+      "name": "Location 22",
+      "roles": [
+        "Role 22-1",
+        "Role 22-2",
+        "Role 22-3",
+        "Role 22-4",
+        "Role 22-5",
+        "Role 22-6",
+        "Role 22-7",
+        "Role 22-8"
+      ]
+    },
+    {
+      "id": "loc-23",
+      "name": "Location 23",
+      "roles": [
+        "Role 23-1",
+        "Role 23-2",
+        "Role 23-3",
+        "Role 23-4",
+        "Role 23-5",
+        "Role 23-6",
+        "Role 23-7",
+        "Role 23-8"
+      ]
+    },
+    {
+      "id": "loc-24",
+      "name": "Location 24",
+      "roles": [
+        "Role 24-1",
+        "Role 24-2",
+        "Role 24-3",
+        "Role 24-4",
+        "Role 24-5",
+        "Role 24-6",
+        "Role 24-7",
+        "Role 24-8"
+      ]
+    },
+    {
+      "id": "loc-25",
+      "name": "Location 25",
+      "roles": [
+        "Role 25-1",
+        "Role 25-2",
+        "Role 25-3",
+        "Role 25-4",
+        "Role 25-5",
+        "Role 25-6",
+        "Role 25-7",
+        "Role 25-8"
+      ]
+    },
+    {
+      "id": "loc-26",
+      "name": "Location 26",
+      "roles": [
+        "Role 26-1",
+        "Role 26-2",
+        "Role 26-3",
+        "Role 26-4",
+        "Role 26-5",
+        "Role 26-6",
+        "Role 26-7",
+        "Role 26-8"
+      ]
+    },
+    {
+      "id": "loc-27",
+      "name": "Location 27",
+      "roles": [
+        "Role 27-1",
+        "Role 27-2",
+        "Role 27-3",
+        "Role 27-4",
+        "Role 27-5",
+        "Role 27-6",
+        "Role 27-7",
+        "Role 27-8"
+      ]
+    },
+    {
+      "id": "loc-28",
+      "name": "Location 28",
+      "roles": [
+        "Role 28-1",
+        "Role 28-2",
+        "Role 28-3",
+        "Role 28-4",
+        "Role 28-5",
+        "Role 28-6",
+        "Role 28-7",
+        "Role 28-8"
+      ]
+    },
+    {
+      "id": "loc-29",
+      "name": "Location 29",
+      "roles": [
+        "Role 29-1",
+        "Role 29-2",
+        "Role 29-3",
+        "Role 29-4",
+        "Role 29-5",
+        "Role 29-6",
+        "Role 29-7",
+        "Role 29-8"
+      ]
+    },
+    {
+      "id": "loc-30",
+      "name": "Location 30",
+      "roles": [
+        "Role 30-1",
+        "Role 30-2",
+        "Role 30-3",
+        "Role 30-4",
+        "Role 30-5",
+        "Role 30-6",
+        "Role 30-7",
+        "Role 30-8"
+      ]
+    }
+  ]
+}

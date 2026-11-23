@@ -1,0 +1,2539 @@
+{
+ "questions": [
+  {
+   "id": "k001",
+   "difficulty": "kid",
+   "q": "What kind of animal is Dumbo?",
+   "a": "An elephant",
+   "wrong": [
+    "A mouse",
+    "A giraffe",
+    "A hippo"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Dumbo",
+   "verified": true
+  },
+  {
+   "id": "k002",
+   "difficulty": "kid",
+   "q": "What helps Dumbo fly?",
+   "a": "His big ears",
+   "wrong": [
+    "His long trunk",
+    "A magic hat",
+    "His tail"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Dumbo",
+   "verified": true
+  },
+  {
+   "id": "k003",
+   "difficulty": "kid",
+   "q": "What is the name of Dumbo's mouse friend?",
+   "a": "Timothy",
+   "wrong": [
+    "Gus",
+    "Jaq",
+    "Stuart"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Dumbo",
+   "verified": true
+  },
+  {
+   "id": "k004",
+   "difficulty": "kid",
+   "q": "How many dwarfs live with Snow White?",
+   "a": "Seven",
+   "wrong": [
+    "Five",
+    "Six",
+    "Eight"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs_(1937_film)",
+   "verified": true
+  },
+  {
+   "id": "k005",
+   "difficulty": "kid",
+   "q": "What does the Evil Queen trick Snow White into biting?",
+   "a": "A poisoned apple",
+   "wrong": [
+    "A pear",
+    "A cookie",
+    "A plum"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs_(1937_film)",
+   "verified": true
+  },
+  {
+   "id": "k006",
+   "difficulty": "kid",
+   "q": "Which of these is one of the Seven Dwarfs?",
+   "a": "Dopey",
+   "wrong": [
+    "Grouchy",
+    "Silly",
+    "Jumpy"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs_(1937_film)",
+   "verified": true
+  },
+  {
+   "id": "k007",
+   "difficulty": "kid",
+   "q": "What is Pinocchio made of?",
+   "a": "Wood",
+   "wrong": [
+    "Clay",
+    "Metal",
+    "Plastic"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Pinocchio_(1940_film)",
+   "verified": true
+  },
+  {
+   "id": "k008",
+   "difficulty": "kid",
+   "q": "What happens to Pinocchio's nose when he lies?",
+   "a": "It grows",
+   "wrong": [
+    "It turns red",
+    "It shrinks",
+    "It sneezes"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Pinocchio_(1940_film)",
+   "verified": true
+  },
+  {
+   "id": "k009",
+   "difficulty": "kid",
+   "q": "Who carves the puppet Pinocchio?",
+   "a": "Geppetto",
+   "wrong": [
+    "Stromboli",
+    "Honest John",
+    "Gideon"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Pinocchio_(1940_film)",
+   "verified": true
+  },
+  {
+   "id": "k010",
+   "difficulty": "kid",
+   "q": "What kind of animal is Bambi?",
+   "a": "A deer",
+   "wrong": [
+    "A rabbit",
+    "A fox",
+    "A bear"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Bambi",
+   "verified": true
+  },
+  {
+   "id": "k011",
+   "difficulty": "kid",
+   "q": "What is the name of Bambi's rabbit friend?",
+   "a": "Thumper",
+   "wrong": [
+    "Flower",
+    "Hopper",
+    "Bunny"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Bambi",
+   "verified": true
+  },
+  {
+   "id": "k012",
+   "difficulty": "kid",
+   "q": "What kind of animal is Flower in Bambi?",
+   "a": "A skunk",
+   "wrong": [
+    "A raccoon",
+    "A squirrel",
+    "An owl"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Bambi",
+   "verified": true
+  },
+  {
+   "id": "k013",
+   "difficulty": "kid",
+   "q": "What does the pumpkin turn into in Cinderella?",
+   "a": "A carriage",
+   "wrong": [
+    "A castle",
+    "A horse",
+    "A boat"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Cinderella_(1950_film)",
+   "verified": true
+  },
+  {
+   "id": "k014",
+   "difficulty": "kid",
+   "q": "What kind of shoe does Cinderella leave behind?",
+   "a": "A glass slipper",
+   "wrong": [
+    "A gold boot",
+    "A red sneaker",
+    "A silver sandal"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Cinderella_(1950_film)",
+   "verified": true
+  },
+  {
+   "id": "k015",
+   "difficulty": "kid",
+   "q": "When does the Fairy Godmother's magic end?",
+   "a": "At midnight",
+   "wrong": [
+    "At sunrise",
+    "At noon",
+    "At sunset"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Cinderella_(1950_film)",
+   "verified": true
+  },
+  {
+   "id": "k016",
+   "difficulty": "kid",
+   "q": "What kind of animal is Lucifer in Cinderella?",
+   "a": "A cat",
+   "wrong": [
+    "A dog",
+    "A mouse",
+    "A rat"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Cinderella_(1950_film)",
+   "verified": true
+  },
+  {
+   "id": "k017",
+   "difficulty": "kid",
+   "q": "What animal does Alice follow into Wonderland?",
+   "a": "A white rabbit",
+   "wrong": [
+    "A black cat",
+    "A caterpillar",
+    "A mouse"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Alice_in_Wonderland_(1951_film)",
+   "verified": true
+  },
+  {
+   "id": "k018",
+   "difficulty": "kid",
+   "q": "Who throws Alice an \"unbirthday\" tea party?",
+   "a": "The Mad Hatter",
+   "wrong": [
+    "The Queen of Hearts",
+    "The Cheshire Cat",
+    "The White Rabbit"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Alice_in_Wonderland_(1951_film)",
+   "verified": true
+  },
+  {
+   "id": "k019",
+   "difficulty": "kid",
+   "q": "What is the name of Peter Pan's fairy friend?",
+   "a": "Tinker Bell",
+   "wrong": [
+    "Silvermist",
+    "Flora",
+    "Merryweather"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Peter_Pan_(1953_film)",
+   "verified": true
+  },
+  {
+   "id": "k020",
+   "difficulty": "kid",
+   "q": "Who is the pirate captain in Peter Pan?",
+   "a": "Captain Hook",
+   "wrong": [
+    "Captain Nemo",
+    "Blackbeard",
+    "Barbossa"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Peter_Pan_(1953_film)",
+   "verified": true
+  },
+  {
+   "id": "k021",
+   "difficulty": "kid",
+   "q": "Where does Peter Pan take Wendy and her brothers?",
+   "a": "Never Land",
+   "wrong": [
+    "Wonderland",
+    "Agrabah",
+    "Arendelle"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Peter_Pan_(1953_film)",
+   "verified": true
+  },
+  {
+   "id": "k022",
+   "difficulty": "kid",
+   "q": "What food do Lady and Tramp share at Tony's?",
+   "a": "Spaghetti",
+   "wrong": [
+    "Pizza",
+    "Hot dogs",
+    "Tacos"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Lady_and_the_Tramp",
+   "verified": true
+  },
+  {
+   "id": "k023",
+   "difficulty": "kid",
+   "q": "What kind of animals are Lady and Tramp?",
+   "a": "Dogs",
+   "wrong": [
+    "Cats",
+    "Foxes",
+    "Mice"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Lady_and_the_Tramp",
+   "verified": true
+  },
+  {
+   "id": "k024",
+   "difficulty": "kid",
+   "q": "What does Aurora prick her finger on?",
+   "a": "A spinning wheel",
+   "wrong": [
+    "A rose thorn",
+    "A crown",
+    "A sword"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Sleeping_Beauty_(1959_film)",
+   "verified": true
+  },
+  {
+   "id": "k025",
+   "difficulty": "kid",
+   "q": "Which villain turns into a dragon in Sleeping Beauty?",
+   "a": "Maleficent",
+   "wrong": [
+    "Ursula",
+    "Jafar",
+    "Cruella De Vil"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Sleeping_Beauty_(1959_film)",
+   "verified": true
+  },
+  {
+   "id": "k026",
+   "difficulty": "kid",
+   "q": "What kind of dogs are Pongo and Perdita?",
+   "a": "Dalmatians",
+   "wrong": [
+    "Beagles",
+    "Poodles",
+    "Collies"
+   ],
+   "source": "https://en.wikipedia.org/wiki/One_Hundred_and_One_Dalmatians",
+   "verified": true
+  },
+  {
+   "id": "k027",
+   "difficulty": "kid",
+   "q": "Which villain wants to make coats from puppies?",
+   "a": "Cruella De Vil",
+   "wrong": [
+    "Ursula",
+    "Mother Gothel",
+    "Lady Tremaine"
+   ],
+   "source": "https://en.wikipedia.org/wiki/One_Hundred_and_One_Dalmatians",
+   "verified": true
+  },
+  {
+   "id": "k028",
+   "difficulty": "kid",
+   "q": "What kind of animal is Baloo?",
+   "a": "A bear",
+   "wrong": [
+    "A panther",
+    "A tiger",
+    "An elephant"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Jungle_Book_(1967_film)",
+   "verified": true
+  },
+  {
+   "id": "k029",
+   "difficulty": "kid",
+   "q": "What kind of animal is Shere Khan?",
+   "a": "A tiger",
+   "wrong": [
+    "A lion",
+    "A bear",
+    "A wolf"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Jungle_Book_(1967_film)",
+   "verified": true
+  },
+  {
+   "id": "k030",
+   "difficulty": "kid",
+   "q": "Which animals raised Mowgli in The Jungle Book?",
+   "a": "Wolves",
+   "wrong": [
+    "Bears",
+    "Monkeys",
+    "Elephants"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Jungle_Book_(1967_film)",
+   "verified": true
+  },
+  {
+   "id": "k031",
+   "difficulty": "kid",
+   "q": "What kind of animal is Flounder in The Little Mermaid?",
+   "a": "A fish",
+   "wrong": [
+    "A crab",
+    "A seagull",
+    "A turtle"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Little_Mermaid_(1989_film)",
+   "verified": true
+  },
+  {
+   "id": "k032",
+   "difficulty": "kid",
+   "q": "What does Ariel give Ursula in exchange for legs?",
+   "a": "Her voice",
+   "wrong": [
+    "Her hair",
+    "Her tail",
+    "Her crown"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Little_Mermaid_(1989_film)",
+   "verified": true
+  },
+  {
+   "id": "k033",
+   "difficulty": "kid",
+   "q": "What kind of animal is Sebastian?",
+   "a": "A crab",
+   "wrong": [
+    "A lobster",
+    "A fish",
+    "A shrimp"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Little_Mermaid_(1989_film)",
+   "verified": true
+  },
+  {
+   "id": "k034",
+   "difficulty": "kid",
+   "q": "What kind of object is Mrs. Potts?",
+   "a": "A teapot",
+   "wrong": [
+    "A clock",
+    "A candlestick",
+    "A wardrobe"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(1991_film)",
+   "verified": true
+  },
+  {
+   "id": "k035",
+   "difficulty": "kid",
+   "q": "What enchanted object is Lumiere?",
+   "a": "A candelabra",
+   "wrong": [
+    "A teapot",
+    "A clock",
+    "A feather duster"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(1991_film)",
+   "verified": true
+  },
+  {
+   "id": "k036",
+   "difficulty": "kid",
+   "q": "How many wishes does the Genie grant in Aladdin?",
+   "a": "Three",
+   "wrong": [
+    "One",
+    "Five",
+    "Ten"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Aladdin_(1992_Disney_film)",
+   "verified": true
+  },
+  {
+   "id": "k037",
+   "difficulty": "kid",
+   "q": "What kind of animal is Abu in Aladdin?",
+   "a": "A monkey",
+   "wrong": [
+    "A parrot",
+    "A tiger",
+    "A camel"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Aladdin_(1992_Disney_film)",
+   "verified": true
+  },
+  {
+   "id": "k038",
+   "difficulty": "kid",
+   "q": "What kind of animal is Rajah in Aladdin?",
+   "a": "A tiger",
+   "wrong": [
+    "A lion",
+    "A bear",
+    "An elephant"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Aladdin_(1992_Disney_film)",
+   "verified": true
+  },
+  {
+   "id": "k039",
+   "difficulty": "kid",
+   "q": "Who is Simba's father?",
+   "a": "Mufasa",
+   "wrong": [
+    "Scar",
+    "Rafiki",
+    "Zazu"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Lion_King",
+   "verified": true
+  },
+  {
+   "id": "k040",
+   "difficulty": "kid",
+   "q": "What kind of animal is Pumbaa?",
+   "a": "A warthog",
+   "wrong": [
+    "A meerkat",
+    "A hyena",
+    "A hippo"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Lion_King",
+   "verified": true
+  },
+  {
+   "id": "k041",
+   "difficulty": "kid",
+   "q": "What does \"Hakuna Matata\" mean?",
+   "a": "No worries",
+   "wrong": [
+    "Good morning",
+    "Let's eat",
+    "Be brave"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Lion_King",
+   "verified": true
+  },
+  {
+   "id": "k042",
+   "difficulty": "kid",
+   "q": "What is the name of Mulan's little dragon?",
+   "a": "Mushu",
+   "wrong": [
+    "Cri-Kee",
+    "Khan",
+    "Iago"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Mulan_(1998_film)",
+   "verified": true
+  },
+  {
+   "id": "k043",
+   "difficulty": "kid",
+   "q": "What is the name of Rapunzel's chameleon?",
+   "a": "Pascal",
+   "wrong": [
+    "Maximus",
+    "Flounder",
+    "Heihei"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Tangled",
+   "verified": true
+  },
+  {
+   "id": "k044",
+   "difficulty": "kid",
+   "q": "What kind of animal is Maximus in Tangled?",
+   "a": "A horse",
+   "wrong": [
+    "A dog",
+    "A chameleon",
+    "A reindeer"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Tangled",
+   "verified": true
+  },
+  {
+   "id": "k045",
+   "difficulty": "kid",
+   "q": "What is the name of the friendly snowman in Frozen?",
+   "a": "Olaf",
+   "wrong": [
+    "Frosty",
+    "Sven",
+    "Hans"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Frozen_(2013_film)",
+   "verified": true
+  },
+  {
+   "id": "k046",
+   "difficulty": "kid",
+   "q": "What kind of animal is Sven in Frozen?",
+   "a": "A reindeer",
+   "wrong": [
+    "A horse",
+    "A moose",
+    "A bear"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Frozen_(2013_film)",
+   "verified": true
+  },
+  {
+   "id": "k047",
+   "difficulty": "kid",
+   "q": "What magic power does Elsa have?",
+   "a": "Making ice and snow",
+   "wrong": [
+    "Super speed",
+    "Talking to animals",
+    "Flying"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Frozen_(2013_film)",
+   "verified": true
+  },
+  {
+   "id": "k048",
+   "difficulty": "kid",
+   "q": "What kind of animal is Heihei in Moana?",
+   "a": "A rooster",
+   "wrong": [
+    "A pig",
+    "A parrot",
+    "A duck"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Moana_(2016_film)",
+   "verified": true
+  },
+  {
+   "id": "k049",
+   "difficulty": "kid",
+   "q": "Which Moana character is a demigod with a magic fish hook?",
+   "a": "Maui",
+   "wrong": [
+    "Tamatoa",
+    "Heihei",
+    "Pua"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Moana_(2016_film)",
+   "verified": true
+  },
+  {
+   "id": "k050",
+   "difficulty": "kid",
+   "q": "What is the name of Moana's pet pig?",
+   "a": "Pua",
+   "wrong": [
+    "Heihei",
+    "Pumbaa",
+    "Hamm"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Moana_(2016_film)",
+   "verified": true
+  },
+  {
+   "id": "k051",
+   "difficulty": "kid",
+   "q": "In Encanto, which Madrigal does not get a magic gift?",
+   "a": "Mirabel",
+   "wrong": [
+    "Isabela",
+    "Luisa",
+    "Dolores"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Encanto_(film)",
+   "verified": true
+  },
+  {
+   "id": "k052",
+   "difficulty": "kid",
+   "q": "What gift does Luisa have in Encanto?",
+   "a": "Super strength",
+   "wrong": [
+    "Super hearing",
+    "Making flowers bloom",
+    "Seeing the future"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Encanto_(film)",
+   "verified": true
+  },
+  {
+   "id": "k053",
+   "difficulty": "kid",
+   "q": "What kind of animal is Judy Hopps in Zootopia?",
+   "a": "A rabbit",
+   "wrong": [
+    "A fox",
+    "A sheep",
+    "A sloth"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Zootopia",
+   "verified": true
+  },
+  {
+   "id": "k054",
+   "difficulty": "kid",
+   "q": "What kind of toy is Woody in Toy Story?",
+   "a": "A cowboy doll",
+   "wrong": [
+    "A space ranger",
+    "A dinosaur",
+    "A piggy bank"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Toy_Story",
+   "verified": true
+  },
+  {
+   "id": "k055",
+   "difficulty": "kid",
+   "q": "What kind of toy is Rex in Toy Story?",
+   "a": "A dinosaur",
+   "wrong": [
+    "A dragon",
+    "A robot",
+    "A shark"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Toy_Story",
+   "verified": true
+  },
+  {
+   "id": "k056",
+   "difficulty": "kid",
+   "q": "In the first Toy Story, which boy owns Woody and Buzz?",
+   "a": "Andy",
+   "wrong": [
+    "Sid",
+    "Riley",
+    "Miguel"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Toy_Story",
+   "verified": true
+  },
+  {
+   "id": "k057",
+   "difficulty": "kid",
+   "q": "How many eyes does Mike Wazowski have?",
+   "a": "One",
+   "wrong": [
+    "Two",
+    "Three",
+    "Four"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Monsters,_Inc.",
+   "verified": true
+  },
+  {
+   "id": "k058",
+   "difficulty": "kid",
+   "q": "What kind of fish are Nemo and his dad Marlin?",
+   "a": "Clownfish",
+   "wrong": [
+    "Blue tang",
+    "Goldfish",
+    "Angelfish"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Finding_Nemo",
+   "verified": true
+  },
+  {
+   "id": "k059",
+   "difficulty": "kid",
+   "q": "What kind of animal is Crush in Finding Nemo?",
+   "a": "A sea turtle",
+   "wrong": [
+    "A shark",
+    "A pelican",
+    "An octopus"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Finding_Nemo",
+   "verified": true
+  },
+  {
+   "id": "k060",
+   "difficulty": "kid",
+   "q": "What is Lightning McQueen?",
+   "a": "A race car",
+   "wrong": [
+    "A tow truck",
+    "A fire truck",
+    "A train"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Cars_(film)",
+   "verified": true
+  },
+  {
+   "id": "k061",
+   "difficulty": "kid",
+   "q": "What castle stands in Disneyland Park?",
+   "a": "Sleeping Beauty Castle",
+   "wrong": [
+    "Cinderella Castle",
+    "Arendelle Castle",
+    "Rapunzel's Tower"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Sleeping_Beauty_Castle",
+   "verified": true
+  },
+  {
+   "id": "k062",
+   "difficulty": "kid",
+   "q": "What kind of animal is Remy in Ratatouille?",
+   "a": "A rat",
+   "wrong": [
+    "A cat",
+    "A hamster",
+    "A rabbit"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Ratatouille_(film)",
+   "verified": true
+  },
+  {
+   "id": "k063",
+   "difficulty": "kid",
+   "q": "What lifts Carl's house into the sky in Up?",
+   "a": "Balloons",
+   "wrong": [
+    "A rocket",
+    "A tornado",
+    "Giant birds"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Up_(2009_film)",
+   "verified": true
+  },
+  {
+   "id": "k064",
+   "difficulty": "kid",
+   "q": "What sport does Riley play in Inside Out?",
+   "a": "Hockey",
+   "wrong": [
+    "Soccer",
+    "Baseball",
+    "Tennis"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Inside_Out_(2015_film)",
+   "verified": true
+  },
+  {
+   "id": "k065",
+   "difficulty": "kid",
+   "q": "What kind of animal is Dante in Coco?",
+   "a": "A dog",
+   "wrong": [
+    "A cat",
+    "A parrot",
+    "A horse"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Coco_(2017_film)",
+   "verified": true
+  },
+  {
+   "id": "t001",
+   "difficulty": "teen",
+   "q": "In Pinocchio, what is the name of the giant whale?",
+   "a": "Monstro",
+   "wrong": [
+    "Moby",
+    "Willy",
+    "Bruce"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Pinocchio_(1940_film)",
+   "verified": true
+  },
+  {
+   "id": "t002",
+   "difficulty": "teen",
+   "q": "What is Geppetto's cat named in Pinocchio?",
+   "a": "Figaro",
+   "wrong": [
+    "Lucifer",
+    "Dinah",
+    "Si"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Pinocchio_(1940_film)",
+   "verified": true
+  },
+  {
+   "id": "t003",
+   "difficulty": "teen",
+   "q": "On Pleasure Island, what do naughty boys turn into?",
+   "a": "Donkeys",
+   "wrong": [
+    "Pigs",
+    "Frogs",
+    "Puppets"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Pinocchio_(1940_film)",
+   "verified": true
+  },
+  {
+   "id": "t004",
+   "difficulty": "teen",
+   "q": "The Evil Queen asks her mirror who is the ___ of all.",
+   "a": "Fairest",
+   "wrong": [
+    "Smartest",
+    "Richest",
+    "Strongest"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs_(1937_film)",
+   "verified": true
+  },
+  {
+   "id": "t005",
+   "difficulty": "teen",
+   "q": "In Bambi, Friend Owl warns the young animals about becoming...",
+   "a": "Twitterpated",
+   "wrong": [
+    "Hibernated",
+    "Flabbergasted",
+    "Bamboozled"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Bambi",
+   "verified": true
+  },
+  {
+   "id": "t006",
+   "difficulty": "teen",
+   "q": "What are Cinderella's stepsisters named?",
+   "a": "Anastasia and Drizella",
+   "wrong": [
+    "Flora and Fauna",
+    "Si and Am",
+    "Flotsam and Jetsam"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Cinderella_(1950_film)",
+   "verified": true
+  },
+  {
+   "id": "t007",
+   "difficulty": "teen",
+   "q": "What are the names of Cinderella's mouse friends?",
+   "a": "Jaq and Gus",
+   "wrong": [
+    "Chip and Dale",
+    "Bernard and Bianca",
+    "Timon and Pumbaa"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Cinderella_(1950_film)",
+   "verified": true
+  },
+  {
+   "id": "t008",
+   "difficulty": "teen",
+   "q": "Which Alice in Wonderland character has a permanent grin?",
+   "a": "The Cheshire Cat",
+   "wrong": [
+    "The March Hare",
+    "The Caterpillar",
+    "The White Rabbit"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Alice_in_Wonderland_(1951_film)",
+   "verified": true
+  },
+  {
+   "id": "t009",
+   "difficulty": "teen",
+   "q": "Which Wonderland ruler is fond of beheadings?",
+   "a": "The Queen of Hearts",
+   "wrong": [
+    "The Red King",
+    "The Evil Queen",
+    "The Duchess"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Alice_in_Wonderland_(1951_film)",
+   "verified": true
+  },
+  {
+   "id": "t010",
+   "difficulty": "teen",
+   "q": "What is the name of Captain Hook's sidekick?",
+   "a": "Mr. Smee",
+   "wrong": [
+    "Mr. Bones",
+    "LeFou",
+    "Iago"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Peter_Pan_(1953_film)",
+   "verified": true
+  },
+  {
+   "id": "t011",
+   "difficulty": "teen",
+   "q": "What breed of dog is Lady in Lady and the Tramp?",
+   "a": "Cocker Spaniel",
+   "wrong": [
+    "Beagle",
+    "Poodle",
+    "Dachshund"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Lady_and_the_Tramp",
+   "verified": true
+  },
+  {
+   "id": "t012",
+   "difficulty": "teen",
+   "q": "What are the Siamese cats named in Lady and the Tramp?",
+   "a": "Si and Am",
+   "wrong": [
+    "Jaq and Gus",
+    "Flotsam and Jetsam",
+    "Pongo and Perdita"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Lady_and_the_Tramp",
+   "verified": true
+  },
+  {
+   "id": "t013",
+   "difficulty": "teen",
+   "q": "What name do the fairies call Aurora while hiding her?",
+   "a": "Briar Rose",
+   "wrong": [
+    "Little Rose",
+    "Wild Rose",
+    "Rosalind"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Sleeping_Beauty_(1959_film)",
+   "verified": true
+  },
+  {
+   "id": "t014",
+   "difficulty": "teen",
+   "q": "Which good fairy in Sleeping Beauty wears blue?",
+   "a": "Merryweather",
+   "wrong": [
+    "Flora",
+    "Fauna",
+    "Tinker Bell"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Sleeping_Beauty_(1959_film)",
+   "verified": true
+  },
+  {
+   "id": "t015",
+   "difficulty": "teen",
+   "q": "What are the names of Cruella's two henchmen?",
+   "a": "Jasper and Horace",
+   "wrong": [
+    "Flotsam and Jetsam",
+    "Shenzi and Banzai",
+    "Pain and Panic"
+   ],
+   "source": "https://en.wikipedia.org/wiki/One_Hundred_and_One_Dalmatians",
+   "verified": true
+  },
+  {
+   "id": "t016",
+   "difficulty": "teen",
+   "q": "How many puppies are born to Pongo and Perdita?",
+   "a": "15",
+   "wrong": [
+    "99",
+    "101",
+    "12"
+   ],
+   "source": "https://en.wikipedia.org/wiki/One_Hundred_and_One_Dalmatians",
+   "verified": true
+  },
+  {
+   "id": "t017",
+   "difficulty": "teen",
+   "q": "What kind of animal is Bagheera in The Jungle Book?",
+   "a": "A black panther",
+   "wrong": [
+    "A tiger",
+    "A lion",
+    "A wolf"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Jungle_Book_(1967_film)",
+   "verified": true
+  },
+  {
+   "id": "t018",
+   "difficulty": "teen",
+   "q": "What kind of animal is Kaa in The Jungle Book?",
+   "a": "A python",
+   "wrong": [
+    "A crocodile",
+    "A monkey",
+    "A tiger"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Jungle_Book_(1967_film)",
+   "verified": true
+  },
+  {
+   "id": "t019",
+   "difficulty": "teen",
+   "q": "What kind of ape is King Louie in The Jungle Book?",
+   "a": "An orangutan",
+   "wrong": [
+    "A gorilla",
+    "A chimpanzee",
+    "A baboon"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Jungle_Book_(1967_film)",
+   "verified": true
+  },
+  {
+   "id": "t020",
+   "difficulty": "teen",
+   "q": "What is the name of Prince Eric's dog?",
+   "a": "Max",
+   "wrong": [
+    "Pluto",
+    "Bolt",
+    "Scuttle"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Little_Mermaid_(1989_film)",
+   "verified": true
+  },
+  {
+   "id": "t021",
+   "difficulty": "teen",
+   "q": "What are the names of Ursula's pet eels?",
+   "a": "Flotsam and Jetsam",
+   "wrong": [
+    "Si and Am",
+    "Jasper and Horace",
+    "Jaq and Gus"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Little_Mermaid_(1989_film)",
+   "verified": true
+  },
+  {
+   "id": "t022",
+   "difficulty": "teen",
+   "q": "What is Belle's father's name?",
+   "a": "Maurice",
+   "wrong": [
+    "Gaston",
+    "Geppetto",
+    "Louis"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(1991_film)",
+   "verified": true
+  },
+  {
+   "id": "t023",
+   "difficulty": "teen",
+   "q": "Who is Gaston's sidekick in Beauty and the Beast?",
+   "a": "LeFou",
+   "wrong": [
+    "Mr. Smee",
+    "Iago",
+    "Lumiere"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(1991_film)",
+   "verified": true
+  },
+  {
+   "id": "t024",
+   "difficulty": "teen",
+   "q": "What is the name of Jafar's parrot?",
+   "a": "Iago",
+   "wrong": [
+    "Zazu",
+    "Scuttle",
+    "Abu"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Aladdin_(1992_Disney_film)",
+   "verified": true
+  },
+  {
+   "id": "t025",
+   "difficulty": "teen",
+   "q": "In which city is Aladdin set?",
+   "a": "Agrabah",
+   "wrong": [
+    "Arendelle",
+    "Corona",
+    "Atlantica"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Aladdin_(1992_Disney_film)",
+   "verified": true
+  },
+  {
+   "id": "t026",
+   "difficulty": "teen",
+   "q": "What does Aladdin use his third wish for?",
+   "a": "To free the Genie",
+   "wrong": [
+    "To become a prince",
+    "To marry Jasmine",
+    "To defeat Jafar"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Aladdin_(1992_Disney_film)",
+   "verified": true
+  },
+  {
+   "id": "t027",
+   "difficulty": "teen",
+   "q": "What kind of bird is Zazu in The Lion King?",
+   "a": "A hornbill",
+   "wrong": [
+    "A toucan",
+    "A parrot",
+    "A flamingo"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Lion_King",
+   "verified": true
+  },
+  {
+   "id": "t028",
+   "difficulty": "teen",
+   "q": "What kind of animal is Rafiki?",
+   "a": "A mandrill",
+   "wrong": [
+    "A gorilla",
+    "A lemur",
+    "A chimpanzee"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Lion_King",
+   "verified": true
+  },
+  {
+   "id": "t029",
+   "difficulty": "teen",
+   "q": "What male name does Mulan use in the army?",
+   "a": "Ping",
+   "wrong": [
+    "Shang",
+    "Khan",
+    "Wei"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Mulan_(1998_film)",
+   "verified": true
+  },
+  {
+   "id": "t030",
+   "difficulty": "teen",
+   "q": "Who leads the Huns in Mulan?",
+   "a": "Shan Yu",
+   "wrong": [
+    "Li Shang",
+    "Fa Zhou",
+    "Jafar"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Mulan_(1998_film)",
+   "verified": true
+  },
+  {
+   "id": "t031",
+   "difficulty": "teen",
+   "q": "What is Flynn Rider's real name?",
+   "a": "Eugene Fitzherbert",
+   "wrong": [
+    "Edward Fitzgerald",
+    "Eugene Fairweather",
+    "Hans Rider"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Tangled",
+   "verified": true
+  },
+  {
+   "id": "t032",
+   "difficulty": "teen",
+   "q": "Who is the villain in Tangled?",
+   "a": "Mother Gothel",
+   "wrong": [
+    "Lady Tremaine",
+    "Maleficent",
+    "Ursula"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Tangled",
+   "verified": true
+  },
+  {
+   "id": "t033",
+   "difficulty": "teen",
+   "q": "What floats into the sky every year on Rapunzel's birthday?",
+   "a": "Lanterns",
+   "wrong": [
+    "Fireworks",
+    "Balloons",
+    "Doves"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Tangled",
+   "verified": true
+  },
+  {
+   "id": "t034",
+   "difficulty": "teen",
+   "q": "What is the name of the kingdom in Frozen?",
+   "a": "Arendelle",
+   "wrong": [
+    "Corona",
+    "Agrabah",
+    "Atlantica"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Frozen_(2013_film)",
+   "verified": true
+  },
+  {
+   "id": "t035",
+   "difficulty": "teen",
+   "q": "What is Kristoff's job in Frozen?",
+   "a": "Iceman (he sells ice)",
+   "wrong": [
+    "Fisherman",
+    "Royal guard",
+    "Baker"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Frozen_(2013_film)",
+   "verified": true
+  },
+  {
+   "id": "t036",
+   "difficulty": "teen",
+   "q": "What is the name of Moana's home island?",
+   "a": "Motunui",
+   "wrong": [
+    "Lalotai",
+    "Tahiti",
+    "Hawaii"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Moana_(2016_film)",
+   "verified": true
+  },
+  {
+   "id": "t037",
+   "difficulty": "teen",
+   "q": "What must Moana return to Te Fiti?",
+   "a": "Her heart",
+   "wrong": [
+    "Maui's hook",
+    "A crown",
+    "A seashell"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Moana_(2016_film)",
+   "verified": true
+  },
+  {
+   "id": "t038",
+   "difficulty": "teen",
+   "q": "In Moana, Tamatoa is a giant what?",
+   "a": "Crab",
+   "wrong": [
+    "Shark",
+    "Octopus",
+    "Eel"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Moana_(2016_film)",
+   "verified": true
+  },
+  {
+   "id": "t039",
+   "difficulty": "teen",
+   "q": "What is Bruno's gift in Encanto?",
+   "a": "Seeing the future",
+   "wrong": [
+    "Shapeshifting",
+    "Controlling weather",
+    "Super strength"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Encanto_(film)",
+   "verified": true
+  },
+  {
+   "id": "t040",
+   "difficulty": "teen",
+   "q": "In which country is Encanto set?",
+   "a": "Colombia",
+   "wrong": [
+    "Mexico",
+    "Peru",
+    "Brazil"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Encanto_(film)",
+   "verified": true
+  },
+  {
+   "id": "t041",
+   "difficulty": "teen",
+   "q": "What kind of animal is Nick Wilde in Zootopia?",
+   "a": "A fox",
+   "wrong": [
+    "A wolf",
+    "A raccoon",
+    "A rabbit"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Zootopia",
+   "verified": true
+  },
+  {
+   "id": "t042",
+   "difficulty": "teen",
+   "q": "Where does Buzz mistake a claw machine for a rocket?",
+   "a": "Pizza Planet",
+   "wrong": [
+    "Burger Galaxy",
+    "Space Diner",
+    "Rocket Pizza"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Toy_Story",
+   "verified": true
+  },
+  {
+   "id": "t043",
+   "difficulty": "teen",
+   "q": "What is the little girl called in Monsters, Inc.?",
+   "a": "Boo",
+   "wrong": [
+    "Dot",
+    "Riley",
+    "Darla"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Monsters,_Inc.",
+   "verified": true
+  },
+  {
+   "id": "t044",
+   "difficulty": "teen",
+   "q": "At first, what powers the city in Monsters, Inc.?",
+   "a": "Children's screams",
+   "wrong": [
+    "Monster sweat",
+    "Solar panels",
+    "Candy"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Monsters,_Inc.",
+   "verified": true
+  },
+  {
+   "id": "t045",
+   "difficulty": "teen",
+   "q": "What kind of fish is Dory?",
+   "a": "A blue tang",
+   "wrong": [
+    "A clownfish",
+    "A Moorish idol",
+    "A pufferfish"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Finding_Nemo",
+   "verified": true
+  },
+  {
+   "id": "t046",
+   "difficulty": "teen",
+   "q": "In what city does Nemo end up in a dentist's tank?",
+   "a": "Sydney",
+   "wrong": [
+    "Melbourne",
+    "Perth",
+    "Auckland"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Finding_Nemo",
+   "verified": true
+  },
+  {
+   "id": "t047",
+   "difficulty": "teen",
+   "q": "Who designs the Incredibles' super suits?",
+   "a": "Edna Mode",
+   "wrong": [
+    "Mirage",
+    "Helen Parr",
+    "Evelyn Deavor"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Incredibles",
+   "verified": true
+  },
+  {
+   "id": "t048",
+   "difficulty": "teen",
+   "q": "What is Syndrome's real name in The Incredibles?",
+   "a": "Buddy Pine",
+   "wrong": [
+    "Lucius Best",
+    "Bob Parr",
+    "Rick Dicker"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Incredibles",
+   "verified": true
+  },
+  {
+   "id": "t049",
+   "difficulty": "teen",
+   "q": "In Cars, what town does Lightning McQueen get stuck in?",
+   "a": "Radiator Springs",
+   "wrong": [
+    "Piston Peak",
+    "Motor City",
+    "Tailpipe Junction"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Cars_(film)",
+   "verified": true
+  },
+  {
+   "id": "t050",
+   "difficulty": "teen",
+   "q": "What is the restaurant in Ratatouille called?",
+   "a": "Gusteau's",
+   "wrong": [
+    "Chez Remy",
+    "Skinner's",
+    "Le Petit Bistro"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Ratatouille_(film)",
+   "verified": true
+  },
+  {
+   "id": "t051",
+   "difficulty": "teen",
+   "q": "In which city does Disneyland Park stand?",
+   "a": "Anaheim",
+   "wrong": [
+    "Burbank",
+    "Irvine",
+    "Glendale"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Disneyland",
+   "verified": true
+  },
+  {
+   "id": "t052",
+   "difficulty": "teen",
+   "q": "Which California Adventure land has Radiator Springs Racers?",
+   "a": "Cars Land",
+   "wrong": [
+    "Pixar Pier",
+    "Hollywood Land",
+    "Grizzly Peak"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Disney_California_Adventure",
+   "verified": true
+  },
+  {
+   "id": "t053",
+   "difficulty": "teen",
+   "q": "Which Disneyland land is Pirates of the Caribbean in?",
+   "a": "New Orleans Square",
+   "wrong": [
+    "Adventureland",
+    "Frontierland",
+    "Fantasyland"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean_(attraction)",
+   "verified": true
+  },
+  {
+   "id": "t054",
+   "difficulty": "teen",
+   "q": "On what planet is Star Wars: Galaxy's Edge set?",
+   "a": "Batuu",
+   "wrong": [
+    "Tatooine",
+    "Endor",
+    "Hoth"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Star_Wars:_Galaxy%27s_Edge",
+   "verified": true
+  },
+  {
+   "id": "t055",
+   "difficulty": "teen",
+   "q": "What is the village in Galaxy's Edge called?",
+   "a": "Black Spire Outpost",
+   "wrong": [
+    "Mos Eisley",
+    "Cloud City",
+    "Echo Base"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Star_Wars:_Galaxy%27s_Edge",
+   "verified": true
+  },
+  {
+   "id": "t056",
+   "difficulty": "teen",
+   "q": "Which California Adventure land is home to Grizzly River Run?",
+   "a": "Grizzly Peak",
+   "wrong": [
+    "Cars Land",
+    "Pixar Pier",
+    "Avengers Campus"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Disney_California_Adventure",
+   "verified": true
+  },
+  {
+   "id": "t057",
+   "difficulty": "teen",
+   "q": "Every 15 minutes, what comes out of the small world clock?",
+   "a": "Dancing dolls",
+   "wrong": [
+    "A cuckoo bird",
+    "Fireworks",
+    "A marching band"
+   ],
+   "source": "https://en.wikipedia.org/wiki/It%27s_a_Small_World",
+   "verified": true
+  },
+  {
+   "id": "t058",
+   "difficulty": "teen",
+   "q": "Which ride replaced Splash Mountain at Disneyland?",
+   "a": "Tiana's Bayou Adventure",
+   "wrong": [
+    "Grizzly River Run",
+    "Jungle Cruise",
+    "Big Thunder Mountain"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Tiana%27s_Bayou_Adventure",
+   "verified": true
+  },
+  {
+   "id": "t059",
+   "difficulty": "teen",
+   "q": "Which film is Tiana's Bayou Adventure based on?",
+   "a": "The Princess and the Frog",
+   "wrong": [
+    "The Little Mermaid",
+    "Moana",
+    "Encanto"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Tiana%27s_Bayou_Adventure",
+   "verified": true
+  },
+  {
+   "id": "t060",
+   "difficulty": "teen",
+   "q": "What treat is sold at a snack bar by the Tiki Room?",
+   "a": "Dole Whip",
+   "wrong": [
+    "Churros",
+    "Mickey pretzels",
+    "Turkey legs"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Walt_Disney%27s_Enchanted_Tiki_Room",
+   "verified": true
+  },
+  {
+   "id": "t061",
+   "difficulty": "teen",
+   "q": "Sleeping Beauty Castle was inspired by a castle in what country?",
+   "a": "Germany",
+   "wrong": [
+    "France",
+    "England",
+    "Spain"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Sleeping_Beauty_Castle",
+   "verified": true
+  },
+  {
+   "id": "t062",
+   "difficulty": "teen",
+   "q": "What is the temple called in Indiana Jones Adventure?",
+   "a": "Temple of the Forbidden Eye",
+   "wrong": [
+    "Temple of Doom",
+    "Temple of the Golden Idol",
+    "Temple of the Crystal Skull"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Indiana_Jones_Adventure",
+   "verified": true
+  },
+  {
+   "id": "t063",
+   "difficulty": "teen",
+   "q": "Big Thunder Mountain Railroad is a runaway what?",
+   "a": "Mine train",
+   "wrong": [
+    "Steam train",
+    "Stagecoach",
+    "Log flume"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Big_Thunder_Mountain_Railroad",
+   "verified": true
+  },
+  {
+   "id": "t064",
+   "difficulty": "teen",
+   "q": "Which land is Space Mountain in at Disneyland?",
+   "a": "Tomorrowland",
+   "wrong": [
+    "Fantasyland",
+    "Adventureland",
+    "Frontierland"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Space_Mountain_(Disneyland)",
+   "verified": true
+  },
+  {
+   "id": "t065",
+   "difficulty": "teen",
+   "q": "Which ride sits between Fantasyland and Tomorrowland?",
+   "a": "Matterhorn Bobsleds",
+   "wrong": [
+    "Space Mountain",
+    "Big Thunder Mountain",
+    "Peter Pan's Flight"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Matterhorn_Bobsleds",
+   "verified": true
+  },
+  {
+   "id": "a001",
+   "difficulty": "adult",
+   "q": "In what year did Snow White and the Seven Dwarfs premiere?",
+   "a": "1937",
+   "wrong": [
+    "1934",
+    "1940",
+    "1941"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs_(1937_film)",
+   "verified": true
+  },
+  {
+   "id": "a002",
+   "difficulty": "adult",
+   "q": "In which theater did Snow White premiere?",
+   "a": "Carthay Circle Theatre",
+   "wrong": [
+    "Grauman's Chinese Theatre",
+    "El Capitan Theatre",
+    "Radio City Music Hall"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs_(1937_film)",
+   "verified": true
+  },
+  {
+   "id": "a003",
+   "difficulty": "adult",
+   "q": "Who voiced Snow White in the 1937 film?",
+   "a": "Adriana Caselotti",
+   "wrong": [
+    "Ilene Woods",
+    "Mary Costa",
+    "Kathryn Beaumont"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs_(1937_film)",
+   "verified": true
+  },
+  {
+   "id": "a004",
+   "difficulty": "adult",
+   "q": "Which Pinocchio song won the Oscar for Best Original Song?",
+   "a": "When You Wish Upon a Star",
+   "wrong": [
+    "Some Day My Prince Will Come",
+    "Baby Mine",
+    "Zip-a-Dee-Doo-Dah"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Pinocchio_(1940_film)",
+   "verified": true
+  },
+  {
+   "id": "a005",
+   "difficulty": "adult",
+   "q": "Who voiced Jiminy Cricket in Pinocchio (1940)?",
+   "a": "Cliff Edwards",
+   "wrong": [
+    "Sterling Holloway",
+    "Ed Wynn",
+    "Bill Thompson"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Pinocchio_(1940_film)",
+   "verified": true
+  },
+  {
+   "id": "a006",
+   "difficulty": "adult",
+   "q": "In what year was Dumbo released?",
+   "a": "1941",
+   "wrong": [
+    "1937",
+    "1945",
+    "1950"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Dumbo",
+   "verified": true
+  },
+  {
+   "id": "a007",
+   "difficulty": "adult",
+   "q": "Dumbo won an Academy Award in which category?",
+   "a": "Best Scoring of a Musical Picture",
+   "wrong": [
+    "Best Original Song",
+    "Best Animated Short",
+    "Best Picture"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Dumbo",
+   "verified": true
+  },
+  {
+   "id": "a008",
+   "difficulty": "adult",
+   "q": "Who voiced Cinderella in the 1950 film?",
+   "a": "Ilene Woods",
+   "wrong": [
+    "Adriana Caselotti",
+    "Mary Costa",
+    "Jodi Benson"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Cinderella_(1950_film)",
+   "verified": true
+  },
+  {
+   "id": "a009",
+   "difficulty": "adult",
+   "q": "Who voiced the Cheshire Cat in Alice in Wonderland (1951)?",
+   "a": "Sterling Holloway",
+   "wrong": [
+    "Ed Wynn",
+    "Jerry Colonna",
+    "Bill Thompson"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Alice_in_Wonderland_(1951_film)",
+   "verified": true
+  },
+  {
+   "id": "a010",
+   "difficulty": "adult",
+   "q": "Who voiced the Mad Hatter in Alice in Wonderland (1951)?",
+   "a": "Ed Wynn",
+   "wrong": [
+    "Sterling Holloway",
+    "Richard Haydn",
+    "Hans Conried"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Alice_in_Wonderland_(1951_film)",
+   "verified": true
+  },
+  {
+   "id": "a011",
+   "difficulty": "adult",
+   "q": "Who voiced Peter Pan in the 1953 film?",
+   "a": "Bobby Driscoll",
+   "wrong": [
+    "Hans Conried",
+    "Bill Thompson",
+    "Cliff Edwards"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Peter_Pan_(1953_film)",
+   "verified": true
+  },
+  {
+   "id": "a012",
+   "difficulty": "adult",
+   "q": "Lady and the Tramp was the first animated feature in what format?",
+   "a": "CinemaScope",
+   "wrong": [
+    "Technirama",
+    "VistaVision",
+    "Cinerama"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Lady_and_the_Tramp",
+   "verified": true
+  },
+  {
+   "id": "a013",
+   "difficulty": "adult",
+   "q": "Which singer voiced Peg and co-wrote Lady and the Tramp's songs?",
+   "a": "Peggy Lee",
+   "wrong": [
+    "Ella Fitzgerald",
+    "Judy Garland",
+    "Doris Day"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Lady_and_the_Tramp",
+   "verified": true
+  },
+  {
+   "id": "a014",
+   "difficulty": "adult",
+   "q": "Who voiced Maleficent in Sleeping Beauty (1959)?",
+   "a": "Eleanor Audley",
+   "wrong": [
+    "Verna Felton",
+    "Mary Costa",
+    "Ilene Woods"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Sleeping_Beauty_(1959_film)",
+   "verified": true
+  },
+  {
+   "id": "a015",
+   "difficulty": "adult",
+   "q": "Sleeping Beauty's score is adapted from which composer's ballet?",
+   "a": "Tchaikovsky",
+   "wrong": [
+    "Beethoven",
+    "Mozart",
+    "Stravinsky"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Sleeping_Beauty_(1959_film)",
+   "verified": true
+  },
+  {
+   "id": "a016",
+   "difficulty": "adult",
+   "q": "Who wrote the novel 101 Dalmatians is based on?",
+   "a": "Dodie Smith",
+   "wrong": [
+    "Felix Salten",
+    "P. L. Travers",
+    "Beatrix Potter"
+   ],
+   "source": "https://en.wikipedia.org/wiki/One_Hundred_and_One_Dalmatians",
+   "verified": true
+  },
+  {
+   "id": "a017",
+   "difficulty": "adult",
+   "q": "Who voiced Baloo in The Jungle Book (1967)?",
+   "a": "Phil Harris",
+   "wrong": [
+    "Louis Prima",
+    "Sebastian Cabot",
+    "Sterling Holloway"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Jungle_Book_(1967_film)",
+   "verified": true
+  },
+  {
+   "id": "a018",
+   "difficulty": "adult",
+   "q": "Who voiced Shere Khan in The Jungle Book (1967)?",
+   "a": "George Sanders",
+   "wrong": [
+    "Vincent Price",
+    "Sebastian Cabot",
+    "Hans Conried"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Jungle_Book_(1967_film)",
+   "verified": true
+  },
+  {
+   "id": "a019",
+   "difficulty": "adult",
+   "q": "Who voiced King Louie in The Jungle Book (1967)?",
+   "a": "Louis Prima",
+   "wrong": [
+    "Phil Harris",
+    "Louis Armstrong",
+    "Cab Calloway"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Jungle_Book_(1967_film)",
+   "verified": true
+  },
+  {
+   "id": "a020",
+   "difficulty": "adult",
+   "q": "Which Little Mermaid song won the Oscar for Best Original Song?",
+   "a": "Under the Sea",
+   "wrong": [
+    "Part of Your World",
+    "Kiss the Girl",
+    "Poor Unfortunate Souls"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Little_Mermaid_(1989_film)",
+   "verified": true
+  },
+  {
+   "id": "a021",
+   "difficulty": "adult",
+   "q": "Beauty and the Beast (1991) was the first animated film nominated for?",
+   "a": "Best Picture",
+   "wrong": [
+    "Best Animated Feature",
+    "Best Director",
+    "Best Screenplay"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(1991_film)",
+   "verified": true
+  },
+  {
+   "id": "a022",
+   "difficulty": "adult",
+   "q": "Who voiced Mrs. Potts in Beauty and the Beast (1991)?",
+   "a": "Angela Lansbury",
+   "wrong": [
+    "Julie Andrews",
+    "Bette Midler",
+    "Paige O'Hara"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(1991_film)",
+   "verified": true
+  },
+  {
+   "id": "a023",
+   "difficulty": "adult",
+   "q": "Who voiced Scar in The Lion King (1994)?",
+   "a": "Jeremy Irons",
+   "wrong": [
+    "James Earl Jones",
+    "Matthew Broderick",
+    "Nathan Lane"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Lion_King",
+   "verified": true
+  },
+  {
+   "id": "a024",
+   "difficulty": "adult",
+   "q": "\"Hakuna Matata\" comes from which language?",
+   "a": "Swahili",
+   "wrong": [
+    "Zulu",
+    "Arabic",
+    "Amharic"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Lion_King",
+   "verified": true
+  },
+  {
+   "id": "a025",
+   "difficulty": "adult",
+   "q": "Who voiced Mushu in Mulan (1998)?",
+   "a": "Eddie Murphy",
+   "wrong": [
+    "Chris Rock",
+    "Robin Williams",
+    "Martin Short"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Mulan_(1998_film)",
+   "verified": true
+  },
+  {
+   "id": "a026",
+   "difficulty": "adult",
+   "q": "Frozen was loosely inspired by which Hans Christian Andersen tale?",
+   "a": "The Snow Queen",
+   "wrong": [
+    "The Little Match Girl",
+    "The Ugly Duckling",
+    "The Steadfast Tin Soldier"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Frozen_(2013_film)",
+   "verified": true
+  },
+  {
+   "id": "a027",
+   "difficulty": "adult",
+   "q": "Which Frozen song won the Oscar for Best Original Song?",
+   "a": "Let It Go",
+   "wrong": [
+    "For the First Time in Forever",
+    "Love Is an Open Door",
+    "Do You Want to Build a Snowman?"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Frozen_(2013_film)",
+   "verified": true
+  },
+  {
+   "id": "a028",
+   "difficulty": "adult",
+   "q": "Who wrote the songs for Encanto?",
+   "a": "Lin-Manuel Miranda",
+   "wrong": [
+    "Alan Menken",
+    "Robert Lopez",
+    "Randy Newman"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Encanto_(film)",
+   "verified": true
+  },
+  {
+   "id": "a029",
+   "difficulty": "adult",
+   "q": "Who directed the original Toy Story (1995)?",
+   "a": "John Lasseter",
+   "wrong": [
+    "Pete Docter",
+    "Andrew Stanton",
+    "Brad Bird"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Toy_Story",
+   "verified": true
+  },
+  {
+   "id": "a030",
+   "difficulty": "adult",
+   "q": "Which Monsters, Inc. song won the Oscar for Best Original Song?",
+   "a": "If I Didn't Have You",
+   "wrong": [
+    "You've Got a Friend in Me",
+    "When She Loved Me",
+    "We Belong Together"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Monsters,_Inc.",
+   "verified": true
+  },
+  {
+   "id": "a031",
+   "difficulty": "adult",
+   "q": "Which was the first Pixar film to win Best Animated Feature?",
+   "a": "Finding Nemo",
+   "wrong": [
+    "Monsters, Inc.",
+    "Toy Story",
+    "The Incredibles"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Finding_Nemo",
+   "verified": true
+  },
+  {
+   "id": "a032",
+   "difficulty": "adult",
+   "q": "In The Incredibles, Edna Mode is voiced by which person?",
+   "a": "Director Brad Bird",
+   "wrong": [
+    "Holly Hunter",
+    "Samuel L. Jackson",
+    "John Ratzenberger"
+   ],
+   "source": "https://en.wikipedia.org/wiki/The_Incredibles",
+   "verified": true
+  },
+  {
+   "id": "a033",
+   "difficulty": "adult",
+   "q": "Who voiced Doc Hudson in Cars (2006)?",
+   "a": "Paul Newman",
+   "wrong": [
+    "Richard Petty",
+    "Robert Redford",
+    "Clint Eastwood"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Cars_(film)",
+   "verified": true
+  },
+  {
+   "id": "a034",
+   "difficulty": "adult",
+   "q": "In WALL-E, what does EVE stand for?",
+   "a": "Extraterrestrial Vegetation Evaluator",
+   "wrong": [
+    "Earth Vegetation Explorer",
+    "Electronic Visual Examiner",
+    "Extraterrestrial Vehicle Engineer"
+   ],
+   "source": "https://en.wikipedia.org/wiki/WALL-E",
+   "verified": true
+  },
+  {
+   "id": "a035",
+   "difficulty": "adult",
+   "q": "In Up, Paradise Falls is a tepui in which country?",
+   "a": "Venezuela",
+   "wrong": [
+    "Brazil",
+    "Peru",
+    "Chile"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Up_(2009_film)",
+   "verified": true
+  },
+  {
+   "id": "a036",
+   "difficulty": "adult",
+   "q": "Who voiced Carl Fredricksen in Up?",
+   "a": "Ed Asner",
+   "wrong": [
+    "Christopher Plummer",
+    "Paul Newman",
+    "Bob Peterson"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Up_(2009_film)",
+   "verified": true
+  },
+  {
+   "id": "a037",
+   "difficulty": "adult",
+   "q": "In which short did Mickey Mouse debut in November 1928?",
+   "a": "Steamboat Willie",
+   "wrong": [
+    "Mickey’s Choo-Choo",
+    "The Barn Dance",
+    "The Karnival Kid"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Mickey_Mouse",
+   "verified": true
+  },
+  {
+   "id": "a038",
+   "difficulty": "adult",
+   "q": "What name was first considered for Mickey Mouse?",
+   "a": "Mortimer",
+   "wrong": [
+    "Marvin",
+    "Milton",
+    "Morris"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Mickey_Mouse",
+   "verified": true
+  },
+  {
+   "id": "a039",
+   "difficulty": "adult",
+   "q": "Which Disney character came before Mickey Mouse?",
+   "a": "Oswald the Lucky Rabbit",
+   "wrong": [
+    "Donald Duck",
+    "Goofy",
+    "Pluto"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Mickey_Mouse",
+   "verified": true
+  },
+  {
+   "id": "a040",
+   "difficulty": "adult",
+   "q": "On what date did Disneyland open?",
+   "a": "July 17, 1955",
+   "wrong": [
+    "July 4, 1955",
+    "July 17, 1956",
+    "June 15, 1955"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Disneyland",
+   "verified": true
+  },
+  {
+   "id": "a041",
+   "difficulty": "adult",
+   "q": "Which future U.S. president co-hosted Disneyland's TV opening?",
+   "a": "Ronald Reagan",
+   "wrong": [
+    "Richard Nixon",
+    "Gerald Ford",
+    "Dwight Eisenhower"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Disneyland",
+   "verified": true
+  },
+  {
+   "id": "a042",
+   "difficulty": "adult",
+   "q": "What nickname was given to Disneyland's chaotic first day?",
+   "a": "Black Sunday",
+   "wrong": [
+    "Black Monday",
+    "Meltdown Monday",
+    "Hot Sunday"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Disneyland",
+   "verified": true
+  },
+  {
+   "id": "a043",
+   "difficulty": "adult",
+   "q": "Walt Disney's private apartment is above which Main Street building?",
+   "a": "The Fire Station",
+   "wrong": [
+    "City Hall",
+    "The Emporium",
+    "The Opera House"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Disneyland",
+   "verified": true
+  },
+  {
+   "id": "a044",
+   "difficulty": "adult",
+   "q": "Which land was NOT one of Disneyland's 1955 opening lands?",
+   "a": "New Orleans Square",
+   "wrong": [
+    "Adventureland",
+    "Frontierland",
+    "Tomorrowland"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Disneyland",
+   "verified": true
+  },
+  {
+   "id": "a045",
+   "difficulty": "adult",
+   "q": "Bayou Country opened in 1972 under what name?",
+   "a": "Bear Country",
+   "wrong": [
+    "Critter Country",
+    "Frontier Woods",
+    "Rivers Country"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Disneyland",
+   "verified": true
+  },
+  {
+   "id": "a046",
+   "difficulty": "adult",
+   "q": "In what year did Disney California Adventure open?",
+   "a": "2001",
+   "wrong": [
+    "1998",
+    "2003",
+    "2005"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Disney_California_Adventure",
+   "verified": true
+  },
+  {
+   "id": "a047",
+   "difficulty": "adult",
+   "q": "Most of California Adventure was built on what?",
+   "a": "Disneyland's parking lot",
+   "wrong": [
+    "An orange grove",
+    "A golf course",
+    "An airfield"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Disney_California_Adventure",
+   "verified": true
+  },
+  {
+   "id": "a048",
+   "difficulty": "adult",
+   "q": "What did Guardians of the Galaxy - Mission: Breakout replace?",
+   "a": "Twilight Zone Tower of Terror",
+   "wrong": [
+    "Muppet*Vision 3D",
+    "Soarin' Over California",
+    "California Screamin'"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Disney_California_Adventure",
+   "verified": true
+  },
+  {
+   "id": "a049",
+   "difficulty": "adult",
+   "q": "World of Color is shown on which body of water at California Adventure?",
+   "a": "Paradise Bay",
+   "wrong": [
+    "Rivers of America",
+    "Pixar Lagoon",
+    "Grizzly Bay"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Disney_California_Adventure",
+   "verified": true
+  },
+  {
+   "id": "a050",
+   "difficulty": "adult",
+   "q": "How tall is Disneyland's Sleeping Beauty Castle?",
+   "a": "77 feet",
+   "wrong": [
+    "57 feet",
+    "99 feet",
+    "120 feet"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Sleeping_Beauty_Castle",
+   "verified": true
+  },
+  {
+   "id": "a051",
+   "difficulty": "adult",
+   "q": "Matterhorn Bobsleds (1959) was the world's first what?",
+   "a": "Tubular steel roller coaster",
+   "wrong": [
+    "Indoor roller coaster",
+    "Wooden roller coaster",
+    "Looping roller coaster"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Matterhorn_Bobsleds",
+   "verified": true
+  },
+  {
+   "id": "a052",
+   "difficulty": "adult",
+   "q": "Which film shoot in Switzerland helped inspire the Matterhorn?",
+   "a": "Third Man on the Mountain",
+   "wrong": [
+    "Swiss Family Robinson",
+    "Old Yeller",
+    "Pollyanna"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Matterhorn_Bobsleds",
+   "verified": true
+  },
+  {
+   "id": "a053",
+   "difficulty": "adult",
+   "q": "Pirates of the Caribbean, the last ride Walt helped design, opened when?",
+   "a": "1967",
+   "wrong": [
+    "1966",
+    "1969",
+    "1971"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean_(attraction)",
+   "verified": true
+  },
+  {
+   "id": "a054",
+   "difficulty": "adult",
+   "q": "Which restaurant overlooks the Pirates of the Caribbean boats?",
+   "a": "Blue Bayou",
+   "wrong": [
+    "Cafe Orleans",
+    "Tiana's Palace",
+    "Royal Street Veranda"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean_(attraction)",
+   "verified": true
+  },
+  {
+   "id": "a055",
+   "difficulty": "adult",
+   "q": "Where did \"it's a small world\" first premiere?",
+   "a": "1964 New York World's Fair",
+   "wrong": [
+    "1939 New York World's Fair",
+    "1962 Seattle World's Fair",
+    "Expo 67 in Montreal"
+   ],
+   "source": "https://en.wikipedia.org/wiki/It%27s_a_Small_World",
+   "verified": true
+  },
+  {
+   "id": "a056",
+   "difficulty": "adult",
+   "q": "Whose art style and colors define \"it's a small world\"?",
+   "a": "Mary Blair",
+   "wrong": [
+    "Marc Davis",
+    "Claude Coats",
+    "Harper Goff"
+   ],
+   "source": "https://en.wikipedia.org/wiki/It%27s_a_Small_World",
+   "verified": true
+  },
+  {
+   "id": "a057",
+   "difficulty": "adult",
+   "q": "Which 1951 film helped inspire the Jungle Cruise?",
+   "a": "The African Queen",
+   "wrong": [
+    "Casablanca",
+    "King Solomon's Mines",
+    "Mogambo"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Jungle_Cruise",
+   "verified": true
+  },
+  {
+   "id": "a058",
+   "difficulty": "adult",
+   "q": "Jungle Cruise skippers call what the Eighth Wonder of the World?",
+   "a": "The backside of water",
+   "wrong": [
+    "The Temple of Doom",
+    "The Lost Safari",
+    "The giant python"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Jungle_Cruise",
+   "verified": true
+  },
+  {
+   "id": "a059",
+   "difficulty": "adult",
+   "q": "Disneyland Railroad's first 4 engines honor presidents of what line?",
+   "a": "Santa Fe Railway",
+   "wrong": [
+    "Union Pacific",
+    "Southern Pacific",
+    "Central Pacific"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Disneyland_Railroad",
+   "verified": true
+  },
+  {
+   "id": "a060",
+   "difficulty": "adult",
+   "q": "What was Walt Disney's backyard railroad called?",
+   "a": "Carolwood Pacific Railroad",
+   "wrong": [
+    "Burbank Western Railroad",
+    "Lilly Belle Line",
+    "Marceline Express"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Disneyland_Railroad",
+   "verified": true
+  },
+  {
+   "id": "a061",
+   "difficulty": "adult",
+   "q": "Which Disneyland Railroad diorama debuted in 1966?",
+   "a": "Primeval World",
+   "wrong": [
+    "Grand Canyon",
+    "Rivers of America",
+    "Columbia Gorge"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Disneyland_Railroad",
+   "verified": true
+  },
+  {
+   "id": "a062",
+   "difficulty": "adult",
+   "q": "Who composed Space Mountain's 2005 soundtrack at Disneyland?",
+   "a": "Michael Giacchino",
+   "wrong": [
+    "John Williams",
+    "Danny Elfman",
+    "Alan Menken"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Space_Mountain_(Disneyland)",
+   "verified": true
+  },
+  {
+   "id": "a063",
+   "difficulty": "adult",
+   "q": "In Indiana Jones Adventure, which deity offers visitors gifts?",
+   "a": "Mara",
+   "wrong": [
+    "Kali",
+    "Anubis",
+    "Pele"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Indiana_Jones_Adventure",
+   "verified": true
+  },
+  {
+   "id": "a064",
+   "difficulty": "adult",
+   "q": "Disneyland's Big Thunder rockwork is based on which national park?",
+   "a": "Bryce Canyon",
+   "wrong": [
+    "Monument Valley",
+    "Zion",
+    "Arches"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Big_Thunder_Mountain_Railroad",
+   "verified": true
+  },
+  {
+   "id": "a065",
+   "difficulty": "adult",
+   "q": "Which was the first attraction to use Audio-Animatronics?",
+   "a": "Enchanted Tiki Room",
+   "wrong": [
+    "it's a small world",
+    "Pirates of the Caribbean",
+    "Haunted Mansion"
+   ],
+   "source": "https://en.wikipedia.org/wiki/Walt_Disney%27s_Enchanted_Tiki_Room",
+   "verified": true
+  }
+ ]
+}

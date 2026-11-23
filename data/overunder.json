@@ -1,0 +1,228 @@
+{
+ "prompts": [
+  {
+   "id": "o01",
+   "text": "Posted wait for Indiana Jones Adventure right now",
+   "ref": 55,
+   "unit": "min",
+   "verify": "Check the Disneyland app or the wait sign"
+  },
+  {
+   "id": "o02",
+   "text": "Posted wait for Space Mountain right now",
+   "ref": 50,
+   "unit": "min",
+   "verify": "Check the Disneyland app or the wait sign"
+  },
+  {
+   "id": "o03",
+   "text": "Posted wait for Radiator Springs Racers right now",
+   "ref": 70,
+   "unit": "min",
+   "verify": "Check the Disneyland app or the wait sign"
+  },
+  {
+   "id": "o04",
+   "text": "Posted wait for Rise of the Resistance right now",
+   "ref": 65,
+   "unit": "min",
+   "verify": "Check the Disneyland app or the wait sign"
+  },
+  {
+   "id": "o05",
+   "text": "Posted wait for Peter Pan's Flight right now",
+   "ref": 45,
+   "unit": "min",
+   "verify": "Check the Disneyland app or the wait sign"
+  },
+  {
+   "id": "o06",
+   "text": "Posted wait for it's a small world right now",
+   "ref": 20,
+   "unit": "min",
+   "verify": "Check the Disneyland app"
+  },
+  {
+   "id": "o07",
+   "text": "Rides in the park with a wait over 60 minutes right now",
+   "ref": 6,
+   "unit": "rides",
+   "verify": "Count them in the Disneyland app wait-times list"
+  },
+  {
+   "id": "o08",
+   "text": "Mickey ears at the Emporium",
+   "ref": 40,
+   "unit": "$",
+   "verify": "Check the price tag or the app"
+  },
+  {
+   "id": "o09",
+   "text": "A churro from a cart",
+   "ref": 7,
+   "unit": "$",
+   "verify": "Check the cart's menu board"
+  },
+  {
+   "id": "o10",
+   "text": "A Mickey pretzel",
+   "ref": 9,
+   "unit": "$",
+   "verify": "Check the menu in the app or on the cart"
+  },
+  {
+   "id": "o11",
+   "text": "A balloon from a balloon seller",
+   "ref": 20,
+   "unit": "$",
+   "verify": "Check the price sign on the balloon cart"
+  },
+  {
+   "id": "o12",
+   "text": "A popcorn refill for a souvenir bucket",
+   "ref": 3,
+   "unit": "$",
+   "verify": "Check the popcorn cart's menu board"
+  },
+  {
+   "id": "o13",
+   "text": "A Spirit Jersey",
+   "ref": 80,
+   "unit": "$",
+   "verify": "Check the price tag in a shop"
+  },
+  {
+   "id": "o14",
+   "text": "Minutes the line takes to move past the next corner",
+   "ref": 8,
+   "unit": "min",
+   "verify": "Start a timer and watch it"
+  },
+  {
+   "id": "o15",
+   "text": "People in the next ride vehicle that passes",
+   "ref": 8,
+   "unit": "people",
+   "verify": "Count them as it goes by"
+  },
+  {
+   "id": "o16",
+   "text": "Strollers that pass in the next 2 minutes",
+   "ref": 15,
+   "unit": "strollers",
+   "verify": "Count together with a 2-minute timer"
+  },
+  {
+   "id": "o17",
+   "text": "Steps from here to the next trash can",
+   "ref": 40,
+   "unit": "steps",
+   "verify": "Count steps when you get there with your group"
+  },
+  {
+   "id": "o18",
+   "text": "Balloons you can see from right here",
+   "ref": 10,
+   "unit": "balloons",
+   "verify": "Look around together and count"
+  },
+  {
+   "id": "o19",
+   "text": "People in our family wearing ears right now",
+   "ref": 3,
+   "unit": "people",
+   "verify": "Check each other"
+  },
+  {
+   "id": "o20",
+   "text": "Total steps our family's phones/watches show today",
+   "ref": 80000,
+   "unit": "steps",
+   "verify": "Add up everyone's step counters"
+  },
+  {
+   "id": "o21",
+   "text": "Minutes until the next posted parade or show time",
+   "ref": 90,
+   "unit": "min",
+   "verify": "Check the show times in the app"
+  },
+  {
+   "id": "o22",
+   "text": "Temperature outside right now",
+   "ref": 68,
+   "unit": "°F",
+   "verify": "Check a phone weather app"
+  },
+  {
+   "id": "o23",
+   "text": "Phone battery percent of the lowest phone in our group",
+   "ref": 40,
+   "unit": "%",
+   "verify": "Check every phone"
+  },
+  {
+   "id": "o24",
+   "text": "Photos on the family photographer's phone from today",
+   "ref": 150,
+   "unit": "photos",
+   "verify": "Check today's photos on that phone"
+  },
+  {
+   "id": "o25",
+   "text": "Mickey ears you can spot in the next minute",
+   "ref": 20,
+   "unit": "ears",
+   "verify": "Count together for one minute"
+  },
+  {
+   "id": "o26",
+   "text": "Cast members you can see from where you stand",
+   "ref": 4,
+   "unit": "people",
+   "verify": "Look around and count"
+  },
+  {
+   "id": "o27",
+   "text": "Times the line moves forward in the next 5 minutes",
+   "ref": 6,
+   "unit": "times",
+   "verify": "Count with a 5-minute timer"
+  },
+  {
+   "id": "o28",
+   "text": "Hidden Mickeys our family spots before we board",
+   "ref": 2,
+   "unit": "Mickeys",
+   "verify": "Count them as you find them"
+  },
+  {
+   "id": "o29",
+   "text": "Seconds the family can stay silent in a row",
+   "ref": 30,
+   "unit": "sec",
+   "verify": "Time it and see who breaks first"
+  },
+  {
+   "id": "o30",
+   "text": "Total snacks our family has eaten today",
+   "ref": 12,
+   "unit": "snacks",
+   "verify": "Count together, everyone reports"
+  },
+  {
+   "id": "o31",
+   "text": "Rides our family has done today",
+   "ref": 6,
+   "unit": "rides",
+   "verify": "Count together from memory"
+  },
+  {
+   "id": "o32",
+   "text": "Minutes until our park closes",
+   "ref": 300,
+   "unit": "min",
+   "verify": "Check the park hours in the app"
+  }
+ ]
+}
