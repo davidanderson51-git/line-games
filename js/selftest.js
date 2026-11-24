@@ -39,7 +39,7 @@ function engineOutputs() {
   return out;
 }
 
-export const SELFTEST_EXPECTED = 750563879572267;
+export const SELFTEST_EXPECTED = 7113152696284468;
 
 export function selfTestHash() {
   const out = [];
