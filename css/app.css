@@ -346,3 +346,193 @@ details.change>summary{min-height:48px;display:flex;align-items:center;font-weig
 .qwho{display:block;font-size:14px;font-weight:700;color:var(--muted);margin-top:2px}
 .wl-mark.other{top:-24px;font-size:14px}
 .wl-mark.other b{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:var(--sky);color:var(--ink-dark);text-shadow:none}
+
+/* =====================================================================
+   v1.3.0 "Game Night" theme (default dark mode): chunky mobile-game look.
+   Deep navy/purple field, solid raised panels, cream tiles, 3D outlined
+   titles, glossy cyan/green/pink buttons with a hard bottom edge.
+   Sun mode (data-theme="sun") keeps the light glass styles above.
+   ===================================================================== */
+:root:not([data-theme="sun"]){--bg:#0c1140;--gold:#ffc626;--pink:#ff5fa2;--mint:#6dff9a;--sky:#33e1ff;--muted:#c7d3ff;--danger:#ffb3bd;--ink-dark:#1c1a5e;
+  --ink:#0a0f33;--cream:#fff8ef;--navyA:#26318a;--navyB:#171e5e;--navyEdge:#3546a8;--tshadow:none;
+  --out3d:2px 0 0 var(--ink),-2px 0 0 var(--ink),0 2px 0 var(--ink),0 -2px 0 var(--ink),2px 2px 0 var(--ink),-2px -2px 0 var(--ink),2px -2px 0 var(--ink),-2px 2px 0 var(--ink),0 5px 0 var(--ink),0 8px 14px rgba(0,0,0,.45);
+  --out3dL:3px 0 0 var(--ink),-3px 0 0 var(--ink),0 3px 0 var(--ink),0 -3px 0 var(--ink),3px 3px 0 var(--ink),-3px -3px 0 var(--ink),3px -3px 0 var(--ink),-3px 3px 0 var(--ink),0 7px 0 var(--ink),0 11px 18px rgba(0,0,0,.5)}
+:root:not([data-theme="sun"]) body::before{background:
+    radial-gradient(circle,rgba(255,255,255,.9) 0 1px,transparent 1.6px) 10px 20px/97px 113px,
+    radial-gradient(circle,rgba(159,233,255,.8) 0 1px,transparent 1.6px) 40px 5px/61px 79px,
+    radial-gradient(120% 55% at 50% -10%,#3a1a8f 0%,rgba(58,26,143,0) 60%),
+    radial-gradient(90% 50% at 100% 100%,#2a0f6e 0%,rgba(42,15,110,0) 65%),
+    linear-gradient(180deg,#141a55 0%,#0c1140 55%,#0a0d33 100%)}
+
+/* solid raised panels instead of glass */
+:root:not([data-theme="sun"]) .panel,:root:not([data-theme="sun"]) .round,:root:not([data-theme="sun"]) .howto,:root:not([data-theme="sun"]) .say,:root:not([data-theme="sun"]) .first,:root:not([data-theme="sun"]) .answer,:root:not([data-theme="sun"]) .qexp,:root:not([data-theme="sun"]) .bingo,:root:not([data-theme="sun"]) .qchoices,:root:not([data-theme="sun"]) .livebar{
+  background:linear-gradient(180deg,var(--navyA),var(--navyB));border:2px solid var(--navyEdge);
+  box-shadow:inset 0 2px 0 rgba(255,255,255,.12),0 6px 0 #0a0e36,0 12px 24px rgba(0,0,0,.35);
+  -webkit-backdrop-filter:none;backdrop-filter:none}
+:root:not([data-theme="sun"]) .qchoices{background:none;border:0;box-shadow:none;padding:4px 0}
+:root:not([data-theme="sun"]) .bunting{height:14px;opacity:1;background:radial-gradient(circle,#ffe36b 0 3px,transparent 3.6px) 0 50%/16px 14px repeat-x;filter:drop-shadow(0 0 4px rgba(255,214,80,.7))}
+
+/* titles */
+:root:not([data-theme="sun"]) h1,:root:not([data-theme="sun"]) h2,:root:not([data-theme="sun"]) h3{font-weight:700}
+:root:not([data-theme="sun"]) .appbar h1{font-size:30px;font-weight:700;color:#fff;letter-spacing:.5px;text-shadow:var(--out3d)}
+:root:not([data-theme="sun"]) .appbar h1 .star{text-shadow:none}
+:root:not([data-theme="sun"]) .panel h2,:root:not([data-theme="sun"]) .lobbyh{font-size:22px;text-shadow:0 3px 0 rgba(0,0,0,.3)}
+:root:not([data-theme="sun"]) .modename{font-size:26px;font-weight:700;color:#fff;text-shadow:var(--out3d);margin:10px 4px 12px}
+:root:not([data-theme="sun"]) .modename span{text-shadow:none}
+
+/* icon buttons: rounded squares with a hard edge */
+:root:not([data-theme="sun"]) .ibtn{border-radius:15px;border:2px solid #3b4db8;background:linear-gradient(180deg,#2e3fa0,#1a2568);box-shadow:inset 0 2px 0 rgba(255,255,255,.18),0 4px 0 #0b1240;color:#dfe9ff}
+:root:not([data-theme="sun"]) .ibtn.txt{border-radius:15px}
+
+/* buttons: glossy pills with a 3D bottom edge */
+:root:not([data-theme="sun"]) .btn{position:relative;border-radius:18px;border:2px solid #4a63d8;font-family:"Fredoka","Nunito",sans-serif;font-weight:700;letter-spacing:.3px;color:#e9f6ff;
+  background:linear-gradient(180deg,#3a52c8 0%,#2a3ba6 55%,#22308c 100%);
+  box-shadow:inset 0 2px 0 rgba(255,255,255,.25),0 5px 0 #121a5c,0 10px 18px rgba(0,0,0,.3);transition:transform .1s ease,box-shadow .1s ease}
+:root:not([data-theme="sun"]) .btn:active{transform:translateY(3px);box-shadow:inset 0 2px 0 rgba(255,255,255,.25),0 2px 0 #121a5c}
+:root:not([data-theme="sun"]) .btn.primary{color:#0b2a05;border-color:rgba(255,255,255,.45);text-shadow:0 1px 0 rgba(255,255,255,.35);
+  background:linear-gradient(180deg,#b4ff8c 0%,#5be33a 48%,#3cc61f 100%);
+  box-shadow:inset 0 3px 0 rgba(255,255,255,.55),0 6px 0 #22830f,0 12px 22px rgba(91,227,58,.3)}
+:root:not([data-theme="sun"]) .btn.primary:active{box-shadow:inset 0 3px 0 rgba(255,255,255,.55),0 3px 0 #22830f}
+:root:not([data-theme="sun"]) .btn.pink,:root:not([data-theme="sun"]) .btn.confirm{color:#fff;border-color:rgba(255,255,255,.4);text-shadow:0 2px 0 rgba(120,0,50,.4);
+  background:linear-gradient(180deg,#ff8cc0 0%,#ff4f9a 48%,#e02a7a 100%);
+  box-shadow:inset 0 3px 0 rgba(255,255,255,.45),0 6px 0 #9c0f50,0 12px 22px rgba(255,79,154,.3)}
+:root:not([data-theme="sun"]) .btn.pink:active,:root:not([data-theme="sun"]) .btn.confirm:active{box-shadow:inset 0 3px 0 rgba(255,255,255,.45),0 3px 0 #9c0f50}
+:root:not([data-theme="sun"]) .btn.on{border-color:var(--sky);background:linear-gradient(180deg,#8ff0ff 0%,#33e1ff 45%,#11c4f0 100%);color:var(--ink);text-shadow:none;box-shadow:inset 0 3px 0 rgba(255,255,255,.6),0 5px 0 #0b7fb4,0 0 18px rgba(51,225,255,.55)}
+:root:not([data-theme="sun"]) .btn[disabled]{filter:saturate(.4)}
+
+/* ---------- home: cream game tiles with a coloured label band ---------- */
+:root:not([data-theme="sun"]) .tiles{grid-template-columns:repeat(3,1fr);gap:14px 11px}
+:root:not([data-theme="sun"]) .tile{background:var(--cream);color:#2b1d63;border:0;border-radius:20px;padding:36px 6px 12px;min-height:132px;align-items:center;text-align:center;gap:6px;
+  box-shadow:0 5px 0 #b9a9d9,0 10px 18px rgba(0,0,0,.35);-webkit-backdrop-filter:none;backdrop-filter:none;overflow:hidden}
+:root:not([data-theme="sun"]) .tile:active{transform:translateY(3px);box-shadow:0 2px 0 #b9a9d9}
+:root:not([data-theme="sun"]) .tile::before{content:"Play";position:absolute;left:0;right:0;top:0;height:26px;display:flex;align-items:center;justify-content:center;
+  font:700 11.5px/1 "Fredoka",sans-serif;letter-spacing:.8px;text-transform:uppercase;color:#fff;text-shadow:0 1.5px 0 rgba(0,0,0,.25);background:var(--band,linear-gradient(90deg,#ff4f9a,#c43cff))}
+:root:not([data-theme="sun"]) .tile::after{content:"";position:absolute;left:8px;right:8px;top:23px;height:6px;background:radial-gradient(circle,#ffe36b 0 2.3px,transparent 2.9px) center/11px 6px repeat-x}
+:root:not([data-theme="sun"]) .tile[data-mode="imposter"]{--band:linear-gradient(90deg,#ff4f9a,#c43cff)} :root:not([data-theme="sun"]) .tile[data-mode="imposter"]::before{content:"Party"}
+:root:not([data-theme="sun"]) .tile[data-mode="spyfall"]{--band:linear-gradient(90deg,#c43cff,#6b4bff)} :root:not([data-theme="sun"]) .tile[data-mode="spyfall"]::before{content:"Party"}
+:root:not([data-theme="sun"]) .tile[data-mode="bingo"]{--band:linear-gradient(90deg,#3d7bff,#9a3cf0)} :root:not([data-theme="sun"]) .tile[data-mode="bingo"]::before{content:"Spot it"}
+:root:not([data-theme="sun"]) .tile[data-mode="wavelength"]{--band:linear-gradient(90deg,#ff6a3d,#ff3d8b)} :root:not([data-theme="sun"]) .tile[data-mode="wavelength"]::before{content:"Guess"}
+:root:not([data-theme="sun"]) .tile[data-mode="missions"]{--band:linear-gradient(90deg,#9a3cf0,#ff4f9a)} :root:not([data-theme="sun"]) .tile[data-mode="missions"]::before{content:"All day"}
+:root:not([data-theme="sun"]) .tile[data-mode="trivia"]{--band:linear-gradient(90deg,#1fb8ff,#3d7bff)} :root:not([data-theme="sun"]) .tile[data-mode="trivia"]::before{content:"Quiz"}
+:root:not([data-theme="sun"]) .tile[data-mode="ridetrivia"]{--band:linear-gradient(90deg,#20d6a5,#14a6d8)} :root:not([data-theme="sun"]) .tile[data-mode="ridetrivia"]::before{content:"Quiz"}
+:root:not([data-theme="sun"]) .tile[data-mode="twotruths"]{--band:linear-gradient(90deg,#ffb21f,#ff6a3d)} :root:not([data-theme="sun"]) .tile[data-mode="twotruths"]::before{content:"Vote"}
+:root:not([data-theme="sun"]) .tile[data-mode="overunder"]{--band:linear-gradient(90deg,#5be33a,#1fb86a)} :root:not([data-theme="sun"]) .tile[data-mode="overunder"]::before{content:"Guess"}
+:root:not([data-theme="sun"]) .tile .emo{width:auto;height:auto;margin:4px 0 0;background:none;border:0;box-shadow:none;font-size:40px;filter:drop-shadow(0 3px 0 rgba(43,29,99,.18))}
+:root:not([data-theme="sun"]) .tile .nm{font-size:15px;font-weight:700;line-height:1.08;color:#2b1d63}
+:root:not([data-theme="sun"]) .tile .how{display:none}
+:root:not([data-theme="sun"]) .tile .soon{top:30px;font-size:10px}
+@media (min-width:600px){:root:not([data-theme="sun"]) .tiles{grid-template-columns:repeat(3,1fr)} :root:not([data-theme="sun"]) .tile .nm{font-size:18px}}
+
+/* home hero: "Play together" */
+:root:not([data-theme="sun"]) .tile.livecard{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;min-height:200px;padding:26px 18px 24px;margin:12px 0 18px;border-radius:26px;
+  border:3px solid #b56cff;color:#fff;overflow:hidden;
+  background:repeating-conic-gradient(from 0deg at 50% 45%,rgba(255,255,255,.10) 0 10deg,rgba(255,255,255,0) 10deg 20deg),radial-gradient(70% 60% at 50% 40%,#d35cff 0%,#9a2ee8 45%,#5a16b8 100%);
+  box-shadow:0 8px 0 #3a0c86,0 16px 30px rgba(0,0,0,.45)}
+:root:not([data-theme="sun"]) .tile.livecard::before{content:"Live room · every phone";position:static;height:auto;background:none;font-size:13px;letter-spacing:2px;color:#ffe2ff;order:-1}
+:root:not([data-theme="sun"]) .tile.livecard::after{content:"Host or join ▶";position:static;height:auto;width:auto;margin-top:12px;padding:14px 28px;border-radius:18px;font:700 20px/1 "Fredoka",sans-serif;letter-spacing:.6px;text-transform:uppercase;color:var(--ink);
+  background:linear-gradient(180deg,#8ff0ff 0%,#33e1ff 45%,#11c4f0 100%);border:2px solid rgba(255,255,255,.45);box-shadow:inset 0 3px 0 rgba(255,255,255,.6),0 6px 0 #0b7fb4,0 12px 22px rgba(51,225,255,.35)}
+:root:not([data-theme="sun"]) .tile.livecard .emo{position:absolute;left:12px;top:44px;font-size:34px;transform:rotate(-14deg);filter:drop-shadow(0 4px 0 rgba(0,0,0,.25))}
+:root:not([data-theme="sun"]) .tile.livecard .nm{font-size:44px;line-height:1;text-transform:uppercase;color:#fff;text-shadow:var(--out3dL);margin-top:8px}
+:root:not([data-theme="sun"]) .tile.livecard .how{display:block;-webkit-line-clamp:3;color:#ffe9ff;font-size:15px;font-weight:700;max-width:300px;margin-top:6px}
+:root:not([data-theme="sun"]) .wrap>p.muted:not(.small){font-family:"Fredoka",sans-serif;font-weight:700;font-size:20px;color:#fff;margin:4px 4px 2px}
+
+/* ---------- forms ---------- */
+:root:not([data-theme="sun"]) .field>span{color:#9fb4ff;font-family:"Fredoka",sans-serif;font-weight:700;letter-spacing:.3px}
+:root:not([data-theme="sun"]) .input,:root:not([data-theme="sun"]) .qinput,:root:not([data-theme="sun"]) .setrow select{background:#0f1550;border:2px solid #3b4db8;border-radius:16px;box-shadow:inset 0 3px 0 rgba(0,0,0,.3)}
+:root:not([data-theme="sun"]) .stepper .val{font-weight:700;text-shadow:var(--out3d)}
+:root:not([data-theme="sun"]) .stepper .btn{border-radius:18px}
+:root:not([data-theme="sun"]) .toast{background:var(--cream);color:#2b1d63;border:0;box-shadow:0 5px 0 #b9a9d9,0 12px 24px rgba(0,0,0,.45);-webkit-backdrop-filter:none;backdrop-filter:none}
+:root:not([data-theme="sun"]) .howto summary{font-family:"Fredoka",sans-serif;font-weight:700}
+:root:not([data-theme="sun"]) details.change>summary{font-family:"Fredoka",sans-serif;font-weight:700}
+
+/* ---------- round header: big outlined number on an octagon plate ---------- */
+:root:not([data-theme="sun"]) .round{border-radius:24px;border-color:#5b7cff;background:radial-gradient(90% 100% at 50% 0%,#3a4fd8 0%,#1a1f75 62%,#121657 100%)}
+:root:not([data-theme="sun"]) .round .lbl{color:#bcd0ff;font-family:"Fredoka",sans-serif;font-weight:700}
+:root:not([data-theme="sun"]) .round .code{color:#fff;text-shadow:var(--out3dL);margin:4px 0 6px}
+:root:not([data-theme="sun"]) .round .nav{border-radius:20px}
+:root:not([data-theme="sun"]) .round .you{font-family:"Fredoka",sans-serif;font-weight:700}
+:root:not([data-theme="sun"]) .round .sync{background:#0f1550;border:2px solid #3b4db8;color:#bcd0ff;font-weight:800}
+
+/* ---------- read-aloud, banners ---------- */
+:root:not([data-theme="sun"]) .say{border-color:#ffc626;box-shadow:inset 0 2px 0 rgba(255,255,255,.12),0 6px 0 #0a0e36,0 0 18px rgba(255,198,38,.25)}
+:root:not([data-theme="sun"]) .say .t{color:#ffd84a}
+:root:not([data-theme="sun"]) .say .big{font-weight:700}
+:root:not([data-theme="sun"]) .first{border-color:#5be33a;font-family:"Fredoka",sans-serif;font-weight:700}
+:root:not([data-theme="sun"]) .first b{color:#a6ff7a}
+:root:not([data-theme="sun"]) .answer{border-color:#ff5fa2;font-family:"Fredoka",sans-serif;font-weight:700;box-shadow:inset 0 2px 0 rgba(255,255,255,.12),0 6px 0 #0a0e36,0 0 20px rgba(255,79,154,.35)}
+:root:not([data-theme="sun"]) .block-screen .big{color:#ffd84a;text-shadow:var(--out3d)}
+:root:not([data-theme="sun"]) .update-banner button{font-family:"Fredoka",sans-serif;font-weight:700;color:#0b2a05;background:linear-gradient(180deg,#b4ff8c,#5be33a 50%,#3cc61f);box-shadow:0 4px 0 #22830f}
+
+/* ---------- secret reveal: a face-down card that flips to a cream card ---------- */
+:root:not([data-theme="sun"]) .reveal{border-radius:26px;border:3px solid #b56cff;color:#fff;
+  background:repeating-linear-gradient(45deg,rgba(255,255,255,.06) 0 14px,rgba(255,255,255,0) 14px 28px),radial-gradient(80% 80% at 50% 30%,#a23fe0 0%,#6b2bd9 55%,#3d1592 100%);
+  box-shadow:inset 0 3px 0 rgba(255,255,255,.25),0 7px 0 #2a0b6e,0 16px 30px rgba(0,0,0,.45)}
+:root:not([data-theme="sun"]) .reveal .sub{color:#ffe2ff}
+:root:not([data-theme="sun"]) .reveal.shown{background:var(--cream);color:#2b1d63;border-color:#fff;box-shadow:0 7px 0 #b9a9d9,0 0 0 4px rgba(51,225,255,.55),0 16px 34px rgba(0,0,0,.5)}
+:root:not([data-theme="sun"]) .reveal.shown .sub{color:#7a64b8}
+:root:not([data-theme="sun"]) .reveal.shown .secret{color:#1b46d8}
+
+/* ---------- spyfall, bingo, wavelength ---------- */
+:root:not([data-theme="sun"]) .loc{background:var(--cream);color:#2b1d63;border:0;border-radius:14px;box-shadow:0 4px 0 #b9a9d9;font-weight:800}
+:root:not([data-theme="sun"]) .loc.struck{opacity:.4}
+:root:not([data-theme="sun"]) .bingo{padding:8px;border-radius:22px}
+:root:not([data-theme="sun"]) .bcell{background:var(--cream);color:#2b1d63;border:0;box-shadow:0 3px 0 #b9a9d9}
+:root:not([data-theme="sun"]) .bcell.on{background:linear-gradient(180deg,#fff08a,#ffc626 55%,#ffa41a);color:#4a2000;box-shadow:0 3px 0 #c06a00,0 0 10px rgba(255,198,38,.6)}
+:root:not([data-theme="sun"]) .bcell.free{background:linear-gradient(180deg,#ff8cc0,#ff4f9a 55%,#e02a7a);color:#fff;box-shadow:0 3px 0 #9c0f50}
+:root:not([data-theme="sun"]) .bingo-banner{color:#ffd84a;text-shadow:var(--out3dL)}
+:root:not([data-theme="sun"]) .wl-bar{border:3px solid #fff;box-shadow:0 5px 0 #0a0e36,0 0 16px rgba(51,225,255,.35)}
+
+/* ---------- quiz modes ---------- */
+:root:not([data-theme="sun"]) .qidx .qn{color:#fff;text-shadow:var(--out3dL)}
+:root:not([data-theme="sun"]) .qidx .qm{color:#9fb4ff;font-family:"Fredoka",sans-serif;font-weight:700}
+:root:not([data-theme="sun"]) .qtext{font-weight:700;padding:18px 16px;border-radius:22px;border:2px solid #7ab4ff;background:radial-gradient(90% 100% at 50% 0%,#3f63ff 0%,#1d2690 70%);box-shadow:0 6px 0 #0a0e36,0 0 22px rgba(63,99,255,.35);margin:10px 0 16px}
+:root:not([data-theme="sun"]) .qchoice{min-height:62px;border:0;border-radius:18px;background:linear-gradient(180deg,#fff,#eef1ff);color:#1c2470;font-family:"Fredoka",sans-serif;font-weight:700;box-shadow:0 5px 0 #8d9ae8,0 10px 16px rgba(0,0,0,.25)}
+:root:not([data-theme="sun"]) .qchoice .ql{border-radius:12px;background:#e2e7ff;color:#3046c8;box-shadow:none}
+:root:not([data-theme="sun"]) .qchoice.sel,:root:not([data-theme="sun"]) .qchoice.picked{background:linear-gradient(180deg,#b6f6ff,#56e3ff);color:#06325a;box-shadow:0 5px 0 #0b7fb4,0 0 0 3px #fff,0 0 22px rgba(51,225,255,.75)}
+:root:not([data-theme="sun"]) .qchoice.sel .ql,:root:not([data-theme="sun"]) .qchoice.picked .ql{background:#fff;color:#0b7fb4}
+:root:not([data-theme="sun"]) .qchoice.right{background:linear-gradient(180deg,#d4ffbf,#7ef05c);color:#0b3a05;box-shadow:0 5px 0 #2fa81c,0 0 0 3px #fff,0 0 20px rgba(91,227,58,.6)}
+:root:not([data-theme="sun"]) .qchoice.wrong{background:linear-gradient(180deg,#ffe0e4,#ff9aa6);color:#5a0614;box-shadow:0 5px 0 #c42b3c}
+:root:not([data-theme="sun"]) .qchoice.right .ql,:root:not([data-theme="sun"]) .qchoice.wrong .ql{background:#fff}
+:root:not([data-theme="sun"]) .qtag{color:inherit}
+:root:not([data-theme="sun"]) .qscore{font-family:"Fredoka",sans-serif;font-weight:700}
+:root:not([data-theme="sun"]) .qend .qbig,:root:not([data-theme="sun"]) .qref{color:#ffd84a;text-shadow:var(--out3dL)}
+:root:not([data-theme="sun"]) .qgroup{color:#ffd84a;font-weight:700}
+:root:not([data-theme="sun"]) .qland{color:#9fb4ff}
+:root:not([data-theme="sun"]) .qrides .btn.on{color:#0b2a05;border-color:rgba(255,255,255,.45);background:linear-gradient(180deg,#b4ff8c 0%,#5be33a 48%,#3cc61f 100%);box-shadow:inset 0 3px 0 rgba(255,255,255,.55),0 5px 0 #22830f}
+:root:not([data-theme="sun"]) .qexp{border-color:#5be33a}
+
+/* ---------- live rooms ---------- */
+:root:not([data-theme="sun"]) .livebar.on{border-color:#5be33a}
+:root:not([data-theme="sun"]) .livebar.off{border-color:#ffc626}
+:root:not([data-theme="sun"]) .roomcard{border-color:#5b7cff;background:radial-gradient(80% 90% at 50% 0%,#3a4fd8 0%,#1a1f75 60%,#121657 100%)}
+:root:not([data-theme="sun"]) .roomcard .muted.small:first-child{font-family:"Fredoka",sans-serif;font-weight:700;letter-spacing:2px;color:#bcd0ff}
+:root:not([data-theme="sun"]) .roomcode{display:block;text-align:center;letter-spacing:0;margin:14px 0 18px;color:#1b46d8}
+:root:not([data-theme="sun"]) .roomcode span{display:inline-grid;place-items:center;margin:0 5px;vertical-align:top;width:62px;height:74px;border-radius:16px;font-size:46px;line-height:1;color:#1b46d8;
+  background:linear-gradient(180deg,#fff 0%,#eef2ff 70%,#d9e0ff 100%);box-shadow:0 7px 0 #8d9ae8,0 12px 18px rgba(0,0,0,.35)}
+:root:not([data-theme="sun"]) .roomin{background:#fff;color:#1b46d8;border-color:#fff;font-family:"Fredoka",sans-serif;font-weight:700;box-shadow:0 5px 0 #8d9ae8}
+:root:not([data-theme="sun"]) .ordiv{color:#9fb4ff;font-family:"Fredoka",sans-serif;font-weight:700}
+:root:not([data-theme="sun"]) .prow{background:linear-gradient(180deg,#232e7e,#19215f);border:2px solid #34419e;border-radius:16px;font-family:"Fredoka",sans-serif;font-weight:600}
+:root:not([data-theme="sun"]) .prow.you{border-color:var(--sky);box-shadow:0 0 0 2px rgba(51,225,255,.25)}
+:root:not([data-theme="sun"]) .prow .pnum{display:grid;place-items:center;min-width:38px;height:38px;border-radius:50%;border:3px solid #fff;color:#fff;font-size:15px;text-shadow:0 2px 0 rgba(0,0,0,.25);
+  background:linear-gradient(180deg,#9b7bff,#6438e0);box-shadow:0 3px 0 rgba(0,0,0,.35)}
+:root:not([data-theme="sun"]) .prow:nth-child(8n+1) .pnum{background:linear-gradient(180deg,#ffd25c,#f39a12)}
+:root:not([data-theme="sun"]) .prow:nth-child(8n+2) .pnum{background:linear-gradient(180deg,#ff7aa8,#e8336e)}
+:root:not([data-theme="sun"]) .prow:nth-child(8n+3) .pnum{background:linear-gradient(180deg,#6fd0ff,#1f8fe0)}
+:root:not([data-theme="sun"]) .prow:nth-child(8n+4) .pnum{background:linear-gradient(180deg,#74f08a,#21b24a)}
+:root:not([data-theme="sun"]) .prow:nth-child(8n+5) .pnum{background:linear-gradient(180deg,#ff9e6b,#f0602b)}
+:root:not([data-theme="sun"]) .prow:nth-child(8n+6) .pnum{background:linear-gradient(180deg,#5ff0de,#10b3a8)}
+:root:not([data-theme="sun"]) .prow:nth-child(8n+7) .pnum{background:linear-gradient(180deg,#d88bff,#a23fe0)}
+:root:not([data-theme="sun"]) .lhead{font-family:"Fredoka",sans-serif;font-weight:700}
+:root:not([data-theme="sun"]) .lchip{background:#0f1550;border:2px solid #3b4db8;font-family:"Fredoka",sans-serif;font-weight:600}
+:root:not([data-theme="sun"]) .lchip.done{background:linear-gradient(180deg,#b4ff8c,#5be33a);border-color:#fff;color:#0b2a05}
+/* party points: cream leaderboard rows with a gold star */
+:root:not([data-theme="sun"]) .lboard summary{font-size:20px}
+:root:not([data-theme="sun"]) .lboard [data-testid=board]{display:flex;flex-direction:column;gap:8px}
+:root:not([data-theme="sun"]) .lrow{align-items:center;padding:12px 14px;border:0;border-radius:16px;background:var(--cream);color:#2b1d63;box-shadow:0 4px 0 #b9a9d9;font-family:"Fredoka",sans-serif;font-weight:600;font-size:18px}
+:root:not([data-theme="sun"]) .lrow:last-child{border:0}
+:root:not([data-theme="sun"]) .lrow b{display:inline-flex;align-items:center;gap:4px;color:#c06a00;font-size:19px}
+:root:not([data-theme="sun"]) .lrow b::before{content:"★";color:#ffb31a;text-shadow:0 1px 0 #b85a00}
+:root:not([data-theme="sun"]) .lboard .lrow:first-child{background:linear-gradient(180deg,#fff6c2,#ffe27a);box-shadow:0 4px 0 #d39a10,0 0 18px rgba(255,198,38,.45);font-size:20px}
+:root:not([data-theme="sun"]) .lrow.you{outline:3px solid var(--sky)}
+:root:not([data-theme="sun"]) .lrow.hit b{color:#21a03a}
+:root:not([data-theme="sun"]) .qchoice .qwho{color:inherit;opacity:.75}

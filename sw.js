@@ -1,5 +1,5 @@
 // Line Games service worker: cache-first, versioned. Keep APP_VERSION literal equal to js/version.js (a test asserts this).
-const APP_VERSION = '1.2.0';
+const APP_VERSION = '1.3.0';
 const CACHE = 'lg-v' + APP_VERSION;
 const PRECACHE = [
   './',

@@ -427,7 +427,7 @@ function lobbyScreen() {
   const parts = [appBar('Play together', { home: true })];
   parts.push(h('div', { class: 'panel roomcard' },
     h('div', { class: 'muted small', text: 'ROOM CODE' }),
-    h('div', { class: 'roomcode', 'data-testid': 'room-code', text: code }),
+    h('div', { class: 'roomcode', 'data-testid': 'room-code', 'aria-label': 'Room code ' + code }, [...code].map(ch => h('span', { text: ch }))),
     h('div', { class: 'small', text: snap.isHost ? 'Everyone: open Line Games → Play together → type this code.' : `Joined as ${snap.sess.name}` }),
     h('div', { class: 'lb-st', 'data-testid': 'lobby-status', 'data-status': st, text: STATUS_TEXT[st] || st })));
   if (st === 'notfound') parts.push(h('div', { class: 'panel' }, h('p', { class: 'warn', text: `No room ${code} found yet. Check the code with the host, and make sure their phone has the app open.` })));
