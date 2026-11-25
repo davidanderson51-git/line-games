@@ -44,3 +44,11 @@
 :root[data-theme="sun"] .qexp{border-color:#00a86b}
 .qrow2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 @media (min-width:700px){.qchoices{grid-template-columns:1fr 1fr}}
+/* Fib Finder */
+.fibcard .qtext{margin:6px 4px 4px}
+.fibwrite .qinput{font-size:21px;text-align:left;padding:0 14px}
+.fibwrite .qrow2{margin-top:10px}
+.fibcats{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.fibcats .btn{flex:1 1 45%}
+.fibcats .btn.on{outline:3px solid #fff}
+.fibgate{padding:20px 16px}

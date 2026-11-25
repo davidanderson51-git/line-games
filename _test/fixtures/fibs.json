@@ -1,0 +1,531 @@
+{
+  "categories": [
+    {
+      "id": "c1",
+      "name": "Cat c1",
+      "emoji": "✨"
+    },
+    {
+      "id": "c2",
+      "name": "Cat c2",
+      "emoji": "✨"
+    },
+    {
+      "id": "c3",
+      "name": "Cat c3",
+      "emoji": "✨"
+    }
+  ],
+  "questions": [
+    {
+      "id": "f01",
+      "cat": "c1",
+      "q": "Fact 1 is ____.",
+      "a": "True 1",
+      "alt": [
+        "T1"
+      ],
+      "decoys": [
+        "Fake 1a",
+        "Fake 1b",
+        "Fake 1c"
+      ],
+      "fact": "Because 1",
+      "source": "https://example.com/fib/1",
+      "verified": true
+    },
+    {
+      "id": "f02",
+      "cat": "c2",
+      "q": "Fact 2 is ____.",
+      "a": "True 2",
+      "alt": [
+        "T2"
+      ],
+      "decoys": [
+        "Fake 2a",
+        "Fake 2b",
+        "Fake 2c"
+      ],
+      "fact": "Because 2",
+      "source": "https://example.com/fib/2",
+      "verified": true
+    },
+    {
+      "id": "f03",
+      "cat": "c3",
+      "q": "Fact 3 is ____.",
+      "a": "True 3",
+      "alt": [
+        "T3"
+      ],
+      "decoys": [
+        "Fake 3a",
+        "Fake 3b",
+        "Fake 3c"
+      ],
+      "fact": "Because 3",
+      "source": "https://example.com/fib/3",
+      "verified": true
+    },
+    {
+      "id": "f04",
+      "cat": "c1",
+      "q": "Fact 4 is ____.",
+      "a": "True 4",
+      "alt": [
+        "T4"
+      ],
+      "decoys": [
+        "Fake 4a",
+        "Fake 4b",
+        "Fake 4c"
+      ],
+      "fact": "Because 4",
+      "source": "https://example.com/fib/4",
+      "verified": true
+    },
+    {
+      "id": "f05",
+      "cat": "c2",
+      "q": "Fact 5 is ____.",
+      "a": "True 5",
+      "alt": [
+        "T5"
+      ],
+      "decoys": [
+        "Fake 5a",
+        "Fake 5b",
+        "Fake 5c"
+      ],
+      "fact": "Because 5",
+      "source": "https://example.com/fib/5",
+      "verified": true
+    },
+    {
+      "id": "f06",
+      "cat": "c3",
+      "q": "Fact 6 is ____.",
+      "a": "True 6",
+      "alt": [
+        "T6"
+      ],
+      "decoys": [
+        "Fake 6a",
+        "Fake 6b",
+        "Fake 6c"
+      ],
+      "fact": "Because 6",
+      "source": "https://example.com/fib/6",
+      "verified": true
+    },
+    {
+      "id": "f07",
+      "cat": "c1",
+      "q": "Fact 7 is ____.",
+      "a": "True 7",
+      "alt": [
+        "T7"
+      ],
+      "decoys": [
+        "Fake 7a",
+        "Fake 7b",
+        "Fake 7c"
+      ],
+      "fact": "Because 7",
+      "source": "https://example.com/fib/7",
+      "verified": true
+    },
+    {
+      "id": "f08",
+      "cat": "c2",
+      "q": "Fact 8 is ____.",
+      "a": "True 8",
+      "alt": [
+        "T8"
+      ],
+      "decoys": [
+        "Fake 8a",
+        "Fake 8b",
+        "Fake 8c"
+      ],
+      "fact": "Because 8",
+      "source": "https://example.com/fib/8",
+      "verified": true
+    },
+    {
+      "id": "f09",
+      "cat": "c3",
+      "q": "Fact 9 is ____.",
+      "a": "True 9",
+      "alt": [
+        "T9"
+      ],
+      "decoys": [
+        "Fake 9a",
+        "Fake 9b",
+        "Fake 9c"
+      ],
+      "fact": "Because 9",
+      "source": "https://example.com/fib/9",
+      "verified": true
+    },
+    {
+      "id": "f10",
+      "cat": "c1",
+      "q": "Fact 10 is ____.",
+      "a": "True 10",
+      "alt": [
+        "T10"
+      ],
+      "decoys": [
+        "Fake 10a",
+        "Fake 10b",
+        "Fake 10c"
+      ],
+      "fact": "Because 10",
+      "source": "https://example.com/fib/10",
+      "verified": true
+    },
+    {
+      "id": "f11",
+      "cat": "c2",
+      "q": "Fact 11 is ____.",
+      "a": "True 11",
+      "alt": [
+        "T11"
+      ],
+      "decoys": [
+        "Fake 11a",
+        "Fake 11b",
+        "Fake 11c"
+      ],
+      "fact": "Because 11",
+      "source": "https://example.com/fib/11",
+      "verified": true
+    },
+    {
+      "id": "f12",
+      "cat": "c3",
+      "q": "Fact 12 is ____.",
+      "a": "True 12",
+      "alt": [
+        "T12"
+      ],
+      "decoys": [
+        "Fake 12a",
+        "Fake 12b",
+        "Fake 12c"
+      ],
+      "fact": "Because 12",
+      "source": "https://example.com/fib/12",
+      "verified": true
+    },
+    {
+      "id": "f13",
+      "cat": "c1",
+      "q": "Fact 13 is ____.",
+      "a": "True 13",
+      "alt": [
+        "T13"
+      ],
+      "decoys": [
+        "Fake 13a",
+        "Fake 13b",
+        "Fake 13c"
+      ],
+      "fact": "Because 13",
+      "source": "https://example.com/fib/13",
+      "verified": true
+    },
+    {
+      "id": "f14",
+      "cat": "c2",
+      "q": "Fact 14 is ____.",
+      "a": "True 14",
+      "alt": [
+        "T14"
+      ],
+      "decoys": [
+        "Fake 14a",
+        "Fake 14b",
+        "Fake 14c"
+      ],
+      "fact": "Because 14",
+      "source": "https://example.com/fib/14",
+      "verified": true
+    },
+    {
+      "id": "f15",
+      "cat": "c3",
+      "q": "Fact 15 is ____.",
+      "a": "True 15",
+      "alt": [
+        "T15"
+      ],
+      "decoys": [
+        "Fake 15a",
+        "Fake 15b",
+        "Fake 15c"
+      ],
+      "fact": "Because 15",
+      "source": "https://example.com/fib/15",
+      "verified": true
+    },
+    {
+      "id": "f16",
+      "cat": "c1",
+      "q": "Fact 16 is ____.",
+      "a": "True 16",
+      "alt": [
+        "T16"
+      ],
+      "decoys": [
+        "Fake 16a",
+        "Fake 16b",
+        "Fake 16c"
+      ],
+      "fact": "Because 16",
+      "source": "https://example.com/fib/16",
+      "verified": true
+    },
+    {
+      "id": "f17",
+      "cat": "c2",
+      "q": "Fact 17 is ____.",
+      "a": "True 17",
+      "alt": [
+        "T17"
+      ],
+      "decoys": [
+        "Fake 17a",
+        "Fake 17b",
+        "Fake 17c"
+      ],
+      "fact": "Because 17",
+      "source": "https://example.com/fib/17",
+      "verified": true
+    },
+    {
+      "id": "f18",
+      "cat": "c3",
+      "q": "Fact 18 is ____.",
+      "a": "True 18",
+      "alt": [
+        "T18"
+      ],
+      "decoys": [
+        "Fake 18a",
+        "Fake 18b",
+        "Fake 18c"
+      ],
+      "fact": "Because 18",
+      "source": "https://example.com/fib/18",
+      "verified": true
+    },
+    {
+      "id": "f19",
+      "cat": "c1",
+      "q": "Fact 19 is ____.",
+      "a": "True 19",
+      "alt": [
+        "T19"
+      ],
+      "decoys": [
+        "Fake 19a",
+        "Fake 19b",
+        "Fake 19c"
+      ],
+      "fact": "Because 19",
+      "source": "https://example.com/fib/19",
+      "verified": true
+    },
+    {
+      "id": "f20",
+      "cat": "c2",
+      "q": "Fact 20 is ____.",
+      "a": "True 20",
+      "alt": [
+        "T20"
+      ],
+      "decoys": [
+        "Fake 20a",
+        "Fake 20b",
+        "Fake 20c"
+      ],
+      "fact": "Because 20",
+      "source": "https://example.com/fib/20",
+      "verified": true
+    },
+    {
+      "id": "f21",
+      "cat": "c3",
+      "q": "Fact 21 is ____.",
+      "a": "True 21",
+      "alt": [
+        "T21"
+      ],
+      "decoys": [
+        "Fake 21a",
+        "Fake 21b",
+        "Fake 21c"
+      ],
+      "fact": "Because 21",
+      "source": "https://example.com/fib/21",
+      "verified": true
+    },
+    {
+      "id": "f22",
+      "cat": "c1",
+      "q": "Fact 22 is ____.",
+      "a": "True 22",
+      "alt": [
+        "T22"
+      ],
+      "decoys": [
+        "Fake 22a",
+        "Fake 22b",
+        "Fake 22c"
+      ],
+      "fact": "Because 22",
+      "source": "https://example.com/fib/22",
+      "verified": true
+    },
+    {
+      "id": "f23",
+      "cat": "c2",
+      "q": "Fact 23 is ____.",
+      "a": "True 23",
+      "alt": [
+        "T23"
+      ],
+      "decoys": [
+        "Fake 23a",
+        "Fake 23b",
+        "Fake 23c"
+      ],
+      "fact": "Because 23",
+      "source": "https://example.com/fib/23",
+      "verified": true
+    },
+    {
+      "id": "f24",
+      "cat": "c3",
+      "q": "Fact 24 is ____.",
+      "a": "True 24",
+      "alt": [
+        "T24"
+      ],
+      "decoys": [
+        "Fake 24a",
+        "Fake 24b",
+        "Fake 24c"
+      ],
+      "fact": "Because 24",
+      "source": "https://example.com/fib/24",
+      "verified": true
+    },
+    {
+      "id": "f25",
+      "cat": "c1",
+      "q": "Fact 25 is ____.",
+      "a": "True 25",
+      "alt": [
+        "T25"
+      ],
+      "decoys": [
+        "Fake 25a",
+        "Fake 25b",
+        "Fake 25c"
+      ],
+      "fact": "Because 25",
+      "source": "https://example.com/fib/25",
+      "verified": true
+    },
+    {
+      "id": "f26",
+      "cat": "c2",
+      "q": "Fact 26 is ____.",
+      "a": "True 26",
+      "alt": [
+        "T26"
+      ],
+      "decoys": [
+        "Fake 26a",
+        "Fake 26b",
+        "Fake 26c"
+      ],
+      "fact": "Because 26",
+      "source": "https://example.com/fib/26",
+      "verified": true
+    },
+    {
+      "id": "f27",
+      "cat": "c3",
+      "q": "Fact 27 is ____.",
+      "a": "True 27",
+      "alt": [
+        "T27"
+      ],
+      "decoys": [
+        "Fake 27a",
+        "Fake 27b",
+        "Fake 27c"
+      ],
+      "fact": "Because 27",
+      "source": "https://example.com/fib/27",
+      "verified": true
+    },
+    {
+      "id": "f28",
+      "cat": "c1",
+      "q": "Fact 28 is ____.",
+      "a": "True 28",
+      "alt": [
+        "T28"
+      ],
+      "decoys": [
+        "Fake 28a",
+        "Fake 28b",
+        "Fake 28c"
+      ],
+      "fact": "Because 28",
+      "source": "https://example.com/fib/28",
+      "verified": true
+    },
+    {
+      "id": "f29",
+      "cat": "c2",
+      "q": "Fact 29 is ____.",
+      "a": "True 29",
+      "alt": [
+        "T29"
+      ],
+      "decoys": [
+        "Fake 29a",
+        "Fake 29b",
+        "Fake 29c"
+      ],
+      "fact": "Because 29",
+      "source": "https://example.com/fib/29",
+      "verified": true
+    },
+    {
+      "id": "f30",
+      "cat": "c3",
+      "q": "Fact 30 is ____.",
+      "a": "True 30",
+      "alt": [
+        "T30"
+      ],
+      "decoys": [
+        "Fake 30a",
+        "Fake 30b",
+        "Fake 30c"
+      ],
+      "fact": "Because 30",
+      "source": "https://example.com/fib/30",
+      "verified": true
+    }
+  ]
+}

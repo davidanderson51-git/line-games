@@ -1,14 +1,14 @@
 // Golden snapshot builder. Shared by Node (scripts/make-golden.mjs, engine tests) and tests/golden.html.
-// data = { imposter, spyfall, bingo, spectra, missions, trivia, ridetrivia, twotruths, overunder } (parsed JSON).
+// data = { imposter, spyfall, bingo, spectra, missions, trivia, ridetrivia, twotruths, overunder, fibs } (parsed JSON).
 import { cyrb53, syncEmoji, rng, nextCode, prevCode, canonicalCode } from '../js/seed.js';
 import * as E from '../js/engine.js';
 
-export const GOLDEN_FILES = ['imposter', 'spyfall', 'bingo', 'spectra', 'missions', 'trivia', 'ridetrivia', 'twotruths', 'overunder'];
+export const GOLDEN_FILES = ['imposter', 'spyfall', 'bingo', 'spectra', 'missions', 'trivia', 'ridetrivia', 'twotruths', 'overunder', 'fibs'];
 export const GOLDEN_CODES = [1, 7, 9999];
 export const GOLDEN_DATES = ['2026-11-24', '2026-11-25', '2026-12-31'];
 
 export function computeGolden(data) {
-  const obj = { seed: {}, imposter: [], spyfall: [], bingo: [], wavelength: [], missions: [], trivia: [], ride: [], twotruths: [], overunder: [], sync: [] };
+  const obj = { seed: {}, imposter: [], spyfall: [], bingo: [], wavelength: [], missions: [], trivia: [], ride: [], twotruths: [], overunder: [], fib: [], sync: [] };
   const raw = {};
   for (const f of GOLDEN_FILES) raw[f] = JSON.stringify(data[f]);
 
@@ -46,6 +46,14 @@ export function computeGolden(data) {
     }
     obj.twotruths.push([C, E.twoTruthsRound({ C }, data.twotruths)]);
     obj.overunder.push([C, E.overUnderPrompt({ C }, data.overunder).id]);
+    for (const cat of ['mix', ...data.fibs.categories.map((c) => c.id)]) {
+      const fr = E.fibRound({ C, cat }, data.fibs);
+      const lies = { 1: 'Alpha', 2: 'alpha!', 3: fr.a, 4: 'Café ✨', 5: 'The Beta' };
+      const votes = { 1: E.fibNorm(fr.a), 2: 'cafe', 3: 'alpha', 4: 'beta', 5: 'alpha' };
+      const b = E.fibBoard({ C, round: fr, lies, votes, order: ['1', '2', '3', '4', '5'] });
+      obj.fib.push([C, cat, fr.id, b.options.map((o) => [o.key, o.authors, o.house]), b.points]);
+      obj.sync.push(E.syncCheck('fib', { C, cat }, raw.fibs).emoji);
+    }
     obj.sync.push(E.syncCheck('bingo', { C }, raw.bingo).emoji);
     obj.sync.push(E.syncCheck('trivia', { C }, raw.trivia).emoji);
     obj.sync.push(E.syncCheck('ride', { C, rideId: data.ridetrivia.rides[0].id }, raw.ridetrivia).emoji);
