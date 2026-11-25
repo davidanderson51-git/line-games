@@ -1,5 +1,5 @@
 // Line Games service worker: cache-first, versioned. Keep APP_VERSION literal equal to js/version.js (a test asserts this).
-const APP_VERSION = '1.3.0';
+const APP_VERSION = '1.4.0';
 const CACHE = 'lg-v' + APP_VERSION;
 const PRECACHE = [
   './',
@@ -30,6 +30,7 @@ const PRECACHE = [
   'js/ui-ridetrivia.js',
   'js/ui-twotruths.js',
   'js/ui-overunder.js',
+  'js/ui-fib.js',
   'js/live.js',
   'js/ui-live.js',
   'js/vendor/supabase.js',
@@ -43,6 +44,7 @@ const PRECACHE = [
   'data/ridetrivia.json',
   'data/twotruths.json',
   'data/overunder.json',
+  'data/fibs.json',
 ];
 
 self.addEventListener('install', event => {

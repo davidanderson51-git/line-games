@@ -249,6 +249,76 @@ export function overUnderPrompt({ C }, data) {
   return { id: p.id, text: p.text, ref: p.ref, unit: p.unit, verify: p.verify };
 }
 
+/** Fib Finder. Permutation fib|<cat> over that category's questions (file order; 'mix' = all). Q = perm[C mod len]. */
+export const FIB_MIX = 'mix';
+export function fibRound({ C, cat = FIB_MIX }, data) {
+  assertC(C);
+  const all = data && data.questions;
+  assertArr(all, 1, 'questions');
+  const c = String(cat || FIB_MIX);
+  const pool = c === FIB_MIX ? all : all.filter((q) => q.cat === c);
+  if (!pool.length) throw new InputError(`Unknown category "${c}"`);
+  const perm = rng(seedKey(['fib', c])).shuffle(range0(pool.length));
+  const q = pool[perm[C % pool.length]];
+  const meta = ((data.categories || []).find((x) => x.id === q.cat)) || { id: q.cat, name: q.cat, emoji: '' };
+  return { id: q.id, cat: q.cat, catName: meta.name, catEmoji: meta.emoji, q: q.q, a: q.a, alt: (q.alt || []).slice(), decoys: (q.decoys || []).slice(), fact: q.fact || '', source: q.source };
+}
+
+/** Normalise an answer so "The Platter!" and "platter" count as the same. */
+export function fibNorm(s) {
+  let t = String(s == null ? '' : s).toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '');
+  t = t.replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, ' ').trim();
+  t = t.replace(/^(a|an|the|some)\s+/, '');
+  return t.replace(/\s+/g, ' ');
+}
+/** True when a typed fib is really the true answer. */
+export function fibIsTruth(text, round) {
+  const n = fibNorm(text);
+  if (!n) return false;
+  return [round.a, ...(round.alt || [])].some((x) => fibNorm(x) === n);
+}
+/** Points: +2 for finding the truth, +1 for each player fooled by your fib (shared fibs credit every author). */
+export const FIB_TRUTH_PTS = 2, FIB_FOOL_PTS = 1;
+/**
+ * Build the answer board and score a round.
+ * lies: {who: text} (who = any player key). votes: {who: optionKey}. Returns {options:[{key,text,truth,house,authors:[who]}], points:{who:n}}.
+ * Options are sorted by a hash of (C, key) so every phone shows the same order. House fibs fill up to minOptions.
+ */
+export function fibBoard({ C, round, lies = {}, votes = null, order = null, minOptions = 4 }) {
+  const opts = new Map();
+  const tkey = fibNorm(round.a);
+  opts.set(tkey, { key: tkey, text: round.a, truth: true, house: false, authors: [] });
+  const who = order || Object.keys(lies);
+  for (const w of who) {
+    const text = lies[w];
+    if (typeof text !== 'string' || !text.trim()) continue;
+    if (fibIsTruth(text, round)) continue;
+    const k = fibNorm(text);
+    if (!k) continue;
+    if (!opts.has(k)) opts.set(k, { key: k, text: text.trim(), truth: false, house: false, authors: [] });
+    opts.get(k).authors.push(w);
+  }
+  for (const d of round.decoys || []) {
+    if (opts.size >= minOptions) break;
+    const k = fibNorm(d);
+    if (!opts.has(k) && !fibIsTruth(d, round)) opts.set(k, { key: k, text: d, truth: false, house: true, authors: [] });
+  }
+  const options = [...opts.values()].sort((a, b) => hash32(seedKey(['fib-o', C, a.key])) - hash32(seedKey(['fib-o', C, b.key])) || (a.key < b.key ? -1 : 1));
+  let points = null;
+  if (votes) {
+    points = {};
+    for (const w of who) points[w] = 0;
+    for (const [w, k] of Object.entries(votes)) {
+      if (!(w in points)) points[w] = 0;
+      const o = opts.get(k);
+      if (!o) continue;
+      if (o.truth) points[w] += FIB_TRUTH_PTS;
+      else for (const a of o.authors) if (a !== w) points[a] = (points[a] || 0) + FIB_FOOL_PTS;
+    }
+  }
+  return { options, points };
+}
+
 // ---------- sync check ----------
 
 // Group inputs per mode, in key order. Never P, never RNG output.
@@ -262,6 +332,7 @@ export const SYNC_FIELDS = {
   ride: ['C', 'rideId'],
   twotruths: ['C'],
   overunder: ['C'],
+  fib: ['C', 'cat'],
 };
 
 /** Parts hashed for the sync check: APP_VERSION|dataHash|mode|<group inputs>. */

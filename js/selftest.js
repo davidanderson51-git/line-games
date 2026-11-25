@@ -15,6 +15,7 @@ const MINI = {
   trivia: { questions: ['kid', 'teen', 'adult'].flatMap((d) => Array.from({ length: 13 }, (_, i) => ({ ...Q(d, i), difficulty: d }))) },
   ridetrivia: { rides: [{ id: 'r1', questions: Array.from({ length: 6 }, (_, i) => Q('r1', i)) }, { id: 'r2', questions: Array.from({ length: 9 }, (_, i) => Q('r2', i)) }] },
   twotruths: { rounds: Array.from({ length: 7 }, (_, i) => ({ id: 't' + i, truths: ['T' + i + 'a', 'T' + i + 'b'], lie: 'Lie' + i, explanation: 'E', sources: ['https://e.x'] })) },
+  fibs: { categories: [{ id: 'a', name: 'A', emoji: '✨' }, { id: 'b', name: 'B', emoji: '🍩' }], questions: Array.from({ length: 9 }, (_, i) => ({ id: 'f' + i, cat: i % 2 ? 'a' : 'b', q: 'Q' + i + ' ____ é', a: 'The Ans ' + i, alt: ['A' + i], decoys: ['D' + i + 'x', 'D' + i + 'y', 'D' + i + 'z'], source: 'https://e.x' })) },
   overunder: { prompts: Array.from({ length: 5 }, (_, i) => ({ id: 'o' + i, text: 'P' + i, ref: i, unit: '$', verify: 'v' })) },
 };
 
@@ -32,6 +33,11 @@ function engineOutputs() {
     for (const D of E.DIFFICULTIES) out.push(E.triviaRound({ C, D }, MINI.trivia));
     for (const rideId of ['r1', 'r2']) out.push(E.rideTrivia({ rideId, C }, MINI.ridetrivia));
     out.push(E.twoTruthsRound({ C }, MINI.twotruths), E.overUnderPrompt({ C }, MINI.overunder));
+    for (const cat of ['mix', 'a', 'b']) {
+      const fr = E.fibRound({ C, cat }, MINI.fibs);
+      out.push(fr.id, E.fibBoard({ C, round: fr, lies: { x: 'Fib é', y: 'fib E', z: fr.a }, votes: { x: E.fibNorm(fr.a), y: 'zz', z: 'fib e' }, order: ['x', 'y', 'z'] }));
+      out.push(E.syncCheck('fib', { C, cat }, JSON.stringify(MINI.fibs)).emoji);
+    }
     out.push(E.syncCheck('imposter', { C, N: 8, pack: 'any', k: 2 }, JSON.stringify(MINI.imposter)).emoji);
     out.push(E.syncCheck('trivia', { C }, JSON.stringify(MINI.trivia)).emoji);
   }
@@ -39,7 +45,7 @@ function engineOutputs() {
   return out;
 }
 
-export const SELFTEST_EXPECTED = 7113152696284468;
+export const SELFTEST_EXPECTED = 1806649655773407;
 
 export function selfTestHash() {
   const out = [];

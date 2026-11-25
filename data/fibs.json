@@ -1,0 +1,1121 @@
+{
+ "categories": [
+  {
+   "id": "parks",
+   "name": "Disney Parks",
+   "emoji": "🏰"
+  },
+  {
+   "id": "animals",
+   "name": "Wild Animals",
+   "emoji": "🦒"
+  },
+  {
+   "id": "history",
+   "name": "Weird History",
+   "emoji": "📜"
+  },
+  {
+   "id": "food",
+   "name": "Food & Snacks",
+   "emoji": "🍿"
+  },
+  {
+   "id": "movies",
+   "name": "Disney Movies",
+   "emoji": "🎬"
+  },
+  {
+   "id": "kids",
+   "name": "Kid Level",
+   "emoji": "🧸"
+  }
+ ],
+ "questions": [
+  {
+   "id": "pa01",
+   "cat": "parks",
+   "q": "Sleeping Beauty Castle's drawbridge has officially been lowered only ____ times.",
+   "a": "two",
+   "alt": [
+    "2",
+    "twice"
+   ],
+   "decoys": [
+    "three",
+    "seven",
+    "four"
+   ],
+   "fact": "Twice: on opening day in 1955 and when New Fantasyland opened in 1983.",
+   "source": "https://d23.com/a-to-z/sleeping-beauty-castle/",
+   "verified": true
+  },
+  {
+   "id": "pa02",
+   "cat": "parks",
+   "q": "Sleeping Beauty Castle at Disneyland is only ____ feet tall.",
+   "a": "77",
+   "alt": [
+    "seventy seven",
+    "seventy-seven"
+   ],
+   "decoys": [
+    "52",
+    "101",
+    "64"
+   ],
+   "fact": "It's 77 feet (23 m) tall. Smaller details up high make it look taller.",
+   "source": "https://en.wikipedia.org/wiki/Sleeping_Beauty_Castle",
+   "verified": true
+  },
+  {
+   "id": "pa03",
+   "cat": "parks",
+   "q": "Disneyland's chaotic first day in July 1955 got the nickname Black ____.",
+   "a": "Sunday",
+   "alt": [],
+   "decoys": [
+    "Thursday",
+    "Hole",
+    "Friday",
+    "Mouse"
+   ],
+   "fact": "It was called \"Black Sunday\": crowds, heat, and rides breaking down.",
+   "source": "https://en.wikipedia.org/wiki/Disneyland_Park_(Anaheim)",
+   "verified": true
+  },
+  {
+   "id": "pa04",
+   "cat": "parks",
+   "q": "About half of the 28,000 people at Disneyland's 1955 opening got in with fake ____ or by climbing the fence.",
+   "a": "tickets",
+   "alt": [
+    "ticket"
+   ],
+   "decoys": [
+    "mustaches",
+    "badges",
+    "press passes"
+   ],
+   "fact": "Only about half were invited guests. The rest had counterfeit tickets or snuck over the fence.",
+   "source": "https://en.wikipedia.org/wiki/Disneyland_Park_(Anaheim)",
+   "verified": true
+  },
+  {
+   "id": "pa05",
+   "cat": "parks",
+   "q": "Disneyland has a colony of about 200 feral ____ that help keep mice away.",
+   "a": "cats",
+   "alt": [
+    "cat",
+    "kitties"
+   ],
+   "decoys": [
+    "owls",
+    "ferrets",
+    "barn owls"
+   ],
+   "fact": "Hundreds of feral cats roam Disneyland at night and help control rodents.",
+   "source": "https://consumerist.com/2010/09/16/disneyland-partners-with-feral-cat-colony-to-control-rodents",
+   "verified": true
+  },
+  {
+   "id": "pa06",
+   "cat": "parks",
+   "q": "Disneyland's secret Club 33 is simply named after its ____.",
+   "a": "address",
+   "alt": [
+    "street address",
+    "33 Royal Street"
+   ],
+   "decoys": [
+    "first 33 members",
+    "opening year",
+    "number of tables"
+   ],
+   "fact": "Disney says it's named for its address: 33 Royal Street in New Orleans Square.",
+   "source": "https://en.wikipedia.org/wiki/Club_33",
+   "verified": true
+  },
+  {
+   "id": "pa07",
+   "cat": "parks",
+   "q": "When Pirates of the Caribbean opened, some of its skeletons were borrowed from ____.",
+   "a": "UCLA",
+   "alt": [
+    "UCLA Medical Center",
+    "a medical school",
+    "a hospital",
+    "the UCLA anatomy department"
+   ],
+   "decoys": [
+    "a museum in Peru",
+    "a Hollywood prop house",
+    "an old pirate ship"
+   ],
+   "fact": "Imagineers got real skeletons from UCLA Medical Center's anatomy department. They were later replaced.",
+   "source": "https://www.mentalfloss.com/article/71695/are-there-still-real-skeletons-disneylands-pirates-caribbean",
+   "verified": true
+  },
+  {
+   "id": "pa08",
+   "cat": "parks",
+   "q": "The Enchanted Tiki Room (1963) was the first attraction to use ____.",
+   "a": "Audio-Animatronics",
+   "alt": [
+    "audio animatronics",
+    "animatronics",
+    "robots",
+    "robot birds"
+   ],
+   "decoys": [
+    "air conditioning",
+    "a rotating stage",
+    "real parrots"
+   ],
+   "fact": "It was the first attraction to use Disney's Audio-Animatronics.",
+   "source": "https://en.wikipedia.org/wiki/Disneyland_Park_(Anaheim)",
+   "verified": true
+  },
+  {
+   "id": "pa09",
+   "cat": "parks",
+   "q": "The giant rocks in Cars Land's Cadillac Mountain Range are shaped like Cadillac ____.",
+   "a": "tail fins",
+   "alt": [
+    "tailfins",
+    "fins",
+    "tail fin"
+   ],
+   "decoys": [
+    "hood ornaments",
+    "steering wheels",
+    "hubcaps"
+   ],
+   "fact": "They're shaped like Cadillac tail fins, up to 125 feet high.",
+   "source": "https://en.wikipedia.org/wiki/Cars_Land",
+   "verified": true
+  },
+  {
+   "id": "pa10",
+   "cat": "parks",
+   "q": "A ____ is kept burning in the window of Walt's apartment above the Main Street fire station.",
+   "a": "lamp",
+   "alt": [
+    "light",
+    "lantern"
+   ],
+   "decoys": [
+    "candle",
+    "birthday candle",
+    "flashlight"
+   ],
+   "fact": "A lamp stays lit in the window as a tribute to Walt (a little Christmas tree replaces it at the holidays).",
+   "source": "https://en.wikipedia.org/wiki/Main_Street,_U.S.A.",
+   "verified": true
+  },
+  {
+   "id": "pa11",
+   "cat": "parks",
+   "q": "Pirates of the Caribbean opened in 1967, ____ months after Walt Disney died.",
+   "a": "three",
+   "alt": [
+    "3"
+   ],
+   "decoys": [
+    "six",
+    "eleven",
+    "nine"
+   ],
+   "fact": "It debuted three months after his death, the last ride he helped design.",
+   "source": "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean_(attraction)",
+   "verified": true
+  },
+  {
+   "id": "pa12",
+   "cat": "parks",
+   "q": "Adventureland was first supposed to have real ____, until experts said they'd just lie around and hide.",
+   "a": "animals",
+   "alt": [
+    "live animals",
+    "wild animals",
+    "african animals",
+    "real animals"
+   ],
+   "decoys": [
+    "pirates",
+    "volcanoes",
+    "jungle explorers"
+   ],
+   "fact": "Walt wanted real animals, but zoologists warned they'd hide, so Imagineers built mechanical ones.",
+   "source": "https://en.wikipedia.org/wiki/Adventureland_(Disney)",
+   "verified": true
+  },
+  {
+   "id": "an01",
+   "cat": "animals",
+   "q": "A group of flamingos is called a ____.",
+   "a": "flamboyance",
+   "alt": [],
+   "decoys": [
+    "pinkerton",
+    "flutter",
+    "fancy",
+    "blush"
+   ],
+   "fact": "A flamboyance of flamingos!",
+   "source": "https://en.wikipedia.org/wiki/List_of_English_terms_of_venery,_by_animal",
+   "verified": true
+  },
+  {
+   "id": "an02",
+   "cat": "animals",
+   "q": "A group of crows is called a ____.",
+   "a": "murder",
+   "alt": [],
+   "decoys": [
+    "ruckus",
+    "conspiracy",
+    "caw-cus"
+   ],
+   "fact": "A murder of crows (an old-fashioned term).",
+   "source": "https://en.wikipedia.org/wiki/List_of_English_terms_of_venery,_by_animal",
+   "verified": true
+  },
+  {
+   "id": "an03",
+   "cat": "animals",
+   "q": "A group of owls is called a ____.",
+   "a": "parliament",
+   "alt": [],
+   "decoys": [
+    "library",
+    "hoot",
+    "senate",
+    "wisdom"
+   ],
+   "fact": "A parliament of owls.",
+   "source": "https://en.wikipedia.org/wiki/List_of_English_terms_of_venery,_by_animal",
+   "verified": true
+  },
+  {
+   "id": "an04",
+   "cat": "animals",
+   "q": "A group of porcupines is called a ____.",
+   "a": "prickle",
+   "alt": [],
+   "decoys": [
+    "pincushion",
+    "poke",
+    "quiver"
+   ],
+   "fact": "A prickle of porcupines.",
+   "source": "https://en.wikipedia.org/wiki/List_of_English_terms_of_venery,_by_animal",
+   "verified": true
+  },
+  {
+   "id": "an05",
+   "cat": "animals",
+   "q": "Under all that white fur, a polar bear's skin is ____.",
+   "a": "black",
+   "alt": [
+    "dark",
+    "black skin"
+   ],
+   "decoys": [
+    "bright pink",
+    "see-through",
+    "blue"
+   ],
+   "fact": "Their skin, nose and lips are black, which soaks up heat.",
+   "source": "https://en.wikipedia.org/wiki/Polar_bear",
+   "verified": true
+  },
+  {
+   "id": "an06",
+   "cat": "animals",
+   "q": "Butterflies taste things with their ____.",
+   "a": "feet",
+   "alt": [
+    "foot",
+    "legs"
+   ],
+   "decoys": [
+    "wings",
+    "antennae",
+    "eyelashes"
+   ],
+   "fact": "Taste sensors are on their feet (and mouthparts).",
+   "source": "https://en.wikipedia.org/wiki/Butterfly",
+   "verified": true
+  },
+  {
+   "id": "an07",
+   "cat": "animals",
+   "q": "An octopus has ____ hearts.",
+   "a": "three",
+   "alt": [
+    "3"
+   ],
+   "decoys": [
+    "two",
+    "five",
+    "nine"
+   ],
+   "fact": "Three: one pumps blood around the body, two pump it through the gills.",
+   "source": "https://en.wikipedia.org/wiki/Octopus",
+   "verified": true
+  },
+  {
+   "id": "an08",
+   "cat": "animals",
+   "q": "So they don't float away while resting, sea otters wrap themselves in ____.",
+   "a": "kelp",
+   "alt": [
+    "seaweed"
+   ],
+   "decoys": [
+    "fishing nets",
+    "their tails",
+    "each other's whiskers"
+   ],
+   "fact": "They wrap themselves in kelp to stay put.",
+   "source": "https://en.wikipedia.org/wiki/Sea_otter",
+   "verified": true
+  },
+  {
+   "id": "an09",
+   "cat": "animals",
+   "q": "Koala fingerprints are so similar to ____ fingerprints that they're hard to tell apart.",
+   "a": "human",
+   "alt": [
+    "humans",
+    "people",
+    "our"
+   ],
+   "decoys": [
+    "chimpanzee",
+    "raccoon",
+    "panda"
+   ],
+   "fact": "Koala and human fingerprints are very hard to tell apart.",
+   "source": "https://en.wikipedia.org/wiki/Fingerprint",
+   "verified": true
+  },
+  {
+   "id": "an10",
+   "cat": "animals",
+   "q": "Hummingbirds are the only birds that can fly ____.",
+   "a": "backwards",
+   "alt": [
+    "backward",
+    "in reverse"
+   ],
+   "decoys": [
+    "upside down",
+    "in their sleep",
+    "sideways"
+   ],
+   "fact": "They can hover and even fly backwards.",
+   "source": "https://www.discoverwildlife.com/animal-facts/facts-about-animals",
+   "verified": true
+  },
+  {
+   "id": "an11",
+   "cat": "animals",
+   "q": "Wombats are the only animals known to make poop shaped like ____.",
+   "a": "cubes",
+   "alt": [
+    "cube",
+    "squares",
+    "dice",
+    "boxes"
+   ],
+   "decoys": [
+    "stars",
+    "hearts",
+    "pyramids"
+   ],
+   "fact": "Wombat poop comes out as little cubes. Scientists won an Ig Nobel Prize for figuring out how.",
+   "source": "https://en.wikipedia.org/wiki/Wombat_feces",
+   "verified": true
+  },
+  {
+   "id": "hi01",
+   "cat": "history",
+   "q": "Before it was called the Frisbee, the flying disc was sold as the Pluto ____.",
+   "a": "Platter",
+   "alt": [],
+   "decoys": [
+    "Pizza",
+    "Saucer",
+    "Pancake",
+    "Pie"
+   ],
+   "fact": "Walter Morrison designed the Pluto Platter in 1955 and sold it to Wham-O, which renamed it Frisbee in 1957.",
+   "source": "https://en.wikipedia.org/wiki/Frisbee",
+   "verified": true
+  },
+  {
+   "id": "hi02",
+   "cat": "history",
+   "q": "Play-Doh was first made in the 1930s as a ____.",
+   "a": "wallpaper cleaner",
+   "alt": [
+    "wall paper cleaner",
+    "cleaner for wallpaper",
+    "wallpaper cleaning putty"
+   ],
+   "decoys": [
+    "denture adhesive",
+    "fake cookie dough",
+    "window putty"
+   ],
+   "fact": "It started as a putty for cleaning coal soot off wallpaper.",
+   "source": "https://en.wikipedia.org/wiki/Play-Doh",
+   "verified": true
+  },
+  {
+   "id": "hi03",
+   "cat": "history",
+   "q": "Bubble Wrap was invented in 1957 by two men trying to make 3D plastic ____.",
+   "a": "wallpaper",
+   "alt": [
+    "wall paper"
+   ],
+   "decoys": [
+    "shower curtains",
+    "raincoats",
+    "pool floats"
+   ],
+   "fact": "The wallpaper flopped, but the bubbles made great packing material.",
+   "source": "https://en.wikipedia.org/wiki/Bubble_wrap",
+   "verified": true
+  },
+  {
+   "id": "hi04",
+   "cat": "history",
+   "q": "The Slinky was invented after an engineer saw a spring fall off a ____ and keep \"walking.\"",
+   "a": "shelf",
+   "alt": [
+    "bookshelf",
+    "bookcase"
+   ],
+   "decoys": [
+    "ship's mast",
+    "staircase",
+    "roof"
+   ],
+   "fact": "Naval engineer Richard James saw a spring \"step\" down after it fell off a shelf in 1943.",
+   "source": "https://en.wikipedia.org/wiki/Slinky",
+   "verified": true
+  },
+  {
+   "id": "hi05",
+   "cat": "history",
+   "q": "Frank Epperson's frozen-drink-on-a-stick was first called the ____.",
+   "a": "Epsicle",
+   "alt": [
+    "Ep-sicle",
+    "eppsicle"
+   ],
+   "decoys": [
+    "Frosty Frank",
+    "Stick-Ice",
+    "Chillybar"
+   ],
+   "fact": "He first named it the Epsicle. His kids called it \"Pop's 'sicle\": the Popsicle.",
+   "source": "https://en.wikipedia.org/wiki/Frank_Epperson",
+   "verified": true
+  },
+  {
+   "id": "hi06",
+   "cat": "history",
+   "q": "In 1932, soldiers with machine guns fought a \"war\" in Australia against ____, and didn't win.",
+   "a": "emus",
+   "alt": [
+    "emu"
+   ],
+   "decoys": [
+    "kangaroos",
+    "rabbits",
+    "crocodiles"
+   ],
+   "fact": "The Emu War! Lots of birds were killed, but the emu population was barely affected.",
+   "source": "https://en.wikipedia.org/wiki/Emu_War",
+   "verified": true
+  },
+  {
+   "id": "hi07",
+   "cat": "history",
+   "q": "England's first speeding fine, in 1896, was for going ____ miles per hour.",
+   "a": "8",
+   "alt": [
+    "eight"
+   ],
+   "decoys": [
+    "25",
+    "15",
+    "40"
+   ],
+   "fact": "Walter Arnold was fined for going 8 mph in a 2 mph zone.",
+   "source": "https://en.wikipedia.org/wiki/Traffic_ticket",
+   "verified": true
+  },
+  {
+   "id": "hi08",
+   "cat": "history",
+   "q": "Abraham Lincoln is in the National ____ Hall of Fame.",
+   "a": "Wrestling",
+   "alt": [],
+   "decoys": [
+    "Bowling",
+    "Beard",
+    "Log Cabin",
+    "Chess"
+   ],
+   "fact": "He was a champion wrestler as a young man, and was honored in 1992.",
+   "source": "https://api.nwhof.org/hall_of_fame/bio/128",
+   "verified": true
+  },
+  {
+   "id": "hi09",
+   "cat": "history",
+   "q": "Chocolate chip cookies were invented at the ____ Inn in Massachusetts.",
+   "a": "Toll House",
+   "alt": [
+    "tollhouse",
+    "toll-house"
+   ],
+   "decoys": [
+    "Cookie Jar",
+    "Sugar Shack",
+    "Gingerbread"
+   ],
+   "fact": "Ruth Wakefield created them at her Toll House Inn in the 1930s.",
+   "source": "https://en.wikipedia.org/wiki/Chocolate_chip_cookie",
+   "verified": true
+  },
+  {
+   "id": "hi10",
+   "cat": "history",
+   "q": "When cotton candy was introduced at the 1904 World's Fair, it was called Fairy ____.",
+   "a": "Floss",
+   "alt": [],
+   "decoys": [
+    "Fluff",
+    "Clouds",
+    "Hair",
+    "Wool"
+   ],
+   "fact": "It debuted as \"Fairy Floss.\"",
+   "source": "https://en.wikipedia.org/wiki/Cotton_candy",
+   "verified": true
+  },
+  {
+   "id": "fo01",
+   "cat": "food",
+   "q": "Machine-made cotton candy was co-invented in 1897 by a ____.",
+   "a": "dentist",
+   "alt": [
+    "dentist and a candy maker"
+   ],
+   "decoys": [
+    "barber",
+    "sheep farmer",
+    "clown"
+   ],
+   "fact": "Dentist William Morrison invented it with candy maker John C. Wharton.",
+   "source": "https://en.wikipedia.org/wiki/Cotton_candy",
+   "verified": true
+  },
+  {
+   "id": "fo02",
+   "cat": "food",
+   "q": "Hawaiian pizza (with pineapple) was invented in ____.",
+   "a": "Canada",
+   "alt": [
+    "Ontario"
+   ],
+   "decoys": [
+    "Hawaii",
+    "Ohio",
+    "Sweden"
+   ],
+   "fact": "Sam Panopoulos created it in Chatham, Ontario, in 1962.",
+   "source": "https://en.wikipedia.org/wiki/Hawaiian_pizza",
+   "verified": true
+  },
+  {
+   "id": "fo03",
+   "cat": "food",
+   "q": "Long ago, most carrots were ____ instead of orange.",
+   "a": "purple",
+   "alt": [
+    "purple or yellow",
+    "yellow"
+   ],
+   "decoys": [
+    "white",
+    "green",
+    "black"
+   ],
+   "fact": "Early carrots were purple or yellow. Orange carrots came later from Dutch growers.",
+   "source": "https://en.wikipedia.org/wiki/Carrot",
+   "verified": true
+  },
+  {
+   "id": "fo04",
+   "cat": "food",
+   "q": "The man who designed the Pringles can had some of his ashes buried in a ____.",
+   "a": "Pringles can",
+   "alt": [
+    "Pringles tube",
+    "pringles container",
+    "pringle can"
+   ],
+   "decoys": [
+    "potato sack",
+    "cookie jar",
+    "lunchbox"
+   ],
+   "fact": "Fred Baur asked to have some of his ashes buried in a Pringles can.",
+   "source": "https://en.wikipedia.org/wiki/Fred_Baur",
+   "verified": true
+  },
+  {
+   "id": "fo05",
+   "cat": "food",
+   "q": "Nutella was created in Italy because, after the war, ____ was hard to get.",
+   "a": "cocoa",
+   "alt": [
+    "chocolate",
+    "cocoa beans",
+    "cacao"
+   ],
+   "decoys": [
+    "sugar",
+    "milk",
+    "bread"
+   ],
+   "fact": "Cocoa was scarce, so Pietro Ferrero stretched it with hazelnuts.",
+   "source": "https://en.wikipedia.org/wiki/Nutella",
+   "verified": true
+  },
+  {
+   "id": "fo06",
+   "cat": "food",
+   "q": "Bananas are berries, but ____ are not.",
+   "a": "strawberries",
+   "alt": [
+    "strawberry"
+   ],
+   "decoys": [
+    "blueberries",
+    "grapes",
+    "tomatoes"
+   ],
+   "fact": "Botanically, bananas are berries and strawberries are not.",
+   "source": "https://en.wikipedia.org/wiki/Strawberry",
+   "verified": true
+  },
+  {
+   "id": "fo07",
+   "cat": "food",
+   "q": "Sealed honey can stay good for ____.",
+   "a": "thousands of years",
+   "alt": [
+    "forever",
+    "millennia",
+    "thousands of years",
+    "centuries",
+    "an indefinite time"
+   ],
+   "decoys": [
+    "about 6 months",
+    "exactly 10 years",
+    "one summer"
+   ],
+   "fact": "Sealed honey has an indefinite shelf life; ancient honey has been found still edible after millennia.",
+   "source": "https://en.wikipedia.org/wiki/Honey",
+   "verified": true
+  },
+  {
+   "id": "fo08",
+   "cat": "food",
+   "q": "In the 1830s, tomato ____ were sold as a medicine that could supposedly cure headaches and more.",
+   "a": "pills",
+   "alt": [
+    "pill",
+    "tablets"
+   ],
+   "decoys": [
+    "bubble baths",
+    "lollipops",
+    "socks"
+   ],
+   "fact": "Tomato pills were sold as cure-alls in the 1830s. Ketchup was recommended for upset stomachs too.",
+   "source": "https://www.atlasobscura.com/articles/tomato-pill",
+   "verified": true
+  },
+  {
+   "id": "fo09",
+   "cat": "food",
+   "q": "When scientists tested those 1830s tomato pills, they found they contained no ____ at all.",
+   "a": "tomato",
+   "alt": [
+    "tomatoes"
+   ],
+   "decoys": [
+    "sugar",
+    "medicine",
+    "vitamins"
+   ],
+   "fact": "The tomato pills that were analyzed didn't contain a trace of tomato!",
+   "source": "https://www.atlasobscura.com/articles/tomato-pill",
+   "verified": true
+  },
+  {
+   "id": "mo01",
+   "cat": "movies",
+   "q": "Walt Disney first wanted to call Mickey Mouse ____ Mouse.",
+   "a": "Mortimer",
+   "alt": [],
+   "decoys": [
+    "Marvin",
+    "Melvin",
+    "Morty",
+    "Maxwell"
+   ],
+   "fact": "Walt's wife Lillian talked him into \"Mickey\" instead.",
+   "source": "https://en.wikipedia.org/wiki/Mickey_Mouse",
+   "verified": true
+  },
+  {
+   "id": "mo02",
+   "cat": "movies",
+   "q": "In early Toy Story ideas, Woody was an evil ____.",
+   "a": "ventriloquist dummy",
+   "alt": [
+    "ventriloquist doll",
+    "dummy",
+    "puppet"
+   ],
+   "decoys": [
+    "sock puppet",
+    "robot",
+    "jack-in-the-box"
+   ],
+   "fact": "Woody started out as an evil ventriloquist dummy.",
+   "source": "https://en.wikipedia.org/wiki/Woody_(Toy_Story)",
+   "verified": true
+  },
+  {
+   "id": "mo03",
+   "cat": "movies",
+   "q": "Lightning McQueen's number 95 stands for the year ____ came out.",
+   "a": "Toy Story",
+   "alt": [
+    "toy story 1"
+   ],
+   "decoys": [
+    "Lion King",
+    "Jurassic Park",
+    "the Prius",
+    "Pocahontas"
+   ],
+   "fact": "Toy Story, Pixar's first film, came out in 1995. His number was first going to be 57.",
+   "source": "https://en.wikipedia.org/wiki/Lightning_McQueen",
+   "verified": true
+  },
+  {
+   "id": "mo04",
+   "cat": "movies",
+   "q": "Before The Lion King got its name, early drafts were called King of the ____.",
+   "a": "Jungle",
+   "alt": [],
+   "decoys": [
+    "Savanna",
+    "Beasts and Burgers",
+    "Hill",
+    "Pride"
+   ],
+   "fact": "Early treatments were titled \"King of the Jungle.\"",
+   "source": "https://en.wikipedia.org/wiki/The_Lion_King",
+   "verified": true
+  },
+  {
+   "id": "mo05",
+   "cat": "movies",
+   "q": "Walt Disney holds the record for winning ____ competitive Oscars, more than any person ever.",
+   "a": "22",
+   "alt": [
+    "twenty two",
+    "twenty-two"
+   ],
+   "decoys": [
+    "12",
+    "35",
+    "17"
+   ],
+   "fact": "22 competitive Oscars from 59 nominations (26 if you count honorary ones).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Academy_Awards_for_Walt_Disney",
+   "verified": true
+  },
+  {
+   "id": "mo06",
+   "cat": "movies",
+   "q": "Dumbo is one of Disney's shortest animated movies: just ____ minutes long.",
+   "a": "64",
+   "alt": [
+    "sixty four",
+    "sixty-four"
+   ],
+   "decoys": [
+    "49",
+    "72",
+    "58"
+   ],
+   "fact": "It runs 64 minutes.",
+   "source": "https://en.wikipedia.org/wiki/Dumbo",
+   "verified": true
+  },
+  {
+   "id": "mo07",
+   "cat": "movies",
+   "q": "In Up, the animators used ____ balloons in the shots of the house flying.",
+   "a": "10,297",
+   "alt": [
+    "10297",
+    "10 297",
+    "ten thousand two hundred ninety seven"
+   ],
+   "decoys": [
+    "7,500",
+    "25,000",
+    "1,001",
+    "99,999"
+   ],
+   "fact": "10,297 balloons for flying shots, and 20,622 for the lift-off.",
+   "source": "https://en.wikipedia.org/wiki/Up_(2009_film)",
+   "verified": true
+  },
+  {
+   "id": "mo08",
+   "cat": "movies",
+   "q": "Toy Story (1995) was the first movie made entirely with ____.",
+   "a": "computers",
+   "alt": [
+    "computer animation",
+    "computer",
+    "cgi",
+    "computer graphics"
+   ],
+   "decoys": [
+    "clay",
+    "puppets",
+    "crayons"
+   ],
+   "fact": "It was the first entirely computer-animated feature film.",
+   "source": "https://en.wikipedia.org/wiki/Toy_Story",
+   "verified": true
+  },
+  {
+   "id": "mo09",
+   "cat": "movies",
+   "q": "Mickey Mouse made his big debut in the 1928 cartoon Steamboat ____.",
+   "a": "Willie",
+   "alt": [
+    "willy"
+   ],
+   "decoys": [
+    "Mickey",
+    "Bill",
+    "Wally",
+    "Sam"
+   ],
+   "fact": "Steamboat Willie premiered November 18, 1928, in New York.",
+   "source": "https://en.wikipedia.org/wiki/Mickey_Mouse",
+   "verified": true
+  },
+  {
+   "id": "ki01",
+   "cat": "kids",
+   "q": "A baby kangaroo is called a ____.",
+   "a": "joey",
+   "alt": [],
+   "decoys": [
+    "kanga",
+    "hopper",
+    "pouchling",
+    "jumper"
+   ],
+   "fact": "Baby kangaroos are joeys.",
+   "source": "https://en.wikipedia.org/wiki/Kangaroo",
+   "verified": true
+  },
+  {
+   "id": "ki02",
+   "cat": "kids",
+   "q": "A cow's stomach has ____ parts.",
+   "a": "four",
+   "alt": [
+    "4"
+   ],
+   "decoys": [
+    "two",
+    "seven",
+    "ten"
+   ],
+   "fact": "Four compartments help cows digest grass.",
+   "source": "https://en.wikipedia.org/wiki/Ruminant",
+   "verified": true
+  },
+  {
+   "id": "ki03",
+   "cat": "kids",
+   "q": "Giraffes have ____ bones in their neck, the same as people.",
+   "a": "seven",
+   "alt": [
+    "7"
+   ],
+   "decoys": [
+    "twenty",
+    "forty",
+    "fifty-two"
+   ],
+   "fact": "Almost all mammals have seven neck bones. A giraffe's are just super long!",
+   "source": "https://en.wikipedia.org/wiki/Cervical_vertebrae",
+   "verified": true
+  },
+  {
+   "id": "ki04",
+   "cat": "kids",
+   "q": "With seahorses, the ____ give birth to the babies.",
+   "a": "dads",
+   "alt": [
+    "dad",
+    "males",
+    "fathers",
+    "father",
+    "boys",
+    "male seahorses"
+   ],
+   "decoys": [
+    "grandmas",
+    "big sisters",
+    "whole herd"
+   ],
+   "fact": "Male seahorses carry the eggs in a pouch and give birth.",
+   "source": "https://www.discoverwildlife.com/animal-facts/facts-about-animals",
+   "verified": true
+  },
+  {
+   "id": "ki05",
+   "cat": "kids",
+   "q": "Gentoo penguins give their partner a ____ as a present.",
+   "a": "pebble",
+   "alt": [
+    "rock",
+    "stone",
+    "pebbles"
+   ],
+   "decoys": [
+    "fish",
+    "feather",
+    "seashell"
+   ],
+   "fact": "They give smooth pebbles to their partner to help build a nest.",
+   "source": "https://en.wikipedia.org/wiki/Pebbling",
+   "verified": true
+  },
+  {
+   "id": "ki06",
+   "cat": "kids",
+   "q": "Dolphins can sleep with half of their ____ awake.",
+   "a": "brain",
+   "alt": [
+    "brains"
+   ],
+   "decoys": [
+    "tail",
+    "body",
+    "family"
+   ],
+   "fact": "One half of the brain rests while the other half stays alert.",
+   "source": "https://en.wikipedia.org/wiki/Unihemispheric_slow-wave_sleep",
+   "verified": true
+  },
+  {
+   "id": "ki07",
+   "cat": "kids",
+   "q": "Wombats make poop shaped like ____.",
+   "a": "cubes",
+   "alt": [
+    "cube",
+    "squares",
+    "dice",
+    "boxes"
+   ],
+   "decoys": [
+    "stars",
+    "hearts",
+    "spaghetti"
+   ],
+   "fact": "Square poop! It helps it stay put on rocks and logs.",
+   "source": "https://en.wikipedia.org/wiki/Wombat_feces",
+   "verified": true
+  },
+  {
+   "id": "ki08",
+   "cat": "kids",
+   "q": "Bananas count as ____ to scientists.",
+   "a": "berries",
+   "alt": [
+    "berry"
+   ],
+   "decoys": [
+    "vegetables",
+    "nuts",
+    "grass"
+   ],
+   "fact": "Botanically, a banana is a berry!",
+   "source": "https://en.wikipedia.org/wiki/Banana",
+   "verified": true
+  },
+  {
+   "id": "ki09",
+   "cat": "kids",
+   "q": "An octopus has ____ hearts.",
+   "a": "three",
+   "alt": [
+    "3"
+   ],
+   "decoys": [
+    "two",
+    "eight",
+    "zero"
+   ],
+   "fact": "Three hearts and blue blood!",
+   "source": "https://en.wikipedia.org/wiki/Octopus",
+   "verified": true
+  },
+  {
+   "id": "ki10",
+   "cat": "kids",
+   "q": "Under its white fur, a polar bear has ____ skin.",
+   "a": "black",
+   "alt": [
+    "dark"
+   ],
+   "decoys": [
+    "pink",
+    "white",
+    "blue"
+   ],
+   "fact": "Black skin soaks up heat from the sun.",
+   "source": "https://en.wikipedia.org/wiki/Polar_bear",
+   "verified": true
+  }
+ ]
+}
