@@ -319,6 +319,148 @@ export function fibBoard({ C, round, lies = {}, votes = null, order = null, minO
   return { options, points };
 }
 
+/** Rare Find. Permutation rare|<cat> over that category's prompts (file order; 'mix' = all). Prompt = perm[C mod len]. */
+export const RARE_MIX = 'mix';
+export const RARE_MAX = 30;
+export function rareRound({ C, cat = RARE_MIX }, data) {
+  assertC(C);
+  const all = data && data.prompts;
+  assertArr(all, 1, 'prompts');
+  const c = String(cat || RARE_MIX);
+  const pool = c === RARE_MIX ? all : all.filter((q) => q.cat === c);
+  if (!pool.length) throw new InputError(`Unknown category "${c}"`);
+  const perm = rng(seedKey(['rare', c])).shuffle(range0(pool.length));
+  const q = pool[perm[C % pool.length]];
+  const meta = ((data.categories || []).find((x) => x.id === q.cat)) || { id: q.cat, name: q.cat, emoji: '' };
+  return { id: q.id, cat: q.cat, catName: meta.name, catEmoji: meta.emoji, q: q.q, note: q.note || '',
+    answers: (q.answers || []).map((x) => ({ a: x.a, alt: (x.alt || []).slice(), t: x.t | 0 })) };
+}
+
+const rareWord = (w) => {
+  if (w.length <= 3 || /(ss|us|is)$/.test(w)) return w;
+  if (/ies$/.test(w) && w.length > 4) return w.slice(0, -3) + 'y';
+  if (/(ches|shes|xes|zes|sses|oes)$/.test(w)) return w.slice(0, -2);
+  if (/s$/.test(w)) return w.slice(0, -1);
+  return w;
+};
+/** Matching key: lower case, no accents/punctuation/articles, each word singular, spaces removed. "The Tea Cups!" -> "teacup". */
+export function rareKey(s) {
+  return fibNorm(s).split(' ').filter(Boolean).map(rareWord).join('');
+}
+/** Edit distance (Levenshtein plus swapped neighbours, so "stroy" is 1 from "story"). Stops early once it is past max. */
+export function editDistance(a, b, max = 99) {
+  if (a === b) return 0;
+  if (Math.abs(a.length - b.length) > max) return max + 1;
+  let pp = null, prev = Array.from({ length: b.length + 1 }, (_, j) => j), prevLo = 0;
+  for (let i = 1; i <= a.length; i++) {
+    const cur = [i];
+    let lo = i;
+    for (let j = 1; j <= b.length; j++) {
+      let v = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+      if (pp && i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) v = Math.min(v, pp[j - 2] + 1);
+      cur[j] = v;
+      if (v < lo) lo = v;
+    }
+    if (lo > max && prevLo > max) return max + 1; // swaps look back two rows, so both must be past max
+    pp = prev; prev = cur; prevLo = lo;
+  }
+  return prev[b.length];
+}
+/** Typos allowed for a key of this length: none under 5 letters, 1 for 5-8, 2 for 9+. */
+export const rareSlack = (n) => (n >= 9 ? 2 : n >= 5 ? 1 : 0);
+const digitsOf = (k) => k.replace(/[^0-9]/g, '');
+/** Keys close enough to be the same answer: same digits ("Toy Story 2" is never "Toy Story 3") and within the typo slack. */
+export function rareClose(x, y) {
+  if (x === y) return true;
+  if (!x || !y || digitsOf(x) !== digitsOf(y)) return false;
+  const s = rareSlack(Math.min(x.length, y.length));
+  return s > 0 && editDistance(x, y, s) <= s;
+}
+
+/** Match typed text to the prompt's answer list. Returns {i, a, t} (closest; ties go to the earlier answer) or null. */
+export function rareMatch(text, round) {
+  const k = rareKey(text);
+  if (!k) return null;
+  let best = null, bestD = 99;
+  round.answers.forEach((x, i) => {
+    for (const v of [x.a, ...(x.alt || [])]) {
+      const vk = rareKey(v);
+      if (!vk) continue;
+      if (!rareClose(k, vk)) continue;
+      const d = vk === k ? 0 : editDistance(k, vk, rareSlack(Math.min(k.length, vk.length)));
+      if (d < bestD) { best = { i, a: x.a, t: x.t | 0 }; bestD = d; }
+    }
+  });
+  return best;
+}
+
+/** Points: alone +3, shared by 2 +2, by 3+ +1; plus list rarity common +0, uncommon +1, rare +2 (an approved off-list answer counts as uncommon). Round winner(s) +1. */
+export const RARE_SHARE_PTS = [0, 3, 2, 1], RARE_TIER_PTS = [0, 1, 2], RARE_OFFLIST_TIER = 1, RARE_WIN_PTS = 1;
+export const rareSharePts = (k) => RARE_SHARE_PTS[Math.min(k, 3)] || 0;
+/**
+ * Group the answers and score a round.
+ * answers: {who: text}. verdicts: {voter: {groupKey: true|false}} for off-list answers (null = not judged yet).
+ * An off-list answer counts when more votes say yes than no (a tie means it doesn't count), counting only voters who did not write it.
+ * If nobody could vote on it (everyone who voted wrote it), it counts.
+ * Returns {groups:[{key,text,listed,t,authors,typed,yes,no,valid,share,tierPts,pts}], offList:[keys], points:{who:n}|null, winners:[who], missed:[rare answers nobody gave]}.
+ * groups are sorted by points (best first), then by key, so every phone shows the same order.
+ */
+export function rareBoard({ round, answers = {}, verdicts = null, order = null }) {
+  const who = order || Object.keys(answers);
+  const groups = new Map();
+  const offKeys = [];
+  for (const w of who) {
+    const text = answers[w];
+    if (typeof text !== 'string' || !text.trim()) continue;
+    const typed = text.trim().slice(0, RARE_MAX);
+    const m = rareMatch(typed, round);
+    let key;
+    if (m) {
+      key = 'L' + m.i;
+      if (!groups.has(key)) groups.set(key, { key, text: m.a, listed: true, t: m.t, authors: [], typed: [] });
+    } else {
+      const k = rareKey(typed);
+      if (!k) continue;
+      key = offKeys.find((o) => rareClose(o.slice(2), k));
+      if (!key) { key = 'U:' + k; offKeys.push(key); groups.set(key, { key, text: typed, listed: false, t: RARE_OFFLIST_TIER, authors: [], typed: [] }); }
+    }
+    const g = groups.get(key);
+    if (!g.authors.includes(w)) g.authors.push(w);
+    if (!g.typed.includes(typed)) g.typed.push(typed);
+  }
+  const judged = !!verdicts;
+  for (const g of groups.values()) {
+    g.yes = 0; g.no = 0;
+    if (!g.listed && judged) {
+      for (const [v, map] of Object.entries(verdicts)) {
+        if (g.authors.includes(v) || !map || typeof map !== 'object' || typeof map[g.key] !== 'boolean') continue;
+        if (map[g.key]) g.yes++; else g.no++;
+      }
+    }
+    g.valid = g.listed || (judged && (g.yes > g.no || (g.yes === 0 && g.no === 0)));
+    g.share = g.valid ? rareSharePts(g.authors.length) : 0;
+    g.tierPts = g.valid ? RARE_TIER_PTS[g.t] || 0 : 0;
+    g.pts = g.share + g.tierPts;
+  }
+  const list = [...groups.values()];
+  const offList = list.filter((g) => !g.listed).map((g) => g.key);
+  let points = null, winners = [];
+  if (judged || !offList.length) {
+    points = {};
+    for (const w of who) points[w] = 0;
+    const best = Math.max(0, ...list.map((g) => g.pts));
+    for (const g of list) {
+      const win = best > 0 && g.pts === best;
+      g.win = win;
+      for (const a of g.authors) { points[a] = g.pts + (win ? RARE_WIN_PTS : 0); if (win) winners.push(a); }
+    }
+  }
+  list.sort((a, b) => (b.pts - a.pts) || (Number(b.valid) - Number(a.valid)) || (a.key < b.key ? -1 : a.key > b.key ? 1 : 0));
+  const given = new Set(list.filter((g) => g.listed).map((g) => g.text));
+  const missed = round.answers.filter((x) => x.t === 2 && !given.has(x.a)).map((x) => x.a);
+  return { groups: list, offList, points, winners, missed };
+}
+
 // ---------- sync check ----------
 
 // Group inputs per mode, in key order. Never P, never RNG output.
@@ -333,6 +475,7 @@ export const SYNC_FIELDS = {
   twotruths: ['C'],
   overunder: ['C'],
   fib: ['C', 'cat'],
+  rare: ['C', 'cat'],
 };
 
 /** Parts hashed for the sync check: APP_VERSION|dataHash|mode|<group inputs>. */

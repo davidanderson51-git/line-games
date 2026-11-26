@@ -16,6 +16,7 @@ const MINI = {
   ridetrivia: { rides: [{ id: 'r1', questions: Array.from({ length: 6 }, (_, i) => Q('r1', i)) }, { id: 'r2', questions: Array.from({ length: 9 }, (_, i) => Q('r2', i)) }] },
   twotruths: { rounds: Array.from({ length: 7 }, (_, i) => ({ id: 't' + i, truths: ['T' + i + 'a', 'T' + i + 'b'], lie: 'Lie' + i, explanation: 'E', sources: ['https://e.x'] })) },
   fibs: { categories: [{ id: 'a', name: 'A', emoji: '✨' }, { id: 'b', name: 'B', emoji: '🍩' }], questions: Array.from({ length: 9 }, (_, i) => ({ id: 'f' + i, cat: i % 2 ? 'a' : 'b', q: 'Q' + i + ' ____ é', a: 'The Ans ' + i, alt: ['A' + i], decoys: ['D' + i + 'x', 'D' + i + 'y', 'D' + i + 'z'], source: 'https://e.x' })) },
+  rare: { categories: [{ id: 'a', name: 'A', emoji: '✨' }, { id: 'b', name: 'B', emoji: '🍩' }], prompts: Array.from({ length: 7 }, (_, i) => ({ id: 'r' + i, cat: i % 2 ? 'a' : 'b', q: 'Name ' + i, answers: [{ a: 'Ant ' + i, alt: ['Ants'], t: 0 }, { a: 'Bee é ' + i, alt: [], t: 1 }, { a: 'Cicada ' + i, alt: [], t: 2 }] })) },
   overunder: { prompts: Array.from({ length: 5 }, (_, i) => ({ id: 'o' + i, text: 'P' + i, ref: i, unit: '$', verify: 'v' })) },
 };
 
@@ -38,6 +39,11 @@ function engineOutputs() {
       out.push(fr.id, E.fibBoard({ C, round: fr, lies: { x: 'Fib é', y: 'fib E', z: fr.a }, votes: { x: E.fibNorm(fr.a), y: 'zz', z: 'fib e' }, order: ['x', 'y', 'z'] }));
       out.push(E.syncCheck('fib', { C, cat }, JSON.stringify(MINI.fibs)).emoji);
     }
+    for (const cat of ['mix', 'a', 'b']) {
+      const rr = E.rareRound({ C, cat }, MINI.rare);
+      out.push(rr.id, E.rareBoard({ round: rr, answers: { x: rr.answers[0].a, y: 'cicadas ' + rr.id.slice(1), z: 'Qwerty' }, verdicts: { x: { 'U:qwerty': true }, y: { 'U:qwerty': false } }, order: ['x', 'y', 'z'] }));
+      out.push(E.syncCheck('rare', { C, cat }, JSON.stringify(MINI.rare)).emoji);
+    }
     out.push(E.syncCheck('imposter', { C, N: 8, pack: 'any', k: 2 }, JSON.stringify(MINI.imposter)).emoji);
     out.push(E.syncCheck('trivia', { C }, JSON.stringify(MINI.trivia)).emoji);
   }
@@ -45,7 +51,7 @@ function engineOutputs() {
   return out;
 }
 
-export const SELFTEST_EXPECTED = 1806649655773407;
+export const SELFTEST_EXPECTED = 611043796447862;
 
 export function selfTestHash() {
   const out = [];

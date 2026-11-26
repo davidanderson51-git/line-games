@@ -37,6 +37,7 @@ export const MODES = [
   { id: 'ridetrivia', emoji: '🎢', name: 'Ride Trivia',       how: 'Pick a ride and test what you know about it.', built: true },
   { id: 'twotruths',  emoji: '🤥', name: 'Two Truths & a Lie', how: 'Three statements, one fib. Vote, then find the lie.', built: true },
   { id: 'fib',        emoji: '🃏', name: 'Fib Finder',        how: 'Write a fake answer, then spot the real one. Fool your family!', built: true },
+  { id: 'rare',       emoji: '💎', name: 'Rare Find',         how: 'Everyone answers the same question. The rarest answer wins!', built: true },
   { id: 'overunder',  emoji: '⚖️', name: 'Over / Under',      how: 'Guess over or under the real number, then check it.', built: true },
 ];
 

@@ -1,14 +1,14 @@
 // Golden snapshot builder. Shared by Node (scripts/make-golden.mjs, engine tests) and tests/golden.html.
-// data = { imposter, spyfall, bingo, spectra, missions, trivia, ridetrivia, twotruths, overunder, fibs } (parsed JSON).
+// data = { imposter, spyfall, bingo, spectra, missions, trivia, ridetrivia, twotruths, overunder, fibs, rare } (parsed JSON).
 import { cyrb53, syncEmoji, rng, nextCode, prevCode, canonicalCode } from '../js/seed.js';
 import * as E from '../js/engine.js';
 
-export const GOLDEN_FILES = ['imposter', 'spyfall', 'bingo', 'spectra', 'missions', 'trivia', 'ridetrivia', 'twotruths', 'overunder', 'fibs'];
+export const GOLDEN_FILES = ['imposter', 'spyfall', 'bingo', 'spectra', 'missions', 'trivia', 'ridetrivia', 'twotruths', 'overunder', 'fibs', 'rare'];
 export const GOLDEN_CODES = [1, 7, 9999];
 export const GOLDEN_DATES = ['2026-11-24', '2026-11-25', '2026-12-31'];
 
 export function computeGolden(data) {
-  const obj = { seed: {}, imposter: [], spyfall: [], bingo: [], wavelength: [], missions: [], trivia: [], ride: [], twotruths: [], overunder: [], fib: [], sync: [] };
+  const obj = { seed: {}, imposter: [], spyfall: [], bingo: [], wavelength: [], missions: [], trivia: [], ride: [], twotruths: [], overunder: [], fib: [], rare: [], sync: [] };
   const raw = {};
   for (const f of GOLDEN_FILES) raw[f] = JSON.stringify(data[f]);
 
@@ -53,6 +53,13 @@ export function computeGolden(data) {
       const b = E.fibBoard({ C, round: fr, lies, votes, order: ['1', '2', '3', '4', '5'] });
       obj.fib.push([C, cat, fr.id, b.options.map((o) => [o.key, o.authors, o.house]), b.points]);
       obj.sync.push(E.syncCheck('fib', { C, cat }, raw.fibs).emoji);
+    }
+    for (const cat of ['mix', ...data.rare.categories.map((c) => c.id)]) {
+      const rr = E.rareRound({ C, cat }, data.rare);
+      const ans = { 1: rr.answers[0].a, 2: rr.answers[0].a + 's', 3: rr.answers[rr.answers.length - 1].a, 4: 'Zzz nonsense', 5: 'zzz nonsens', 6: '' };
+      const b = E.rareBoard({ round: rr, answers: ans, verdicts: { 1: { 'U:zzznonsense': false }, 2: { 'U:zzznonsense': true }, 3: { 'U:zzznonsense': false } }, order: ['1', '2', '3', '4', '5', '6'] });
+      obj.rare.push([C, cat, rr.id, b.groups.map((g) => [g.key, g.authors, g.valid, g.pts, !!g.win]), b.points, b.winners]);
+      obj.sync.push(E.syncCheck('rare', { C, cat }, raw.rare).emoji);
     }
     obj.sync.push(E.syncCheck('bingo', { C }, raw.bingo).emoji);
     obj.sync.push(E.syncCheck('trivia', { C }, raw.trivia).emoji);
