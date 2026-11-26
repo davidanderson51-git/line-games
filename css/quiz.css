@@ -52,3 +52,11 @@
 .fibcats .btn{flex:1 1 45%}
 .fibcats .btn.on{outline:3px solid #fff}
 .fibgate{padding:20px 16px}
+.rarejudge{display:grid;gap:8px;padding:10px 0;border-top:1px solid var(--chip-edge)}
+.rarejudge:first-of-type{border-top:0}
+.rarej-text{font-family:"Fredoka",sans-serif;font-size:22px;font-weight:600;text-align:center;overflow-wrap:anywhere}
+.rarej-btns{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.rarej-btns .btn.on.yes{outline:3px solid #7dffc8;background:rgba(25,198,140,.45)}
+.rarej-btns .btn.on.no{outline:3px solid #ff9fcd;background:rgba(255,79,163,.42)}
+.rarerow .qtag{font-family:"Fredoka",sans-serif;font-size:22px}
+.rarerow > span:nth-child(2){overflow-wrap:anywhere;min-width:0}
